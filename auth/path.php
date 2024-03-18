@@ -20,21 +20,21 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <div class="container mt-3">
     <div class="row" style="margin: 10% 0%;">
       <div class="col-6 centerer">
-        <div class="card border rounded" style="width: 28rem;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"><!-- 18rem -->
-          <img class="" src="/spc2024/img/participant.png" style="width:100%; ">
-          <a href="register.php">
+        <div class="card border rounded"><!-- 18rem -->
+          <img class="" src="/spc2024/img/participant.png" style="width:100%;box-shadow: rgba(0, 0, 0, 0.35) 0px -5px 15px;">
+          <a href="register.php" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
             <button type="button" class="btn btn-outline-primary" style="width: 100%;">
-              <p style="font-size:3.5vw;">Participant</p>
+            <p style="font-size:3.5vw;">General audience</p>
             </button>
           </a>
         </div>
       </div>
       <div class="col-6 centerer">
-        <div class="card border rounded" style="width: 28rem;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"><!-- 18rem -->
-          <img class="" src="/spc2024/img/presenter.png" style="width:100%; ">
-          <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" target="_blank>
+        <div class="card border rounded"><!-- 18rem -->
+          <img class="" src="/spc2024/img/presenter.png" style="width:100%;box-shadow: rgba(0, 0, 0, 0.35) 0px -5px 15px;">
+          <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;>
             <button type="button" class="btn btn-outline-info" style="width: 100%;">
-              <p style="font-size:3.5vw;">Presenter</p>
+              <p style="font-size:2.5vw;">For Oral and Poster presentation</p>
             </button>
           </a>
         </div>

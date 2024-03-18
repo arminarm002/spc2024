@@ -41,7 +41,7 @@ if (isset($_SESSION['role'])) {
                 <input type="password" name="password" class="form-control" required>
               </div>
               <div class="text-end">
-                <button type="submit" class="btn btn-l mt-2 text-white" name="login">Login</button>
+                <button type="submit" class="btn btn-l mt-2 text-white" name="login">Log in</button>
               </div>
             </form>
             <a href="path.php"><button class="btn btn-l text-white"

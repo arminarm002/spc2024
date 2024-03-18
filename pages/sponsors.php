@@ -61,7 +61,8 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </div>
           <div class="col-lg-2 col-md-3 col-3 center2">
             <a href="https://www.princess-it.org/" target="_blank">
-              <h6 class="abw resfont2">The information technology foundation under the Initiative of Her Royal Highness Priness Maha Chakri Sirindhorn</h6>
+              <h6 class="abw resfont2">The information technology foundation under the Initiative of Her Royal Highness
+                Priness Maha Chakri Sirindhorn</h6>
             </a>
           </div>
           <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
@@ -95,7 +96,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
           <!-- Supremea -->
           <div class="row">
-          <div class="col-lg-2"></div>
+
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.tsri.or.th/" target="_blank">
                 <img src="/spc2024/img/sponsors/08.png" class="img-fluid w-75">
@@ -116,7 +117,16 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท ปตท.สำรวจและผลิตปิโตรเลียม จำกัด (มหาชน)</h6>
               </a>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.slri.or.th/th/" target="_blank">
+                <img src="/spc2024/img/sponsors/27.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.slri.or.th/th/" target="_blank">
+                <h6 class="abw resfont2">สถาบันวิจัยแสงซินโครตรอน (องค์การมหาชน)</h6>
+              </a>
+            </div>
           </div>
 
           <hr>
@@ -124,16 +134,28 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
           <!-- Platinum แถวที่ 1 -->
           <div class="row">
-          <div class="col-4"></div>
+            <div class="col-2"></div>
             <div class="col-2 center2" style="text-align: center;">
-              <a href="https://www.nrct.go.th/" target="_blank">
+              <a href="https://www.narit.or.th/" target="_blank">
                 <img src="/spc2024/img/sponsors/05.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-2 center2">
-              <h6 class="abw resfont2">สถาบันวิจัยดาราศาสตร์แห่งชาติ (องค์การมหาชน)</h6>
+              <a href="https://www.narit.or.th/" target="_blank">
+                <h6 class="abw resfont2">สถาบันวิจัยดาราศาสตร์แห่งชาติ (องค์การมหาชน)</h6>
+              </a>
             </div>
-            <div class="col-4"></div>
+            <div class="col-2 center2" style="text-align: center;">
+              <a href="https://www.posn.or.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/28.png" class="img-fluid w-75 resw-100">
+              </a>
+            </div>
+            <div class="col-2 center2">
+              <a href="https://www.posn.or.th/" target="_blank">
+                <h6 class="abw resfont2">มูลนิธิ สอวน.</h6>
+              </a>
+            </div>
+            <div class="col-2"></div>
           </div>
 
           <hr>
@@ -141,14 +163,16 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
           <!-- Gold  -->
           <div class="row">
-          <div class="col-4"></div>
+            <div class="col-4"></div>
             <div class="col-2 center2" style="text-align: center;">
               <a href="https://www.fortistrading.co.th/" target="_blank">
                 <img src="/spc2024/img/sponsors/15.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-2 center2">
-              <h6 class="abw resfont2">บริษัท FORTIS TRADING CO.,LTD</h6>
+              <a href="https://www.fortistrading.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท FORTIS TRADING CO.,LTD</h6>
+              </a>
             </div>
             <div class="col-4"></div>
             <!-- <div class="col-2 center2" style="text-align: center;">
@@ -169,66 +193,10 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div> -->
           </div>
 
-          <!-- Gold แถวที่ 2 -->
-          <!-- <div class="row">
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="http://www.saengvith2000.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/18.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-2 center2">
-              <h6>Saengvitch 2000 Company Limited</h6>
-            </div>
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="https://www.tint.or.th/en" target="_blank">
-                <img src="/spc2024/img/sponsors/06.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-2 center2">
-              <h6>Thailand Institute of Nuclear Technology (Public Organization)</h6>
-            </div>
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="https://aapps.org/" target="_blank">
-                <img src="/spc2024/img/sponsors/19.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-2 center2">
-              <h6>Association of Asia Pacific Physical Society (AAPPS)</h6>
-            </div>
-          </div> -->
-
-          <!-- Gold แถวที่ 3 -->
-          <!-- <div class="row">
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="http://www.crest-group.net/" target="_blank">
-                <img src="/spc2024/img/sponsors/20.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-2 center2">
-              <h6>Crest Nanosolution (Thailand) Company Limited</h6>
-            </div>
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="https://www.irct.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/21.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-2 center2">
-              <h6>IRC Technology Limited</h6>
-            </div>
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="https://thailcinspace.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/22.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-2 center2">
-              <h6>Thailand Liquid Crystals in Space (TLC)</h6>
-            </div>
-          </div> -->
-
-          <!-- <hr>
+                  <!-- <hr>
           <h2 style="text-align: center;">Silver</h2> -->
 
-          <!-- Silver แถวที่ 1 -->
+          <!-- Silver -->
           <!-- <div class="row">
             <div class="col-2 center2" style="text-align: center;"></div>
             <div class="col-2 center2"></div>
@@ -247,33 +215,25 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <!-- <hr>
           <h2 style="text-align: center;">Copper</h2> -->
 
-          <!-- Copper แถวที่ 3 -->
-          <!-- <div class="row">
+          <!-- Copper -->
+          <hr>
+          <h2 style="text-align: center;">Copper</h2>
+
+          <!-- Copper  -->
+          <div class="row">
+            <div class="col-4"></div>
             <div class="col-2 center2" style="text-align: center;">
-              <a href="https://stc.in.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/23.png" class="img-fluid">
+              <a href="https://www.asgexperience.com//" target="_blank">
+                <img src="/spc2024/img/sponsors/29.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-2 center2">
-              <h6>Saktongpoon Construction Limited</h6>
-            </div>
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="https://www.siamanankit.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/24.png" class="img-fluid">
+              <a href="https://www.asgexperience.com//" target="_blank">
+                <h6 class="abw resfont2">บริษัท เอเอ็สจี เอ็กพีเรียนซ์ จำกัด D</h6>
               </a>
             </div>
-            <div class="col-2 center2">
-              <h6>Siam Anankit Limited</h6>
-            </div>
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="https://kinetics.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/25.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-2 center2">
-              <h6>KINETICS Corporation Limited</h6>
-            </div>
-          </div> -->
+            <div class="col-4"></div>
+          </div>
 
         </div>
       </div>
