@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +20,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
   ?>
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -93,10 +93,25 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <div class="row" style="margin: 15px auto;">
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/spc2024/img/news/mbook.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"> 20 March 2024</h5>
+                  <p class="card-text" style="text-align:justify;">Registration Guide for Participating in SPC2024 and Using the Website System
+                  </p>
+                  <a href="/spc2024/file/download/manual book.pdf" class="btn btn-warning" target="_blank">
+                    <h6 class="card-title">-- More --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/spc2024/img/news/834019.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"> 15 February 2024</h5>
-                  <p class="card-text" style="text-align:justify;">ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ ครั้งที่ 19 ประจำปี 2567 จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา</p>
+                  <p class="card-text" style="text-align:justify;">ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ ครั้งที่
+                    19 ประจำปี 2567 จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา
+                  </p>
                   <a href="/spc2024/img/news/8340192.jpg" class="btn btn-warning" target="_blank">
                     <h6 class="card-title">-- More --</h6>
                   </a>
@@ -156,10 +171,10 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/countdown.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/countdown.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
   ?>
 
 </body>

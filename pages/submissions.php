@@ -49,13 +49,14 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               generate qualified new knowledge in Physics and Physics content to be greater than 50%). Plagiarism and
               self-plagiarism are not allowed.</li>
           </ul>
-          <h5><b>** Guidelines on submitting an abstract **</b></h5>
+          <h4><b>** Guidelines on submitting an abstract **</b> >>> <a
+          href="/spc2024/file/download/guidelines.pdf" class="btn btn-warning" target="_blank">Click</a></h4>
           <h5>Abstracts must be submitted using the MS CMT platform >>> <a
-              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" target="_blank">Click</a></h5>
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" class="btn btn-warning" target="_blank">Click</a></h5>
           <br>
           <h5>The outcome of the review will be emailed to the main author by 30 April 2024.</h5><br>
           <h5>Note, however, that any accepted abstracts will be cancelled if the presenting author has not registered
-            and paid >>> <a href="/spc2024/auth/register.php" target="_blank">Click</a> the registration fee for the
+            and paid >>> <a href="/spc2024/auth/register.php" class="btn btn-warning" target="_blank">Click</a> the registration fee for the
             congress by 15 May 2024.
           </h5>
         </div>
