@@ -243,7 +243,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <hr>
           <h2 style="text-align: center;">Copper</h2>
           <div class="row">
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <!-- <div class="col-lg-2 col-md-3 col-3 center2"></div> -->
             <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
               <a href="https://www.asgexperience.com/" target="_blank">
                 <img src="/spc2024/img/sponsors/29.png" class="img-fluid w-75">
