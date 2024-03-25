@@ -127,8 +127,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">สถาบันวิจัยแสงซินโครตรอน (องค์การมหาชน)</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.nstda.or.th/" target="_blank">
                 <img src="/spc2024/img/sponsors/30.png" class="img-fluid w-75">
@@ -139,15 +137,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.)</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
-          </div>
-
-          <hr>
-          <h2 style="text-align: center;">Platinum</h2>
-
-          <!-- Platinum แถวที่ 1 -->
-          <div class="row">
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.narit.or.th/" target="_blank">
                 <img src="/spc2024/img/sponsors/05.png" class="img-fluid w-75 resw-100">
@@ -156,6 +145,22 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             <div class="col-lg-2 col-md-3 col-3 center2">
               <a href="https://www.narit.or.th/" target="_blank">
                 <h6 class="abw resfont2">สถาบันวิจัยดาราศาสตร์แห่งชาติ (องค์การมหาชน)</h6>
+              </a>
+            </div>
+          </div>
+
+          <hr>
+          <!-- Platinum -->
+          <h2 style="text-align: center;">Platinum</h2>
+          <div class="row">
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.barascientific.com/slide/" target="_blank">
+                <img src="/spc2024/img/sponsors/33.png" class="img-fluid w-75 resw-100">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.barascientific.com/slide/" target="_blank">
+                <h6 class="abw resfont2">บริษัท พาราไซแอนติฟิค จำกัด</h6>
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
@@ -168,7 +173,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">มูลนิธิ สอวน.</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.nst.or.th/" target="_blank">
                 <img src="/spc2024/img/co-host/nst.png" class="img-fluid w-75">
               </a>
@@ -181,9 +186,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </div>
 
           <hr>
-          <h2 style="text-align: center;">Gold</h2>
-
           <!-- Gold  -->
+          <h2 style="text-align: center;">Gold</h2>
           <div class="row">
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.fortistrading.co.th/" target="_blank">
@@ -215,36 +219,60 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท ภูดิศณ์เทค จำกัด</h6>
               </a>
             </div>
-          </div>
-
-          <!-- <hr>
-          <h2 style="text-align: center;">Silver</h2> -->
-
-          <!-- Silver -->
-          <!-- <div class="row">
-            <div class="col-2 center2" style="text-align: center;"></div>
-            <div class="col-2 center2"></div>
-            <div class="col-2 center2" style="text-align: center;">
-              <a href="https://www.ipst.ac.th/ipsten" target="_blank">
-                <img src="/spc2024/img/sponsors/01.png" class="img-fluid">
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.anton-paar.com/si-en/" target="_blank">
+                <img src="/spc2024/img/sponsors/34.png" class="img-fluid w-75">
               </a>
             </div>
-            <div class="col-2 center2">
-              <h6>The Institute for Promotion of Teaching Science and Technology (IPST)</h6>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.anton-paar.com/si-en/" target="_blank">
+                <h6 class="abw resfont2">บริษัท แอนตัน พาร์ (ประเทศไทย)</h6>
+              </a>
             </div>
-            <div class="col-2 center2" style="text-align: center;"></div>
-            <div class="col-2 center2"></div>
-          </div> -->
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.lableader.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/35.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.lableader.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท แล็บ ลีดเดอร์ จำกัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <img src="/spc2024/img/sponsors/36.png" class="img-fluid w-75">
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <h6 class="abw resfont2">โครงการวิจัยควอนตัม รศ.ดร.วรวัฒน์ มีวาสนา</h6>
+            </div>
+          </div>
 
-          <!-- <hr>
-          <h2 style="text-align: center;">Copper</h2> -->
-
-          <!-- Copper -->
           <hr>
+          <!-- Silver -->
+          <h2 style="text-align: center;">Silver</h2>
+          <div class="row">
+            <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.fitel.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/32.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.fitel.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัทฟูรูกาวา ไฟเทล (ประเทศไทย) จำกัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3"></div>
+          </div>
+
+          <hr>
+          <!-- Copper -->
           <h2 style="text-align: center;">Copper</h2>
           <div class="row">
-            <!-- <div class="col-lg-2 col-md-3 col-3 center2"></div> -->
-            <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
+          <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.asgexperience.com/" target="_blank">
                 <img src="/spc2024/img/sponsors/29.png" class="img-fluid w-75">
               </a>
@@ -254,7 +282,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท เอเอ็สจี เอ็กพีเรียนซ์ จำกัด</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.analytik-jena.com/" target="_blank">
                 <img src="/spc2024/img/sponsors/31.png" class="img-fluid w-75">
               </a>
@@ -264,7 +292,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท อนาไลติค เยน่า ฟาร์อีสต์ (ประเทศไทย) จำกัด</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3"></div>
           </div>
 
         </div>
