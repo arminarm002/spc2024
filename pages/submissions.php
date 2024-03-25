@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
   ?>
 
   <div class="container">
@@ -49,14 +49,16 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               generate qualified new knowledge in Physics and Physics content to be greater than 50%). Plagiarism and
               self-plagiarism are not allowed.</li>
           </ul>
-          <h4><b>** Guidelines on submitting an abstract **</b> >>> <a
-          href="/spc2024/file/download/guidelines.pdf" class="btn btn-warning" target="_blank">Click</a></h4>
+          <h4><b>** Guidelines on submitting an abstract **</b> >>> <a href="/spc2024/file/download/guidelines.pdf"
+              class="btn btn-warning" target="_blank">Click</a></h4>
           <h5>Abstracts must be submitted using the MS CMT platform >>> <a
-              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" class="btn btn-warning" target="_blank">Click</a></h5>
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" class="btn btn-warning"
+              target="_blank">Click</a></h5>
           <br>
           <h5>The outcome of the review will be emailed to the main author by 30 April 2024.</h5><br>
           <h5>Note, however, that any accepted abstracts will be cancelled if the presenting author has not registered
-            and paid >>> <a href="/spc2024/auth/register.php" class="btn btn-warning" target="_blank">Click</a> the registration fee for the
+            and paid >>> <a href="/spc2024/auth/register.php" class="btn btn-warning" target="_blank">Click</a> the
+            registration fee for the
             congress by 15 May 2024.
           </h5>
         </div>
@@ -73,11 +75,11 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             Please select only ONE journal for your full-paper submission.
             The conference participants who choose to submit a full paper for publication in the
             <b style="color:red">Conference E-Proceedings</b> will not be able to submit a full paper for publication in
-            the journals.</>
+            the journals.
+          </p>
           <h5>SPC2024 Publications</h5>
           <p>
-            1. Journal of Physics: Conference Series (JPCS) – <b style="color:red">Scopus and SJR Indexed</b> (On
-            process)<br>
+            1. Journal of Physics: Conference Series (JPCS) – <b style="color:red">Scopus and SJR Indexed</b><br>
             2. Current Applied Science and Technology - <b style="color:red">Scopus (Q3) SJR (Q4) Indexed </b><br>
             Journal Website : <a href="https://li01.tci-thaijo.org/index.php/cast" target="_blank">>>> Click <<< </a>
                 <br>
@@ -86,10 +88,11 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <br><br>
                 3. Thai Journal of Nanoscience and Nanotechnology - <b style="color:red">TCI2 Indexed</b><br>
                 Journal Website : <a href="https://ph05.tci-thaijo.org/index.php/TJNN/index" target="_blank">>>> Click
-                  <<<</a><br>
+                  <<< </a><br>
                     <br>
                     <img class="border-bottom border-warning" src="/spc2024/img/journals3.jpg" style="width:100%; ">
                     <br><br>
+                    4. Conference E-proceedings
           </p>
         </div>
       </div>
@@ -97,9 +100,9 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   </div>
 
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
   ?>
 </body>
 

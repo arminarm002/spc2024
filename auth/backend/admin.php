@@ -52,7 +52,8 @@ if ($_SESSION['role'] == "admin") {
                           <th>E-mail</th>
                           <th>Telephone</th>
                           <th>extrameal</th>
-                          <th>Food allergy and intolerance</th>
+                          <th>Intolerance</th>
+                          <th>Amount</th>
                           <th>Status</th>
                         </tr>
                       </thead>
@@ -80,6 +81,9 @@ if ($_SESSION['role'] == "admin") {
                             </td>
                             <td>
                               <?php echo $tr['food'] ?>
+                            </td>
+                            <td>
+                              <?php echo $tr['total_price']."THB" ?>
                             </td>
                             <td>
                               <?php echo $tr['approve'] ?>
