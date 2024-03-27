@@ -79,20 +79,30 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </p>
           <h5>SPC2024 Publications</h5>
           <p>
-            1. Journal of Physics: Conference Series (JPCS) – <b style="color:red">Scopus and SJR Indexed</b><br>
+            1. Journal of Physics: Conference Series (JPCS) – <b style="color:red">Scopus and SJR Indexed</b>
+          </p>
+          <hr>
+          <p>
             2. Current Applied Science and Technology - <b style="color:red">Scopus (Q3) SJR (Q4) Indexed </b><br>
-            Journal Website : <a href="https://li01.tci-thaijo.org/index.php/cast" target="_blank">>>> Click <<< </a>
-                <br>
-                <br>
-                <img class="border-bottom border-warning" src="/spc2024/img/journals2.jpg" style="width:100%; ">
-                <br><br>
-                3. Thai Journal of Nanoscience and Nanotechnology - <b style="color:red">TCI2 Indexed</b><br>
-                Journal Website : <a href="https://ph05.tci-thaijo.org/index.php/TJNN/index" target="_blank">>>> Click
-                  <<< </a><br>
-                    <br>
-                    <img class="border-bottom border-warning" src="/spc2024/img/journals3.jpg" style="width:100%; ">
-                    <br><br>
-                    4. Conference E-proceedings
+            Journal Website : >>>
+            <a href="https://li01.tci-thaijo.org/index.php/cast" class="btn btn-warning" target="_blank"> Click </a>
+            <br>
+            <br>
+            <img class="border-bottom border-warning w-25" src="/spc2024/img/journals2.jpg">
+          </p>
+          <hr>
+          <p>
+            3. Thai Journal of Nanoscience and Nanotechnology - <b style="color:red">TCI2 Indexed</b><br>
+            Journal Website : >>>
+            <a href="https://ph05.tci-thaijo.org/index.php/TJNN/index" class="btn btn-warning" target="_blank"> Click
+            </a><br>
+            <br>
+            <img class="border-bottom border-warning w-25" src="/spc2024/img/journals3.jpg" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+          </p>
+          <hr>
+          <p>
+            4. Conference E-proceedings<br>
+            <img class="border-bottom border-warning w-25" src="/spc2024/img/journals4.jpg" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </p>
         </div>
       </div>
