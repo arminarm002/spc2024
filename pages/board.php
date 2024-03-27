@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
   ?>
 
   <div class="container">
@@ -25,7 +25,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Advisory Committee</th>
@@ -147,7 +147,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Organizing Committee</th>
@@ -218,6 +218,25 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <td>Kesanee Ketnuam</td>
               <td>KMITL</td>
             </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-2"></div>
+    </div>
+
+    <!-- Academic Committee -->
+    <hr>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
+          <thead>
+            <tr>
+              <th class="fs-28">Academic Committee</th>
+              <th> </th>
+            </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>Prof.Dr.Pichet Limsuwan</td>
               <td>KMITL</td>
@@ -483,7 +502,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Ceremony Committee</th>
@@ -573,7 +592,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Finance Committee</th>
@@ -631,7 +650,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Registration Committee</th>
@@ -725,7 +744,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Venue and Transportation Committee</th>
@@ -799,7 +818,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Sponsorship and Fundraising Committee</th>
@@ -917,7 +936,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Public Relations Committee</th>
@@ -987,7 +1006,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Audio Visual Aid Committee</th>
@@ -1073,7 +1092,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8">
-        <table class="table table-striped strip">
+        <table class="table table-striped strip" style="border: thick double #ff7a01;">
           <thead>
             <tr>
               <th class="fs-28">Assessment Committee</th>
@@ -1121,9 +1140,9 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   </div>
 
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
   ?>
 </body>
 
