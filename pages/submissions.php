@@ -88,7 +88,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             <a href="https://li01.tci-thaijo.org/index.php/cast" class="btn btn-warning" target="_blank"> Click </a>
             <br>
             <br>
-            <img class="border-bottom border-warning w-25" src="/spc2024/img/journals2.jpg">
+            <img class="border-bottom border-warning w-25" src="/spc2024/img/journals2.jpg" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </p>
           <hr>
           <p>
