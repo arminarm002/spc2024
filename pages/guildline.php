@@ -31,8 +31,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </ul>
       <hr>
       <h5>Instruction for poster presentation</h5>
-      <img src="/spc2024/img/soon.png" style="display:block; margin:auto; width:50%;">
-      <!-- <ul class="unlist">
+      <ul class="unlist">
         <li>The poster size should not exceed A0size(84.1 cm width x 118.9 cm height) displayed vertically (portrait
           layout).</li>
         <li>A Poster board/double-sided tape will be provided in the poster presentation session area.</li>
@@ -40,7 +39,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           your paper easily. The corresponding author name and e-mail address information should be highlighted (or
           in bold) in case the viewer is interested in contacting you for more information.</li>
         <li>Poster presenters are required to be at their posters during the poster session.</li>
-      </ul> -->
+      </ul>
       <hr>
       <h5>Poster Presentation and Display Schedule</h5>
       <img src="/spc2024/img/soon.png" style="display:block; margin:auto; width:50%;">

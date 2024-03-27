@@ -37,6 +37,9 @@
               <li><a class="dropdown-item" href="/spc2024/pages/project.php">ประกวดโครงงานอิสระ</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a class="nav-link nav-fontcolor" aria-current="page" href="/spc2024/pages/awards.php">Awards</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle nav-fontcolor" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
