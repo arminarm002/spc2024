@@ -15,7 +15,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
   ?>
   <div class="container">
     <h1 class="card-title centerer mt-3">Presentation Guidelines</h1>
@@ -51,13 +51,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <li>Authors are asked to present their posters during the poster presentation sessions from 16:30 to 18:30
           on June 15, 2024, to discuss their findings with participants and answer any questions.</li>
       </ul> -->
-      <hr>
-      <h5>Presentation Awards</h5>
-      <ul class="unlist">
-        <li>Best Oral Presentation Awards</li>
-        <li>Best Poster Awards</li>
-        <li>Honorable Mention Awards</li>
-      </ul>
     </div>
   </div>
   <?php

@@ -19,10 +19,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 </head>
 
 <body class="font-mitr">
-  <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
-  ?>
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="/spc2024/img/home02.jpg" class="img-fluid" style="width:100%">
@@ -40,6 +37,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <?php
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  ?>
 
   <div class="container">
     <h4 class="card-text fss-14 mt-3" style="text-align:justify;">The organizers and hosts of the 19th Siam Physics
@@ -91,14 +91,26 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <div class="cards mb-3 mt-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;padding-bottom: 15px;">
           <h1 class="card-title centerer" style="color: #7b7b7b;padding-top: 15px;">Announcement</h1>
           <div class="row" style="margin: 15px auto;">
+          <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <!-- <div class="card border border-warning rounded" style="width: 28rem;">
+                <img class="border-bottom border-warning" src="/spc2024/img/news/exten.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title">31 March 2024</h5>
+                  <p class="card-text" style="text-align:justify;">Abstract submission deadline extended to 20 April 2024</p>
+                  <a href="/spc2024/img/news/posterspcex.jpg" class="btn btn-warning" target="_blank"style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- More --</h6>
+                  </a>
+                </div>
+              </div> -->
+            </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+              <div class="card border border-warning rounded" style="width: 28rem;">
                 <img class="border-bottom border-warning" src="/spc2024/img/news/mbook.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"> 20 March 2024</h5>
                   <p class="card-text" style="text-align:justify;">Registration Guide for Participating in SPC2024 and Using the Website System
                   </p>
-                  <a href="/spc2024/file/download/manual book.pdf" class="btn btn-warning" target="_blank">
+                  <a href="/spc2024/file/download/manual book.pdf" class="btn btn-warning" target="_blank"style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
                 </div>
@@ -112,7 +124,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                   <p class="card-text" style="text-align:justify;">ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ ครั้งที่
                     19 ประจำปี 2567 จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา
                   </p>
-                  <a href="/spc2024/img/news/8340192.jpg" class="btn btn-warning" target="_blank">
+                  <a href="/spc2024/img/news/8340192.jpg" class="btn btn-warning" target="_blank"style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
                 </div>
@@ -120,12 +132,12 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/spc2024/img/news/speaker1.jpg" style="width:100%; ">
+                <img class="border-bottom border-warning" src="/spc2024/img/news/speaker1.jpg" style="width:100%;">
                 <div class="card-body">
                   <h5 class="card-title"> 12 February 2024</h5>
                   <p class="card-text" style="text-align:justify;">The updated list of plenary talks includes
                     presentations by Prof. Yifang Wang And Prof. Albrecht Karle</p>
-                  <a href="/spc2024/pages/talk.php" class="btn btn-warning">
+                  <a href="/spc2024/pages/talk.php" class="btn btn-warning"style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
                 </div>
@@ -141,7 +153,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                     use of light to study
                     electrons</p>
                   <a href="https://news.cgtn.com/news/2023-10-03/3-scientists-awarded-2023-Nobel-Prize-in-Physics-1nBg0xV00aA/index.html"
-                    class="btn btn-warning" target="_blank">
+                    class="btn btn-warning" target="_blank"style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
                 </div>
@@ -157,7 +169,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                     รับมอบธงร่วมเป็นเจ้าภาพจัดงานประชุมวิชาการ Siam Physics Congress ครั้งที่ 19
                     ซึ่งจะจัดขึ้นระหว่างวันที่ 5-7 มิถุนายน ปี 2567</p>
                   <a href="https://www.facebook.com/profile/100063613568041/search/?q=%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%AD%E0%B8%9A%E0%B8%98%E0%B8%87"
-                    class="btn btn-warning" target="_blank">
+                    class="btn btn-warning" target="_blank"style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
                 </div>

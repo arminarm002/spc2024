@@ -15,17 +15,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
   ?>
   <div class="container">
     <h1 class="card-title centerer mt-3">Awards</h1>
     <div class="card border-0" style="color: #494949;">
-      <h5>Presentation Awards</h5>
-      <ul class="unlist">
-        <li>Best Oral Presentation Awards</li>
-        <li>Best Poster Awards</li>
-        <li>Honorable Mention Awards</li>
-      </ul>
+      <a href="/spc2024/img/news/awards.jpg" target="_blank">
+        <img src="/spc2024/img/news/awards.jpg" style="display:block; margin:auto; width:50%;">
+      </a>
     </div>
   </div>
 

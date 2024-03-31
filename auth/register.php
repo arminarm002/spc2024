@@ -19,7 +19,7 @@ if (isset($_SESSION['role'])) {
 
   <body class="font-mitr">
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
     ?>
     <div class="container mt-5">
       <div class="card" style="background-color: rgb(255 122 1 / 20%);box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">

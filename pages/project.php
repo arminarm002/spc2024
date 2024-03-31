@@ -15,7 +15,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
   ?>
   <div class="container">
     <h1 class="card-title centerer mt-3">ประกวดโครงงานครั้งที่ 16 “ค้นคว้าอิสระปริญญาตรี สาขาวิชาฟิสิกส์”</h1>

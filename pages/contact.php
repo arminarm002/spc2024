@@ -15,7 +15,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr"> 
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
   ?>
   <div class="container mt-3">
   <h1 class="card-title centerer mb-3">Contact Us</h1>
