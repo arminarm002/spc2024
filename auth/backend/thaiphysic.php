@@ -17,7 +17,7 @@ if ($_SESSION['role']) {
 
     <body class="font-mitr">
       <?php
-      include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+      include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
 
       $sql = $conn->query("SELECT * FROM tb_user WHERE approve = 'wait' AND role = 'user' ");
       $i = 0;
