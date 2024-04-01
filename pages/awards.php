@@ -19,9 +19,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   ?>
   <div class="container">
     <h1 class="card-title centerer mt-3">Awards</h1>
-    <div class="card border-0" style="color: #494949;">
+    <div class="card border-0 mt-3" style="color: #494949;">
       <a href="/spc2024/img/news/awards.jpg" target="_blank">
-        <img src="/spc2024/img/news/awards.jpg" style="display:block; margin:auto; width:50%;">
+        <img src="/spc2024/img/news/awards.jpg" style="display:block; margin:auto; width:70%;">
       </a>
     </div>
   </div>

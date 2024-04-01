@@ -13,10 +13,11 @@
   <br>
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/registration.php">Registration & Payment</a> |
   <a class="nav-menu" aria-current="page" href="/spc2024/file/download/manual book.pdf" target="_blank">Registration
-    Guide</a> |
+    Guide</a> | 
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/guildline.php">Presentation Guidelines</a> |
-  <a class="nav-menu" aria-current="page" href="/spc2024/pages/awards.php">Awards</a>
+  <a class="nav-menu" aria-current="page" href="/spc2024/pages/topic.php">Topic & Symposium</a>
   <br>
+  <a class="nav-menu" aria-current="page" href="/spc2024/pages/awards.php">Awards</a> | 
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/board.php">Board & Committee</a> |
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/sponsors.php">Sponsors</a> |
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/accommodation.php">Accommodation & Venue</a> |
