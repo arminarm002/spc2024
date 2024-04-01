@@ -37,8 +37,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             5) Mathematics, Computational & Numerical Physics<br>
             6) Quantum Physics & Technology<br>
             7) Optical Physics & Technology<br>
-            8) Applied Physics & Technology<br>
+            8) Applied Physics &Technology, Biophysics, Nano-physics and others<br>
             9) High Energy & Particles Physics<br>
+            10) Plasma, Radiation, Nuclear Physics and Technology
           </p>
           <h5>Note :</h5>
           <ul class="unlist">
@@ -50,15 +51,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               generate qualified new knowledge in Physics and Physics content to be greater than 50%). Plagiarism and
               self-plagiarism are not allowed.</li>
           </ul>
-          <h4><b>** Guidelines on submitting an abstract **</b> >>> <a href="/spc2024/file/download/guidelines.pdf"
+          <h4><b>** Guidelines on submitting an abstract **</b> >>> <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/file/download/guidelines.pdf"
               class="btn btn-warning" target="_blank">Click</a></h4>
-          <h5>Abstracts must be submitted using the MS CMT platform >>> <a
-              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" class="btn btn-warning"
-              target="_blank">Click</a></h5>
+          <h5>Abstracts must be submitted using the MS CMT platform >>> <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" class="btn btn-warning" target="_blank">Click</a></h5>
           <br>
           <h5>The outcome of the review will be emailed to the main author by 30 April 2024.</h5><br>
           <h5>Note, however, that any accepted abstracts will be cancelled if the presenting author has not registered
-            and paid >>> <a href="/spc2024/auth/register.php" class="btn btn-warning" target="_blank">Click</a> the
+            and paid >>> <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/auth/register.php" class="btn btn-warning" target="_blank">Click</a> the
             registration fee for the
             congress by 15 May 2024.
           </h5>
@@ -86,7 +85,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <p>
             2. Current Applied Science and Technology - <b style="color:red">Scopus (Q3) SJR (Q4) Indexed </b><br>
             Journal Website : >>>
-            <a href="https://li01.tci-thaijo.org/index.php/cast" class="btn btn-warning" target="_blank"> Click </a>
+            <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="https://li01.tci-thaijo.org/index.php/cast" class="btn btn-warning" target="_blank"> Click </a>
             <br>
             <br>
             <img class="border-bottom border-warning w-25" src="/spc2024/img/journals2.jpg" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
@@ -95,7 +94,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <p>
             3. Thai Journal of Nanoscience and Nanotechnology - <b style="color:red">TCI2 Indexed</b><br>
             Journal Website : >>>
-            <a href="https://ph05.tci-thaijo.org/index.php/TJNN/index" class="btn btn-warning" target="_blank"> Click
+            <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="https://ph05.tci-thaijo.org/index.php/TJNN/index" class="btn btn-warning" target="_blank"> Click
             </a><br>
             <br>
             <img class="border-bottom border-warning w-25" src="/spc2024/img/journals3.jpg" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
