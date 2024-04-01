@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 if ($_SESSION['role'] == "admin") {
   ?>
   <!DOCTYPE html>
@@ -16,7 +16,7 @@ if ($_SESSION['role'] == "admin") {
 
   <body class="font-mitr">
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
 
     $sql = $conn->query("SELECT * FROM tb_user INNER JOIN tb_pay 
     ON tb_user.pay_id = tb_pay.pay_id WHERE email='" . $_SESSION['email'] . "'");
@@ -47,6 +47,7 @@ if ($_SESSION['role'] == "admin") {
                     <table class="table table-striped strip">
                       <thead>
                         <tr style="text-align: center;">
+                          <th>No.</th>
                           <th>Name</th>
                           <th>Type</th>
                           <th>E-mail</th>
@@ -58,12 +59,15 @@ if ($_SESSION['role'] == "admin") {
                         </tr>
                       </thead>
                       <tbody>
-                        <?php $no = 0;
+                        <?php
+                        $no = 1;
                         $sql2 = $conn->query("SELECT * FROM tb_user WHERE role = 'user' ORDER BY approve");
                         foreach ($sql2 as $tr) {
-                          $no++;
-                          ?>
+                                                    ?>
                           <tr>
+                            <td>
+                              <?php echo $no; $no++; ?>
+                            </td>
                             <td>
                               <?php echo $tr['title'] . $tr['firstname'] . " " . $tr['lastname'] ?>
                             </td>
@@ -83,7 +87,7 @@ if ($_SESSION['role'] == "admin") {
                               <?php echo $tr['food'] ?>
                             </td>
                             <td>
-                              <?php echo $tr['total_price']."THB" ?>
+                              <?php echo $tr['total_price'] . "THB" ?>
                             </td>
                             <td>
                               <?php echo $tr['approve'] ?>
@@ -104,9 +108,9 @@ if ($_SESSION['role'] == "admin") {
     <?php } ?>
 
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
     ?>
 
   </body>
