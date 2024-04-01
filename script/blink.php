@@ -2,10 +2,16 @@
     // คำสั่ง JavaScript เพื่อเปิดหรือปิดการกระพริบข้อความ
     function toggleBlinking() {
       var blinkingText = document.getElementById('blinkingText');
+      var blinkingText2 = document.getElementById('blinkingText2');
       if (blinkingText.classList.contains('blinking')) {
         blinkingText.classList.remove('blinking');
       } else {
         blinkingText.classList.add('blinking');
+      }
+      if (blinkingText2.classList.contains('blinking')) {
+        blinkingText2.classList.remove('blinking');
+      } else {
+        blinkingText2.classList.add('blinking');
       }
     }
 

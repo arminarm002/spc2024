@@ -63,7 +63,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </td>
         </tr>
         <tr>
-          <td>20 March 2024</td>
+          <td><b id="blinkingText2" class="blinkin blinkingText" style="color:red;">New</b> 20 March 2024</td>
           <td>
             <a href="/spc2024/file/download/manual book.pdf" class="anews" target="_blank">Registration Guide for
               Participating in SPC2024 and Using the Website System
@@ -76,7 +76,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             <a href="/spc2024/img/news/8340192.jpg" class="anews"
               target="_blank">ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
               ครั้งที่ 19 ประจำปี 2567
-              จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธย
+              จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา
             </a>
           </td>
         </tr>

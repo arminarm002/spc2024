@@ -116,7 +116,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;">
                 <img class="border-bottom border-warning" src="/spc2024/img/news/exten.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 31 March 2024</h5>
+                  <h5 class="card-title"><b id="blinkingText" class="blinkin blinkingText" style="color:red;">New</b> 31 March 2024</h5>
                   <p class="card-text" style="text-align:justify;">Abstract submission deadline extended to 20 April
                     2024</p>
                   <a href="/spc2024/img/news/posterspcex.jpg" class="btn btn-warning" target="_blank"
@@ -130,7 +130,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;">
                 <img class="border-bottom border-warning" src="/spc2024/img/news/mbook.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"> 20 March 2024</h5>
+                  <h5 class="card-title"><b id="blinkingText2" class="blinkin blinkingText" style="color:red;">New</b> 20 March 2024</h5>
                   <p class="card-text" style="text-align:justify;">Registration Guide for Participating in SPC2024 and
                     Using the Website System
                   </p>
