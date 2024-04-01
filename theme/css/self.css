@@ -303,33 +303,38 @@ ul.unlist {
 .gray {
   color: #656565;
 }
+
 @media (max-width: 768px) {
   .resfont2 {
     font-size: 0.6rem;
   }
-  .resw-100{
+
+  .resw-100 {
     width: 100% !important;
   }
 }
-.menu-bar{
-  background-color:#ff7a01;
-  height:auto;
+
+.menu-bar {
+  background-color: #ff7a01;
+  height: auto;
   padding: 20px;
   max-width: 100%;
   height: auto;
   width: 100%;
   white-space: nowrap;
 }
-.pnav{
+
+.pnav {
   font-size: 25px;
   float: left;
 }
-.nav-menu{
+
+.nav-menu {
   width: max-content;
   display: inline-block;
   color: #fff;
   font-size: 25px;
-  background-image: linear-gradient(to right,#0010f1,#0010f1 50%,#ffffff 50%);
+  background-image: linear-gradient(to right, #0010f1, #0010f1 50%, #ffffff 50%);
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -338,9 +343,11 @@ ul.unlist {
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
-.nav-menu:hover{
+
+.nav-menu:hover {
   background-position: 0;
 }
+
 .nav-menu:before {
   content: '';
   background: #0010f1;
@@ -352,9 +359,11 @@ ul.unlist {
   height: 3px;
   transition: all 0.3s ease-in-out;
 }
+
 .nav-menu:hover::before {
   width: 100%;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -373,11 +382,14 @@ ul.unlist {
   flex-grow: 2;
   text-align: center;
 }
+
 .link-container a {
-  display: inline-block; /* หรือ 'inline' ตามที่ต้องการ */
+  display: inline-block;
+  /* หรือ 'inline' ตามที่ต้องการ */
 }
+
 @media (max-width: 1350px) {
-  .nav-menu{
+  .nav-menu {
     width: max-content;
     display: inline-block;
     text-decoration: none;
@@ -385,8 +397,9 @@ ul.unlist {
     font-size: 20px;
   }
 }
+
 @media (max-width: 955px) {
-  .nav-menu{
+  .nav-menu {
     width: max-content;
     display: inline-block;
     text-decoration: none;
@@ -394,8 +407,9 @@ ul.unlist {
     font-size: 15px;
   }
 }
+
 @media (max-width: 690px) {
-  .nav-menu{
+  .nav-menu {
     width: max-content;
     display: inline-block;
     text-decoration: none;
@@ -403,12 +417,22 @@ ul.unlist {
     font-size: 10px;
   }
 }
+
 @media (max-width: 480px) {
-  .nav-menu{
+  .nav-menu {
     width: max-content;
     display: inline-block;
     text-decoration: none;
     color: #fff;
     font-size: 7px;
   }
+}
+
+.anews {
+  text-decoration: none;
+  color: black;
+}
+.anews:hover{
+  text-decoration: underline;
+  color: #032abd
 }

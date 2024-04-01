@@ -239,12 +239,12 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท แล็บ ลีดเดอร์ จำกัด</h6>
               </a>
             </div>
-            <!-- <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <img src="/spc2024/img/sponsors/36.png" class="img-fluid w-75">
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
               <h6 class="abw resfont2">โครงการวิจัยควอนตัม รศ.ดร.วรวัฒน์ มีวาสนา</h6>
-            </div> -->
+            </div>
             <div class="col-lg-2 col-md-3 col-3 center2"></div>
             <div class="col-lg-2 col-md-3 col-3 center2"></div>
           </div>
