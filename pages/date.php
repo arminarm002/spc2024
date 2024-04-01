@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,17 +15,19 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
   ?>
 
   <div class="container">
-  <h1 class="card-title centerer mt-3">Important Dates</h1>
-  <!-- <img src="/spc2024/img/date.jpg" style="width: 100%; height: auto;"> -->
-    <table class="table tb-stip table-striped table-hover mt-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-      <tbody style="font-size: 2vw;">
+    <h1 class="card-title centerer mt-3">Important Dates</h1>
+    <img src="/spc2024/img/exten.png" class="extenlogo mt-3">
+    <table class="table tb-stip table-striped table-hover" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+      <tbody style="font-size: 1.5vw;">
         <tr>
           <td>Abstract submission</td>
-          <td>1 February - 31 March 2024</td>
+          <td>1 February - <span class="redmidline">31 March 2024</span>
+            <span class="red"> 20 April 2024</span>
+          </td>
         </tr>
         <tr>
           <td>Notification of abstract acceptance</td>
@@ -50,7 +52,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </tr>
       </thead>
       <tbody style="font-size: 2vw;">
-      <tr>
+        <tr>
           <td></td>
           <td></td>
         </tr>
@@ -100,9 +102,9 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   </div>
 
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
   ?>
 </body>
 

@@ -432,7 +432,23 @@ ul.unlist {
   text-decoration: none;
   color: black;
 }
-.anews:hover{
+
+.anews:hover {
   text-decoration: underline;
   color: #032abd
+}
+
+.extenlogo {
+  width: 10%;
+  height: auto;
+  float: right;
+  margin-right: 30%;
+}
+
+.redmidline {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.red{
+  color:red;
 }
