@@ -91,8 +91,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </section>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-6 mt-3">
-          <a href="/spc2024/img/news/posterspcex.jpg" target="_blank">
-            <img src="/spc2024/img/news/posterspcex.jpg" class="d-block w-100"
+          <a href="/spc2024/img/news/posterspc.jpg" target="_blank">
+            <img src="/spc2024/img/news/posterspc.jpg" class="d-block w-100"
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </a>
         </div>
