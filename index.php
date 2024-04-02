@@ -131,7 +131,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                   <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 31 March 2024</h5>
                   <p class="card-text" style="text-align:justify;">Abstract submission deadline extended to 20 April
                     2024</p>
-                  <a href="/spc2024/img/news/posterspcex.jpg" class="btn btn-warning" target="_blank"
+                  <a href="/spc2024/img/news/posterspc.jpg" class="btn btn-warning" target="_blank"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
