@@ -57,14 +57,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <tr>
           <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 1 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/img/news/posterspcex.jpg" target="_blank">We are pleased to announce that the topic of "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024 Symposium. Abstract submissions are open until April 20, 2024.
+            <a class="anews" href="/spc2024/img/news/posterspc.jpg" target="_blank">We are pleased to announce that the topic of "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024 Symposium. Abstract submissions are open until April 20, 2024.
             </a>
           </td>
         </tr>
         <tr>
           <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 31 March 2024</td>
           <td>
-            <a class="anews" href="/spc2024/img/news/posterspcex.jpg" target="_blank">Abstract submission deadline
+            <a class="anews" href="/spc2024/img/news/posterspc.jpg" target="_blank">Abstract submission deadline
               extended to 20 April 2024
             </a>
           </td>
