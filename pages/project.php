@@ -21,12 +21,12 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <h1 class="card-title centerer mt-3">ประกวดโครงงานครั้งที่ 16 “ค้นคว้าอิสระปริญญาตรี สาขาวิชาฟิสิกส์”</h1>
     <div class="row" style="margin: 15px auto;">
       <div class="col-6">
-        <a href="/spc2024/file/download/project1.jpg" target="_blank">
+        <a href="/spc2024/img/news/project1.jpg" target="_blank">
           <img src="/spc2024/img/news/project1.jpg" class="d-block w-100  border border-warning">
         </a>
       </div>
       <div class="col-6">
-        <a href="/spc2024/file/download/project2.jpg" target="_blank">
+        <a href="/spc2024/img/news/project2.jpg" target="_blank">
           <img src="/spc2024/img/news/project2.jpg" class="d-block w-100  border border-warning">
         </a>
       </div>

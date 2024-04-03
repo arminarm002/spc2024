@@ -17,6 +17,7 @@
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/guildline.php">Presentation Guidelines</a> |
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/topic.php">Topic & Symposium</a>
   <br>
+  <a class="nav-menu" aria-current="page" href="/spc2024/pages/project.php">ประกวดโครงงานอิสระ</a> | 
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/awards.php">Awards</a> | 
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/board.php">Board & Committee</a> |
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/sponsors.php">Sponsors</a> |

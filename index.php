@@ -97,13 +97,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </a>
         </div>
         <div class="col-lg-4 col-md-4 col-6 mt-3">
-          <a href="/spc2024/file/download/project1.jpg" target="_blank">
+          <a href="/spc2024/img/news/project1.jpg" target="_blank">
             <img src="/spc2024/img/news/project1.jpg" class="d-block w-100"
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </a>
         </div>
         <div class="col-lg-4 col-md-4 col-6 mt-3">
-          <a href="/spc2024/file/download/project2.jpg" target="_blank">
+          <a href="/spc2024/img/news/project2.jpg" target="_blank">
             <img src="/spc2024/img/news/project2.jpg" class="d-block w-100"
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </a>
