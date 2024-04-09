@@ -38,8 +38,12 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <td>15 May 2024</td>
         </tr>
         <tr>
-          <td>Full text submission</td>
-          <td>10 July 2024</td>
+          <td>Full paper submission<br>
+            <span style="font-size:1vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - E-proceedings<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - JCPS, CAST, TJNN</span>
+          </td>
+          <td><br>
+            <span style="font-size:1vw;">1 May - 31 May 2024<br>1 May - 10 July 2024</span>
+          </td>
         </tr>
       </tbody>
     </table>

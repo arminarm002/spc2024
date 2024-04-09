@@ -2,7 +2,7 @@
   <a class="nav-menu" aria-current="page" href="/spc2024/index.php">Home</a> |
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/date.php">Important Dates</a> |
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/talk.php">Plenary & Speakers</a> |
-  <a class="nav-menu" aria-current="page" href="/spc2024/pages/submissions.php">Abstract Submissions</a> | 
+  <a class="nav-menu" aria-current="page" href="/spc2024/pages/submissions.php">Abstract & Full paper Submissions</a> | 
   <?php if (isset($_SESSION['role'])) { ?>
     <a class="nav-menu" aria-current="page" href="/spc2024/auth/profile.php">Profile</a> |
     <a class="nav-menu" aria-current="page" href="/spc2024/auth/logout.php">Log out</a>

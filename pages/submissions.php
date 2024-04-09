@@ -102,6 +102,11 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <hr>
           <p>
             4. Conference E-proceedings<br>
+            Download Template : >>>
+            <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" 
+            href="/spc2024/file/download/spc2024-proceedings.docx" class="btn btn-warning" target="_blank"> Click
+            </a><br>
+            <br>
             <img class="border-bottom border-warning w-25" src="/spc2024/img/journals4.jpg" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </p>
         </div>
