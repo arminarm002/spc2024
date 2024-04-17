@@ -114,11 +114,32 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <div class="row" style="margin: 15px auto;">
           <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/spc2024/img/news/16extended.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 17 April 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">The notice for qualified applicants of the 16th project contest has been postponed to 30 April 2024. We are sorry for any inconvenience it may cause <br><br><u>Please stay tuned.</u></p>
+                  <a href="/spc2024/pages/project.php" class="btn btn-warning"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- More --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/spc2024/img/news/newstopic.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 1 April 2024</h5>
-                  <p class="card-text" style="text-align:justify;">We are pleased to announce that the topic of "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024 Symposium. Abstract submissions are open until April 20, 2024.<br>Submiss Abstract >>> <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" class="btn btn-warning" target="_blank">Click</a></p>
-                  <a href="/spc2024/pages/topic.php" class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                  <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 1 April 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">We are pleased to announce that the topic of
+                    "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024 Symposium.
+                    Abstract submissions are open until April 20, 2024.<br>Submiss Abstract >>> <a
+                      style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                      href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" class="btn btn-warning"
+                      target="_blank">Click</a></p>
+                  <a href="/spc2024/pages/topic.php" class="btn btn-warning"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
                 </div>
@@ -128,7 +149,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;">
                 <img class="border-bottom border-warning" src="/spc2024/img/news/exten.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 31 March 2024</h5>
+                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 31 March 2024
+                  </h5>
                   <p class="card-text" style="text-align:justify;">Abstract submission deadline extended to 20 April
                     2024</p>
                   <a href="/spc2024/img/news/posterspc.jpg" class="btn btn-warning" target="_blank"
@@ -142,7 +164,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;">
                 <img class="border-bottom border-warning" src="/spc2024/img/news/mbook.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 20 March 2024</h5>
+                  <h5 class="card-title">20 March 2024
+                  </h5>
                   <p class="card-text" style="text-align:justify;">Registration Guide for Participating in SPC2024 and
                     Using the Website System
                   </p>
@@ -182,23 +205,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/spc2024/img/news/nobel.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title"> 3 October 2023</h5>
-                  <p class="card-text" style="text-align:justify;">3 scientists awarded 2023 Nobel Prize in Physics
-                    for
-                    use of light to study
-                    electrons</p>
-                  <a href="https://news.cgtn.com/news/2023-10-03/3-scientists-awarded-2023-Nobel-Prize-in-Physics-1nBg0xV00aA/index.html"
-                    class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
-                      </div>
+          </div>
           <a href="/spc2024/pages/news.php" class="btn btn-warning"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;float:right">
             <h4 class="card-title">-- All Announcement --</h4>
