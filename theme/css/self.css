@@ -452,3 +452,15 @@ ul.unlist {
 .red{
   color:red;
 }
+.bookhotel{
+  --bs-btn-color: #fff;
+    --bs-btn-bg: #1d10e3;
+    --bs-btn-border-color: #007aff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0010f1;
+    --bs-btn-hover-border-color: #fdfdfd;
+    --bs-btn-focus-shadow-rgb: 216, 164, 6;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #141295;
+    --bs-btn-active-border-color: #ffffff;
+}

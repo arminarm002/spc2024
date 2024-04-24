@@ -15,7 +15,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
   ?>
   <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"
     data-bs-interval="3000">
@@ -136,26 +136,50 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       masterpiece.<br><br>Krungsri River offers a sense that, even for a day, you are transported to an inspirational
       sanctuary of style and comfort.<br>
     </p>
-    
-    <h1 class="card-title centerer mt-3">Krungsri River Hotel</h1>
+
+    <h4 class="card-title centerer mt-3">The room rates per night at the Krungsri River Hotel (for two persons,
+      including breakfast) are as follows</h4>
+    <div class="container mt-3 mb-3 w-75">
+      <table class="table tb-stip table-striped table-hover"
+        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border: thick double #ff7a01;">
+        <tbody style="font-size: 1.5vw;">
+          <tr>
+            <td>Luxury Room</td>
+            <td>1500 THB</td>
+          </tr>
+          <tr>
+            <td>Siam Classic Suite</td>
+            <td>4500 THB</td>
+          </tr>
+          <tr>
+            <td>Modern Siam Classic Suite</td>
+            <td>5500 THB</td>
+          </tr>
+          <tr>
+            <td>Extra Bed</td>
+            <td>800 THB</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <div class="ratio ratio-21x9 mt-3">
       <iframe class="rounded border border-warning border-2"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3865.2820596160363!2d100.58009137581796!3d14.35308168308725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e275b64fa00651%3A0xf9e12f549248baa1!2z4LmC4Lij4LiH4LmB4Lij4LihIOC4geC4o-C4uOC4h-C4qOC4o-C4tSDguKPguLTguYDguKfguK3guKPguYwg4Lit4Lii4Li44LiY4Lii4Liy!5e0!3m2!1sth!2sth!4v1695097663619!5m2!1sth!2sth"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <div class="row mt-5" style="padding: 0px 1.5rem;">
-      <div class="col-4">
+    <div class="row mt-3" style="padding: 0px 1.5rem;">
+      <div class="col-sm-6 col-md-6 col-lg-4 col-12">
         <p><b>Airports</b></p>
         <p><i class="bi bi-airplane"></i> Don Mueang International Airport (DMK) 49.0 km</p>
         <p><i class="bi bi-airplane"></i> Suvarnabhumi Airport (BKK) 75.9 km</p>
       </div>
-      <div class="col-4">
+      <div class="col-sm-6 col-md-6 col-lg-4 col-12">
         <p><b>Public transportation</b></p>
         <p><i class="bi bi-train-front"></i> Ayutthaya Train Station 460 m</p>
         <p><i class="bi bi-train-front"></i> Banma 3.8 km</p>
       </div>
-      <div class="col-4">
+      <div class="col-sm-6 col-md-6 col-lg-4 col-12">
         <p><b>Hospital or clinic</b></p>
         <p><i class="bi bi-hospital"></i> Sirin Pharmacy 680 m</p>
         <p><b>Shopping</b></p>
@@ -164,13 +188,23 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <p><i class="bi bi-7-square"></i> 7 Eleven 260 m</p>
       </div>
     </div>
-  
+    <h4>Secure a room at the Krungsri River Hotel >>> 
+      <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" 
+      href="https://docs.google.com/forms/d/1wvc8TeMMyvsQ-ZZMNt7_RR0ZSrRPbd51ap_ZjHPmW-A/viewform?edit_requested=true" 
+      class="btn bookhotel" target="_blank">Click</a>
+    </h4>
+    <h4>Other hotels in Ayutthaya Province >>> 
+      <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" 
+      href="/spc2024/file/download/hotel.pdf" 
+      class="btn bookhotel" target="_blank">Click</a>
+    </h4>
+
   </div>
 
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
   ?>
 
 </body>
