@@ -1,6 +1,6 @@
 <?php
-// session_start();
-// include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+session_start();
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -127,6 +127,7 @@
                 <h6 class="abw resfont2">สถาบันวิจัยแสงซินโครตรอน (องค์การมหาชน)</h6>
               </a>
             </div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.nstda.or.th/" target="_blank">
                 <img src="/spc2024/img/sponsors/30.png" class="img-fluid w-75">
@@ -147,6 +148,7 @@
                 <h6 class="abw resfont2">สถาบันวิจัยดาราศาสตร์แห่งชาติ (องค์การมหาชน)</h6>
               </a>
             </div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
           </div>
 
           <hr>
@@ -183,6 +185,28 @@
                 <h6 class="abw resfont2">Nuclear Society of Thailand</h6>
               </a>
             </div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.designalternative.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/37.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.designalternative.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท ดีไซน์ ออลเทอร์เนทีฟ จำกัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="http://www.aml-tech.com/index.php" target="_blank">
+                <img src="/spc2024/img/sponsors/38.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="http://www.aml-tech.com/index.php" target="_blank">
+                <h6 class="abw resfont2">บริษัท เอเอ็มแอล เทคโนโลยี จำกัด (สำนักงานใหญ่)</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
           </div>
 
           <hr>
@@ -245,7 +269,89 @@
             <div class="col-lg-2 col-md-3 col-3 center2">
               <h6 class="abw resfont2">โครงการวิจัยควอนตัม รศ.ดร.วรวัฒน์ มีวาสนา</h6>
             </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.vernier-thai.com/" target="_blank">
+                <img src="/spc2024/img/sponsors/39.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.vernier-thai.com/" target="_blank">
+                <h6 class="abw resfont2">บริษัท เวอร์เนียร์ ไทย จำกัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.intesalogic.com/" target="_blank">
+                <img src="/spc2024/img/sponsors/40.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.intesalogic.com/" target="_blank">
+                <h6 class="abw resfont2">บริษัท อินเทซ่าลอจิก จำกัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.intesalogic.com/" target="_blank">
+                <img src="/spc2024/img/sponsors/41.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.intesalogic.com/" target="_blank">
+                <h6 class="abw resfont2">บริษัท เทคคอมพ์ (ประเทศไทย) จำกัด (สำนักงานใหญ่)</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.coax.co.th/th/" target="_blank">
+                <img src="/spc2024/img/sponsors/42.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.coax.co.th/th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท โคแอกซ์ กรุป คอร์ปอเรชั่น จำกัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://k2graphene.com/" target="_blank">
+                <img src="/spc2024/img/sponsors/43.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://k2graphene.com/" target="_blank">
+                <h6 class="abw resfont2">บริษัท เคทู กราฟีน จำกัด (สำนักงานใหญ่)</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://lmsinstruments.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/44.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://lmsinstruments.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท แอลเอ็มเอส อินสทรูเม้นท์ จำกัด</h6>
+              </a>
+            </div>
             <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.npru.ac.th/index.php" target="_blank">
+                <img src="/spc2024/img/sponsors/45.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.npru.ac.th/index.php" target="_blank">
+                <h6 class="abw resfont2">มหาวิทยาลัยราชภัฏนครปฐม</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.sci.nu.ac.th/science/" target="_blank">
+                <img src="/spc2024/img/sponsors/46.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.sci.nu.ac.th/science/" target="_blank">
+                <h6 class="abw resfont2">สถานวิจัยเพื่อความเป็นเลิศทางวิชาการด้านฟิสิกส์ประยุกต์ คณะวิทยาศาสตร์
+                  มหาวิทยาลัยนเรศวร</h6>
+              </a>
+            </div>
+
             <div class="col-lg-2 col-md-3 col-3 center2"></div>
           </div>
 
@@ -273,7 +379,7 @@
           <!-- Copper -->
           <h2 style="text-align: center;">Copper</h2>
           <div class="row">
-          <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3"></div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.asgexperience.com/" target="_blank">
                 <img src="/spc2024/img/sponsors/29.png" class="img-fluid w-75">
