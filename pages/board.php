@@ -156,7 +156,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Head of Physics Department</td>
+              <td style="width: 75%;">Head of Physics Department</td>
               <td>KMITL</td>
             </tr>
             <tr>
@@ -238,7 +238,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Prof.Dr.Pichet Limsuwan</td>
+              <td style="width: 75%;">Prof.Dr.Pichet Limsuwan</td>
               <td>KMITL</td>
             </tr>
             <tr>
@@ -511,7 +511,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Assoc.Prof.Dr.Kitsakorn Locharoenrat</td>
+              <td style="width: 75%;">Assoc.Prof.Dr.Kitsakorn Locharoenrat</td>
               <td>KMITL</td>
             </tr>
             <tr>
@@ -601,8 +601,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Dr.Suparerk Aukkaravittayapun</td>
-              <td>Thai Physics SocietyL</td>
+              <td style="width: 75%;">Dr.Suparerk Aukkaravittayapun</td>
+              <td>Thai Physics Society</td>
             </tr>
             <tr>
               <td>Asst.Prof.Dr.Karn Wongsariya</td>
@@ -659,7 +659,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Assoc.Prof.Dr.Pattareeya Damrongsak</td>
+              <td style="width: 75%;">Assoc.Prof.Dr.Pattareeya Damrongsak</td>
               <td>KMITL</td>
             </tr>
             <tr>
@@ -753,7 +753,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Asst.Prof.Dr.Thutiyaporn Thiwawong </td>
+              <td style="width: 75%;">Asst.Prof.Dr.Thutiyaporn Thiwawong </td>
               <td>KMITL</td>
             </tr>
             <tr>
@@ -827,7 +827,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Asst.Prof.Dr.Pisan Sukwisute</td>
+              <td style="width: 75%;">Asst.Prof.Dr.Pisan Sukwisute</td>
               <td>KMITL</td>
             </tr>
             <tr>
@@ -945,7 +945,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Assoc.Prof.Dr.Aparporn Sakulkalavek</td>
+              <td style="width: 75%;">Assoc.Prof.Dr.Aparporn Sakulkalavek</td>
               <td>KMITL</td>
             </tr>
             <tr>
@@ -1015,7 +1015,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>Surachart Kamoldilok </td>
+              <td style="width: 75%;">Surachart Kamoldilok </td>
               <td>KMITL</td>
             </tr>
             <tr>
@@ -1101,7 +1101,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </thead>
           <tbody>
             <tr>
-              <td>• Asst.Prof.Dr.Sittichai Charoensettasilp</td>
+              <td style="width: 75%;">• Asst.Prof.Dr.Sittichai Charoensettasilp</td>
               <td>KMITL</td>
             </tr>
             <tr>
