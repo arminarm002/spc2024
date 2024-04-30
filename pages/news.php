@@ -55,6 +55,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </thead>
       <tbody>
       <tr>
+          <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 30 April 2024</td>
+          <td>
+            <a class="anews" href="/spc2024/file/download/registration_payment.pdf" target="_blank">ประกาศผลโครงงานอิสระที่ผ่านรอบคัดเลือก รอบแรก
+            </a>
+          </td>
+        </tr>
+        <tr>
           <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 April 2024</td>
           <td>
             <a class="anews" href="/spc2024/file/download/registration_payment.pdf" target="_blank">Registration and Payment Guide for Participating in SPC2024 and Using the Website System
@@ -69,7 +76,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 1 April 2024</td>
+          <td>1 April 2024</td>
           <td>
             <a class="anews" href="/spc2024/img/news/posterspc.jpg" target="_blank">We are pleased to announce that the topic of "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024 Symposium. Abstract submissions are open until April 20, 2024.
             </a>
