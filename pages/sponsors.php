@@ -206,8 +206,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท เอเอ็มแอล เทคโนโลยี จำกัด (สำนักงานใหญ่)</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3"></div>
-            <div class="col-lg-2 col-md-3 col-3"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <!-- <a href="http://www.aml-tech.com/index.php" target="_blank"> -->
+                <img src="/spc2024/img/sponsors/47.png" class="img-fluid w-75">
+              <!-- </a> -->
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <!-- <a href="http://www.aml-tech.com/index.php" target="_blank"> -->
+                <h6 class="abw resfont2">ศูนย์กลางความรู้ด้านการให้ความร้อนด้วยคลื่นไมโครเวฟ การพัฒนาที่ยั่งยืนเพื่อลดการปล่อยคาร์บอนไดออกไซด์ของมนุษยชาติ</h6>
+              <!-- </a> -->
+            </div>
           </div>
 
           <hr>
@@ -352,8 +360,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                   มหาวิทยาลัยนเรศวร</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3"></div>
-            <div class="col-lg-2 col-md-3 col-3"></div>            
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.facebook.com/smchem/" target="_blank">
+                <img src="/spc2024/img/sponsors/48.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.facebook.com/smchem/" target="_blank">
+                <h6 class="abw resfont2">บริษัท เอส.เอ็ม.เคมีคอล ซัพพลาย จำกัด</h6>
+              </a>
+            </div>          
           </div>
 
           <hr>
