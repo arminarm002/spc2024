@@ -31,7 +31,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </tr>
         <tr>
           <td>Notification of abstract acceptance</td>
-          <td>30 April 2024</td>
+          <td><span class="redmidline"> 30 April 2024</span><span class="red"> 10 May 2024</span></td>
         </tr>
         <tr>
           <td>Deadline of payment acceptance</td>
