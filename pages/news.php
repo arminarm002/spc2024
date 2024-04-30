@@ -55,6 +55,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </thead>
       <tbody>
       <tr>
+          <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 April 2024</td>
+          <td>
+            <a class="anews" href="/spc2024/file/download/registration_payment.pdf" target="_blank">Registration and Payment Guide for Participating in SPC2024 and Using the Website System
+            </a>
+          </td>
+        </tr>
+        <tr>
           <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 17 April 2024</td>
           <td>
             <a class="anews" href="/spc2024/pages/project.php" target="_blank">The notice for qualified applicants of the 16th project contest has been postponed to 30 April 2024. We are sorry for any inconvenience it may cause <u>Please stay tuned.</u>
@@ -69,7 +76,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 31 March 2024</td>
+          <td>31 March 2024</td>
           <td>
             <a class="anews" href="/spc2024/img/news/posterspc.jpg" target="_blank">Abstract submission deadline
               extended to 20 April 2024
