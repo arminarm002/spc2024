@@ -88,10 +88,10 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <h5>รอบแรก</h5>
           <ul class="unlist">
             <li>Abstract Template for Physics Project 2024
-              <a class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/file/download/spc2024-abstract-template_physics project.docx">Download File</a>
+              <button class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">Download File</button>
             </li>
             <li>แบบยินยอมให้ส่งผลงานเข้าประกวดจากอาจารย์ที่ปรึกษาโครง งานค้นคว้าอิสระ
-              <a class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/file/download/spc2024.docx">Download File</a>
+              <button class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">Download File</button>
             </li>
           </ul>
           <h5>รอบสอง </h5>
