@@ -252,6 +252,7 @@ if (isset($_SESSION['role'])) {
 
                 <p class="bg-info" style="padding: 25px">
                   Payment
+                  <br>
                   <br>Bank's full name : Krungthai Bank
                   <br>Bank's Swift Code : KRTHTHBK
                   <br>Bank account no : 549-0-25626-5
