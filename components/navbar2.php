@@ -12,8 +12,7 @@
   <?php } ?>
   <br>
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/registration.php">Registration & Payment</a> |
-  <a class="nav-menu" aria-current="page" href="/spc2024/file/download/manual book.pdf" target="_blank">Registration
-    Guide</a> | 
+  <a class="nav-menu" aria-current="page" href="/spc2024/file/download/manual book.pdf" target="_blank">Presentation Submission Guide</a> | 
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/guildline.php">Presentation Guidelines</a> |
   <a class="nav-menu" aria-current="page" href="/spc2024/pages/topic.php">Topic & Symposium</a>
   <br>

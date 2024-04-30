@@ -17,10 +17,10 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <?php
   include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
   ?>
-  <div class="container mt-3">
+  <!-- <div class="container mt-3">
     <div class="row" style="margin: 10% 0%;">
       <div class="col-6 centerer">
-        <div class="card border rounded"><!-- 18rem -->
+        <div class="card border rounded">
           <img class="" src="/spc2024/img/participant.png" style="width:100%;box-shadow: rgba(0, 0, 0, 0.35) 0px -5px 15px;">
           <a href="register.php" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
             <button type="button" class="btn btn-outline-primary" style="width: 100%;">
@@ -30,7 +30,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </div>
       </div>
       <div class="col-6 centerer">
-        <div class="card border rounded"><!-- 18rem -->
+        <div class="card border rounded">
           <img class="" src="/spc2024/img/presenter.png" style="width:100%;box-shadow: rgba(0, 0, 0, 0.35) 0px -5px 15px;">
           <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
             <button type="button" class="btn btn-outline-info" style="width: 100%;">
@@ -40,7 +40,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <?php
   include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
   include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');

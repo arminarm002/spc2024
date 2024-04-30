@@ -70,13 +70,13 @@ if (isset($_SESSION['role'])) {
 
               <!-- Firstname input -->
               <div class="form-outline mb-2">
-                <label class="form-label" for="name">Firstname :</label>
+                <label class="form-label" for="name">First name :</label>
                 <input type="text" id="name" name="name" class="form-control" required />
               </div>
 
               <!-- Lastname input -->
               <div class="form-outline mb-2">
-                <label class="form-label" for="lastname">Lastname :</label>
+                <label class="form-label" for="lastname">Last name :</label>
                 <input type="text" id="lastname" name="lastname" class="form-control" required />
               </div>
 
@@ -275,12 +275,7 @@ if (isset($_SESSION['role'])) {
               </div>
 
               <!-- Submit button -->
-              <button type="submit" class="btn btn-l btn-block text-white mb-2" name="add">สมัครสมาชิก</button>
-
-              <!-- Register buttons -->
-              <div class="text-center">
-                <p>Already member? <a href="login.php">Log in</a></p>
-              </div>
+              <button type="submit" class="btn btn-l btn-block text-white mb-2" name="add">Submit</button>
             </form>
           </div>
         </div>

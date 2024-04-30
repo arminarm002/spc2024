@@ -67,13 +67,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Syposium : Physics Innovation & Education</h4>
+        <h5 style="color:#df6a00">Symposium : Physics Innovation & Education</h4>
           <img src="/spc2024/img/speaker/someone.png" class="w-25">
           <h6>Prof. Dr.Dheerawan Boonyawan</h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Syposium : Condensed Matters & Material Physics</h5>
+        <h5 style="color:#df6a00">Symposium : Condensed Matters & Material Physics</h5>
         <img src="/spc2024/img/speaker/kl02.png" class="w-25">
         <h6>Assoc.Prof.Dr.Jakrapong Kaewkhao<br>
           <span style="font-size: 0.8rem;">Faculty of Science and Technology,Nakhon Pathom Rajabhat University</span>
@@ -82,32 +82,32 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Syposium : Astronomy, Astrophysics & Cosmology</h5>
+        <h5 style="color:#df6a00">Symposium : Astronomy, Astrophysics & Cosmology</h5>
         <img src="/spc2024/img/speaker/someone.png" class="w-25">
         <h6>Prof. Dr. David Ruffolo</h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Syposium : Mathematics, Computational & Numerical Physics</h5>
+        <h5 style="color:#df6a00">Symposium : Mathematics, Computational & Numerical Physics</h5>
         <img src="/spc2024/img/speaker/kl01.png" class="w-25">
         <h6>Assoc. Prof. Jatuporn Thongsri</h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Syposium : Quantum Physics & Technology</h5>
+        <h5 style="color:#df6a00">Symposium : Quantum Physics & Technology</h5>
         <img src="/spc2024/img/speaker/someone.png" class="w-25">
         <h6>Prof. Halina Rubinsztein-Dunlop<br><span style="font-size: 0.8rem;">Department of Physics, University of
             Queensland, Australia</span></h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Syposium : Optical Physics & Technology</h5>
+        <h5 style="color:#df6a00">Symposium : Optical Physics & Technology</h5>
         <img src="/spc2024/img/speaker/someone.png" class="w-25">
         <h6>Assoc.Prof. Nattaporn Chattham</h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Syposium : Applied Physics &Technology, Biophysics, Nano-physics and others</h5>
+        <h5 style="color:#df6a00">Symposium : Applied Physics &Technology, Biophysics, Nano-physics and others</h5>
         <img src="/spc2024/img/speaker/someone.png" class="w-25">
         <h6>Assoc. Prof. Jessada Chureemart<br>
           <span style="font-size: 0.8rem;">Department of Physics, Mahasarakham University</span>
@@ -120,7 +120,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <h2 style="text-align: center;">Invited Speakers</h2>
     <div class="row mt-3" style="background-color: #f6dab8;">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : Physics Innovation & Education</h4>
+        <h5 style="color:#df6a00">Symposium : Physics Innovation & Education</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
@@ -137,7 +137,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
     <div class="row mt-3">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : Condensed Matters & Material Physics</h4>
+        <h5 style="color:#df6a00">Symposium : Condensed Matters & Material Physics</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
@@ -154,7 +154,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
     <div class="row mt-3" style="background-color: #f6dab8;">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : Astronomy, Astrophysics & Cosmology</h4>
+        <h5 style="color:#df6a00">Symposium : Astronomy, Astrophysics & Cosmology</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
@@ -171,7 +171,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
     <div class="row mt-3">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : Accelerators & Synchrotron radiations</h4>
+        <h5 style="color:#df6a00">Symposium : Accelerators & Synchrotron radiations</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
@@ -184,7 +184,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
     <div class="row mt-3" style="background-color: #f6dab8;">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : Mathematics, Computational & Numerical Physics</h4>
+        <h5 style="color:#df6a00">Symposium : Mathematics, Computational & Numerical Physics</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
@@ -201,7 +201,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
     <div class="row mt-3">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : Quantum Physics & Technology</h4>
+        <h5 style="color:#df6a00">Symposium : Quantum Physics & Technology</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
@@ -219,7 +219,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
     <div class="row mt-3" style="background-color: #f6dab8;">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : Optical Physics & Technology</h4>
+        <h5 style="color:#df6a00">Symposium : Optical Physics & Technology</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
@@ -236,7 +236,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
     <div class="row mt-3">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : Applied Physics &Technology, Biophysics, Nano-physics and others</h4>
+        <h5 style="color:#df6a00">Symposium : Applied Physics &Technology, Biophysics, Nano-physics and others</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
@@ -254,7 +254,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
     <div class="row mt-3" style="background-color: #f6dab8;">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
-        <h5 style="color:#df6a00">Syposium : High Energy & Particle Physics</h4>
+        <h5 style="color:#df6a00">Symposium : High Energy & Particle Physics</h4>
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
