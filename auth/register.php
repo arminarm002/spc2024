@@ -14,7 +14,6 @@ if (isset($_SESSION['role'])) {
     <title>Registration</title>
     <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
     <link rel="stylesheet" href="/spc2024/theme/css/self.css">
-
   </head>
 
   <body class="font-mitr">
