@@ -34,11 +34,11 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <td><span class="redmidline"> 30 April 2024</span><span class="red"> 10 May 2024</span></td>
         </tr>
         <tr>
-          <td>Deadline of payment acceptance</td>
+          <td>Deadline of payment (for all presenters)</td>
           <td>15 May 2024</td>
         </tr>
         <tr>
-          <td>Full paper submission<br>
+          <td>Full paper submission : <br>
             <span style="font-size:1vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - E-proceedings<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - JCPS, CAST, TJNN</span>
           </td>
           <td><br>
