@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 if (isset($_SESSION['role'])) {
   header("refresh: 1; url= /spc2024/auth/profile.php");
 } else {
@@ -19,7 +19,7 @@ if (isset($_SESSION['role'])) {
 
   <body class="font-mitr">
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
     ?>
     <div class="container mt-5">
       <div class="card" style="background-color: rgb(255 122 1 / 20%);box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
@@ -281,15 +281,50 @@ if (isset($_SESSION['role'])) {
           </div>
         </div>
       </div>
+      <div class="card mt-3" style="background-color: rgb(255 122 1 / 20%);box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+        <div class="card-header bg-l text-white text-center">
+          <h5>
+          Special Trips
+          </h5>
+        </div>
+        <div class="card-body" style="margin: 0px 10%;">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The SPC2024 Organizing Committee has arranged sightseeing tours for the
+            conference delegates offering an
+            opportunity to experience the central part of Ayutthaya.
+            <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two special trips have been arranged for Wednesday, 5th June from 2.30-4.00 pm. Detailed itineraries for each
+            excursion are available below. Note that the spaces are limited and therefore, seats are allocated on a first
+            come, first served basis.</p>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 centerer">
+              
+                <a href="/spc2024/img/news/tour1.jpg" target="_blank">
+                  <img src="/spc2024/img/news/tour1.jpg"
+                    style="display:block; margin:auto; width:70%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 centerer">
+              
+                <a href="/spc2024/img/news/tour2.jpg" target="_blank">
+                  <img src="/spc2024/img/news/tour2.jpg"
+                    style="display:block; margin:auto; width:70%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                </a>
+            </div>
+          </div>
+          <p class="mt-3">Secure your seat for the program of your choosing >>> <a href="https://shorturl.at/jCFWX"
+              class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" target="_blank">Click </a>
+          </p>
+        </div>
+      </div>
     </div>
     <script>
 
     </script>
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/calculate.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+    include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/calculate.php');
     ?>
   </body>
 

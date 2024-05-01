@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 //Register
 if (isset($_POST['add'])) {
@@ -41,34 +41,86 @@ if (isset($_POST['add'])) {
   //คัดลอกไฟล์ไปเก็บที่เว็บเซริ์ฟเวอร์
   move_uploaded_file($_FILES['fileupload']['tmp_name'], $path . $newname);
 
-  if ($fee == "1") {
-    $amount = 1;
-  } else if ($fee == "5") {
-    $amount = 1;
+  $date_end = $conn->query("SELECT * FROM tb_setdate");
+  foreach ($date_end as $rowdate) {
+    $datepro = $rowdate['date_end'];
   }
-  if ($fee == "1") {
-    $total = $amount * 5000;
+  $datenows = date("Y-m-d");
+  if ($datenows < $datepro) {
 
-  } else if ($fee == "2") {
-    $total = $amount * 4000;
 
-  } else if ($fee == "3") {
-    $total = $amount * 4000;
+    if ($fee == "1") {
+      $amount = 1;
+    } else if ($fee == "2") {
+      $amount = 1;
+    } else if ($fee == "5") {
+      $amount = 1;
+    }
+    if ($fee == "1") {
+      $total = $amount * 4000;
 
-  } else if ($fee == "4") {
-    $fileupload2 = (isset($_POST['studencard']) ? $_POST['studencard'] : '');
-    $total = $amount * 3000;
-    $numrand2 = (mt_rand());
-    $upload2 = $_FILES['studencard'];
-    $path2 = "../file/upload/studentcard/";
-    $type2 = strrchr($_FILES['studencard']['name'], ".");
-    $newname2 = $date . $numrand2 . $type2;
-    $student = $conn->query("INSERT INTO tb_student (student_name, email) VALUES ('$newname2', '$email')");
-    move_uploaded_file($_FILES['studencard']['tmp_name'], $path2 . $newname2);
+    } else if ($fee == "2") {
+      $total = $amount * 5000;
 
-  } else if ($fee == "5") {
-    $total = $amount * 3000;
+    } else if ($fee == "3") {
+      $total = $amount * 4000;
+
+    } else if ($fee == "4") {
+      $fileupload2 = (isset($_POST['studencard']) ? $_POST['studencard'] : '');
+      $total = $amount * 3000;
+      $numrand2 = (mt_rand());
+      $upload2 = $_FILES['studencard'];
+      $path2 = "../file/upload/studentcard/";
+      $type2 = strrchr($_FILES['studencard']['name'], ".");
+      $newname2 = $date . $numrand2 . $type2;
+      $student = $conn->query("INSERT INTO tb_student (student_name, email) VALUES ('$newname2', '$email')");
+      move_uploaded_file($_FILES['studencard']['tmp_name'], $path2 . $newname2);
+
+    } else if ($fee == "5") {
+      $total = $amount * 3000;
+    }
+
+
+
+
+  } else {
+    
+    
+    if ($fee == "1") {
+      $amount = 1;
+    } else if ($fee == "2") {
+      $amount = 1;
+    } else if ($fee == "5") {
+      $amount = 1;
+    }
+    if ($fee == "1") {
+      $total = $amount * 5000;
+
+    } else if ($fee == "2") {
+      $total = $amount * 6000;
+
+    } else if ($fee == "3") {
+      $total = $amount * 5000;
+
+    } else if ($fee == "4") {
+      $fileupload2 = (isset($_POST['studencard']) ? $_POST['studencard'] : '');
+      $total = $amount * 4000;
+      $numrand2 = (mt_rand());
+      $upload2 = $_FILES['studencard'];
+      $path2 = "../file/upload/studentcard/";
+      $type2 = strrchr($_FILES['studencard']['name'], ".");
+      $newname2 = $date . $numrand2 . $type2;
+      $student = $conn->query("INSERT INTO tb_student (student_name, email) VALUES ('$newname2', '$email')");
+      move_uploaded_file($_FILES['studencard']['tmp_name'], $path2 . $newname2);
+
+    } else if ($fee == "5") {
+      $total = $amount * 4000;
+    }
+
+
   }
+
+
   $sql = $conn->query("SELECT * FROM tb_user WHERE email='" . $email . "' ");
 
   if ($sql->num_rows > 0) {

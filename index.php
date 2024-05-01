@@ -120,10 +120,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The SPC2024 Organizing
                     Committee has arranged sightseeing tours for the conference delegates offering an opportunity to
-                    experience the central part of Ayuthaya.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A special two groups of
-                    tours have been arranged for Wednesday, 5th June from 2.30-4.00 pm. Detailed itineraries for each
-                    excursion are available below. Note that the spaces are limited and therefore, seats are allocated
-                    on a first come, first served basis.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register >>> <a
+                    experience the central part of Ayuthaya.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two special trips have been arranged for Wednesday, 5th June from 2.30-4.00 pm. Detailed itineraries for each excursion are available below. Note that the spaces are limited and therefore, seats are allocated on a first come, first served basis.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register >>> <a
                       href="https://shorturl.at/jCFWX" class="btn btn-warning"
                       style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" target="_blank">Click </a>
                   </p>

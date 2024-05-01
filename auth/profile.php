@@ -72,7 +72,7 @@ if ($_SESSION['role']) {
                             <?php
                             echo "(" . $row['type'] . ")" . " " . "<br>"
                               . $row['pay_name'] . " ";
-                            if ($row['pay_id'] == 2 || $row['pay_id'] == 3 || $row['pay_id'] == 4) {
+                            if ($row['pay_id'] == 3 || $row['pay_id'] == 4) {
                               echo "ส่ง Abstract จำนวน " . $row['amount'] . " เรื่อง<br>รวมเป็นเงิน " . $row['total_price'] . " บาท<br>";
                             } else {
                               echo "<br>ราคา " . $row['total_price'] . " บาท<br>";
