@@ -54,31 +54,48 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </tr>
       </thead>
       <tbody>
-      <tr>
+        <tr>
+          <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 1 May 2024</td>
+          <td>
+            <a class="anews" href="/spc2024/pages/tour.php" target="_blank">The SPC2024
+              Organizing Committee has arranged sightseeing tours for the conference delegates offering an opportunity
+              to experience the central part of Ayuthaya.<br>A special two groups of tours have been arranged for
+              Wednesday, 5th June from 2.30-4.00 pm. Detailed itineraries for each excursion are available below. Note
+              that the spaces are limited and therefore, seats are allocated on a first come, first served basis.
+            </a>
+          </td>
+        </tr>
+        <tr>
           <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 30 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/file/download/registration_payment.pdf" target="_blank">ประกาศผลโครงงานอิสระที่ผ่านรอบคัดเลือก รอบแรก
+            <a class="anews" href="/spc2024/file/download/registration_payment.pdf"
+              target="_blank">ประกาศผลโครงงานอิสระที่ผ่านรอบคัดเลือก รอบแรก
             </a>
           </td>
         </tr>
         <tr>
           <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/file/download/registration_payment.pdf" target="_blank">Registration and Payment Guide for Participating in SPC2024 and Using the Website System
+            <a class="anews" href="/spc2024/file/download/registration_payment.pdf" target="_blank">Registration and
+              Payment Guide for Participating in SPC2024 and Using the Website System
             </a>
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 17 April 2024</td>
+          <td>17 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/pages/project.php" target="_blank">The notice for qualified applicants of the 16th project contest has been postponed to 30 April 2024. We are sorry for any inconvenience it may cause <u>Please stay tuned.</u>
+            <a class="anews" href="/spc2024/pages/project.php" target="_blank">The notice for qualified applicants of
+              the 16th project contest has been postponed to 30 April 2024. We are sorry for any inconvenience it may
+              cause <u>Please stay tuned.</u>
             </a>
           </td>
         </tr>
         <tr>
           <td>1 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/img/news/posterspc.jpg" target="_blank">We are pleased to announce that the topic of "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024 Symposium. Abstract submissions are open until April 20, 2024.
+            <a class="anews" href="/spc2024/img/news/posterspc.jpg" target="_blank">We are pleased to announce that the
+              topic of "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024
+              Symposium. Abstract submissions are open until April 20, 2024.
             </a>
           </td>
         </tr>
@@ -137,7 +154,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </tbody>
     </table>
   </div>
-  
+
   <?php
   include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
   include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/blink.php');

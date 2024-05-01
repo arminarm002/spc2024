@@ -21,7 +21,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <h1 class="card-title centerer mt-3">Topic & Symposium</h1>
     <div class="card border-0 mt-3" style="color: #494949;">
       <a href="/spc2024/img/news/topic.jpg" target="_blank">
-        <img src="/spc2024/img/news/topic.jpg" style="display:block; margin:auto; width:70%;">
+        <img src="/spc2024/img/news/topic.jpg" style="display:block; margin:auto; width:70%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
       </a>
     </div>
   </div>

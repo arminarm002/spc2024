@@ -98,11 +98,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <h6>โครงงานที่ผ่านเข้ารอบ กรุณาอ่านประกาศหลักเกณฑ์การสนับสนุนค่าใช้จ่าย และ แนวปฏิบัติสำหรับการเข้าประกวด</h6>
           <ul class="unlist">
             <li>ประกาศหลักเกณฑ์การสนับสนุนค่าใช้จ่าย >>
-              <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/file/download/ประกาศหลักเกณฑ์การสนับสนุนค่าใช้จ่าย.pdf"
+              <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+              href="/spc2024/file/download/project-announce.pdf"
                 class="btn btn-warning" target="_blank">Download File</a>
             </li>
             <li>แนวปฏิบัติสำหรับการเข้าประกวด >>
-              <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/file/download/แนวปฏิบัติสำหรับการเข้าประกวด.pdf"
+              <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" 
+              href="/spc2024/file/download/project-guild.pdf"
                 class="btn btn-warning" target="_blank">Download File</a>
             </li>
           </ul>

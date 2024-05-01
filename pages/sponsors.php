@@ -147,8 +147,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">สถาบันวิจัยดาราศาสตร์แห่งชาติ (องค์การมหาชน)</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3"></div>
-            <div class="col-lg-2 col-md-3 col-3"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.thep-center.org/" target="_blank">
+                <img src="/spc2024/img/sponsors/02.png" class="img-fluid w-75 resw-100">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.thep-center.org/" target="_blank">
+                <h6 class="abw resfont2">ศูนย์ความเป็นเลิศด้านฟิสิกส์</h6>
+              </a>
+            </div>
           </div>
 
           <hr>
@@ -185,7 +193,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">Nuclear Society of Thailand</h6>
               </a>
             </div>
-            
+
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.designalternative.co.th/" target="_blank">
                 <img src="/spc2024/img/sponsors/37.png" class="img-fluid w-75">
@@ -207,15 +215,26 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
-              <!-- <a href="http://www.aml-tech.com/index.php" target="_blank"> -->
-                <img src="/spc2024/img/sponsors/47.png" class="img-fluid w-75">
-              <!-- </a> -->
+              <img src="/spc2024/img/sponsors/47.png" class="img-fluid w-75">
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
-              <!-- <a href="http://www.aml-tech.com/index.php" target="_blank"> -->
-                <h6 class="abw resfont2">ศูนย์กลางความรู้ด้านการให้ความร้อนด้วยคลื่นไมโครเวฟ การพัฒนาที่ยั่งยืนเพื่อลดการปล่อยคาร์บอนไดออกไซด์ของมนุษยชาติ</h6>
-              <!-- </a> -->
+              <h6 class="abw resfont2">ศูนย์กลางความรู้ด้านการให้ความร้อนด้วยคลื่นไมโครเวฟ
+                การพัฒนาที่ยั่งยืนเพื่อลดการปล่อยคาร์บอนไดออกไซด์ของมนุษยชาติ</h6>
             </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.nrct.go.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/10.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.nrct.go.th/" target="_blank">
+                <h6 class="abw resfont2">สำนักงานการวิจัยแห่งชาติ (วช.)</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
           </div>
 
           <hr>
@@ -338,7 +357,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท แอลเอ็มเอส อินสทรูเม้นท์ จำกัด</h6>
               </a>
             </div>
-            
+
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.npru.ac.th/index.php" target="_blank">
                 <img src="/spc2024/img/sponsors/45.png" class="img-fluid w-75">
@@ -369,7 +388,21 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <a href="https://www.facebook.com/smchem/" target="_blank">
                 <h6 class="abw resfont2">บริษัท เอส.เอ็ม.เคมีคอล ซัพพลาย จำกัด</h6>
               </a>
-            </div>          
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.tint.or.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/06.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.tint.or.th/" target="_blank">
+                <h6 class="abw resfont2">สถาบันเทคโนโลยีนิวเคลียร์แห่งชาติ (องค์การมหาชน)</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2"></div>
           </div>
 
           <hr>
