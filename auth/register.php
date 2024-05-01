@@ -284,7 +284,7 @@ if (isset($_SESSION['role'])) {
       <div class="card mt-3" style="background-color: rgb(255 122 1 / 20%);box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
         <div class="card-header bg-l text-white text-center">
           <h5>
-          Special Trips
+          Book Ayutthaya Tours
           </h5>
         </div>
         <div class="card-body" style="margin: 0px 10%;">
