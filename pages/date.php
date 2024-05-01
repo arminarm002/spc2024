@@ -26,7 +26,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td>Abstract submission</td>
           <td>1 February - <span class="redmidline">31 March 2024</span>
-            <span class="redmidline red"> 20 April 2024</span><span class="red"> 30 April 2024</span>
+            <span class="redmidline" style="color:#f78787"> 20 April 2024</span><span class="red"> 30 April 2024</span>
           </td>
         </tr>
         <tr>
