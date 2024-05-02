@@ -24,7 +24,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-12">
         <div class="card border-0" style="color: #494949;">
           <h5>Abstract submission open : 1 February - <span class="redmidline">31 March 2024</span>
-            <span class="red"> 20 April 2024</span><br>Template for SPC 2024 abstract.
+            <span class="redmidline" style="color: #f78787;"> 20 April 2024</span><span class="red"> 30 April 2024</span><br>Template for SPC 2024 abstract.
             <a href="/spc2024/file/download/spc2024-abstract-template.docx">Download File</a><br>Please do not modify
             the format
             and please convert to pdf. for submission.<br><br>Topic :
@@ -103,8 +103,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <p>
             4. Conference E-proceedings<br>
             Download Template : >>>
-            <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" 
-            href="/spc2024/file/download/spc2024-proceedings.docx" class="btn btn-warning" target="_blank"> Click
+            <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/file/download/spc2024-proceedings.docx" class="btn btn-warning" target="_blank"> Click
             </a><br>
             <br>
             <img class="border-bottom border-warning w-25" src="/spc2024/img/journals4.jpg" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">

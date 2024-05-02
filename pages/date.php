@@ -42,7 +42,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             <span style="font-size:1vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - E-proceedings<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - JCPS, CAST, TJNN</span>
           </td>
           <td><br>
-            <span style="font-size:1vw;">1 May - 31 May 2024<br>1 May - 10 July 2024</span>
+            <span style="font-size:1vw;">10 May - 31 May 2024<br>10 May - 10 July 2024</span>
           </td>
         </tr>
       </tbody>
