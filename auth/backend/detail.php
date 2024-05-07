@@ -57,8 +57,13 @@ $id = $_GET['userid'];
                 <h5 class="card-title">สำเนาบัตรนักเรียน</h5>
                 <?php $sql2 = $conn->query("SELECT * FROM tb_student WHERE email = '" . $row['email'] . "' ");
                 foreach ($sql2 as $row2) {
+                  $type = strrchr($row2['student_name'], ".");
+                  if($type==".pdf"){
+                    echo "<a href='/spc2024/file/upload/studentcard/{$row2['student_name']}' target='_blank'>Link Student ID Card</a>";
+                  } else {
                   echo "<img src='/spc2024/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
                     style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'>";
+                  }
                 } ?>
               </div>
             </div>
@@ -69,8 +74,13 @@ $id = $_GET['userid'];
               <h5 class="card-title">หลักฐานการโอนเงิน</h5>
               <?php $sql3 = $conn->query("SELECT * FROM tb_slip WHERE email = '" . $row['email'] . "' ");
               foreach ($sql3 as $row3) {
+                $type2 = strrchr($row3['slip_name'], ".");
+                  if($type==".pdf"){
+                    echo "<a href='/spc2024/file/upload/slip/{$row3['slip_name']}' target='_blank'>Link Slip</a>";
+                  } else {
                 echo "<img src='/spc2024/file/upload/slip/" . $row3['slip_name'] . "' class='img-thumbnail'
                     style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 20rem;margin: 2% 5%;'>";
+                  }
               } ?>
             </div>
           </div>
@@ -97,9 +107,9 @@ $id = $_GET['userid'];
                     style="display:none;">Disapprove</button>
                   <button type="submit" class="btn btn-l mt-2 text-white" name="approve" id="ap">Approve</button>
                 <?php } else if ($row['approve'] == "approve") { ?>
-                    <button type="submit" class="btn btn-l mt-2 text-white" name="disapprove">Disapprove</button>
+                    <button type="submit" class="btn btn-l mt-2 text-white" name="disapprove" onclick="addmessage()">Disapprove</button>
                 <?php } else if ($row['approve'] == "disapprove") { ?>
-                      <button type="submit" class="btn btn-l mt-2 text-white" name="disapprove">Approve</button>
+                      <button type="submit" class="btn btn-l mt-2 text-white" name="approve">Approve</button>
                 <?php } ?>
               </div>
             </form>

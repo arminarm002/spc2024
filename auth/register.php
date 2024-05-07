@@ -225,8 +225,8 @@ if (isset($_SESSION['role'])) {
                     <tr id="studencard" style="display:none;">
                       <td colspan="3">
                         <span class="centerer">
-                          กรุณาแนบสำเนาบัตรนักศึกษา (Attach your student ID card.)
-                          <input type="file" name="studencard">
+                          กรุณาแนบสำเนาบัตรนักศึกษาเป็นไฟล์รูปภาพ ไม่ใช่ pdf (Attach your student ID card, Only png ,jpg Not pdf) 
+                          <input type="file" name="studencard" accept="image/png, image/jpeg">
                         </span>
                       </td>
                     </tr>
@@ -246,8 +246,8 @@ if (isset($_SESSION['role'])) {
                     </tr>
                   </tbody>
                 </table>
-                <label class="mb-3">Choose an money transfer slip to upload:</label>
-                <input type="file" name="fileupload" required>
+                <label class="mb-3">Choose an money transfer slip to upload (Only png ,jpg Not pdf)</label>
+                <input type="file" name="fileupload" accept="image/png, image/jpeg" required>
 
                 <p class="bg-info" style="padding: 25px">
                   Payment
