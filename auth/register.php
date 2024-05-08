@@ -149,7 +149,7 @@ if (isset($_SESSION['role'])) {
 
                   <div class="form-check" id="inputabnum" style="margin-left: 30px;display:none;">
                       <label class="form-label red" >Please Fill Your Abstract Number :</label>
-                      <input type="text" id="ab-number" name="ab-number" class="form-control">
+                      <input type="number" id="ab-number" name="ab-number" class="form-control">
                       </div>
                 </div>
                 

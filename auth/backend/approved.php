@@ -47,26 +47,21 @@ if ($_SESSION['role']) {
                   <table class="table table-striped strip">
                     <thead>
                       <tr style="text-align: center;">
-                        <th>No.</th>
                         <th>Name</th>
                         <th>Type</th>
                         <th>E-mail</th>
                         <th>Telephone</th>
-                        <th>extrameal</th>
+                        <th>Abstract Number</th>
                         <th>Evidence</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <?php $no = 0;
+                      <?php 
                       $sql2 = $conn->query("SELECT * FROM tb_user WHERE approve = 'approve'");
                       $all = $sql2->num_rows;
                       foreach ($sql2 as $tr) {
-                        $no++;
                         ?>
                         <tr>
-                          <td>
-                            <?php echo "$no"; ?>
-                          </td>
                           <td>
                             <?php echo $tr['title'] . $tr['firstname'] . " " . $tr['lastname'] ?>
                           </td>
@@ -76,11 +71,11 @@ if ($_SESSION['role']) {
                           <td>
                             <?php echo $tr['email'] ?>
                           </td>
-                          <td>
+                          <td style="text-align: center;">
                             <?php echo $tr['telephone'] ?>
                           </td>
-                          <td>
-                            <?php echo $tr['extrameal'] ?>
+                          <td style="text-align: center;">
+                            <?php echo $tr['abstract_number'] ?>
                           </td>
                           <td>
                             <a class="btn btn-l text-white" href="detail.php?userid=<?php echo $tr['user_id']; ?>">Detail</a>

@@ -81,12 +81,8 @@ if (isset($_POST['add'])) {
       $total = $amount * 3000;
     }
 
-
-
-
   } else {
-    
-    
+
     if ($fee == "1") {
       $amount = 1;
     } else if ($fee == "2") {
@@ -177,9 +173,18 @@ if (isset($_POST['login'])) {
         $_SESSION['type'] = $row['type'];
         $_SESSION['pay_id'] = $row['pay_id'];
         $_SESSION['role'] = $row['role'];
+        $_SESSION['abstract_number'] = $row['abstract_number'];
 
         if ($_SESSION['role'] == "user") {
-          header("refresh: 1; url=/spc2024/auth/profile.php");
+          if ($_SESSION['type'] == "Oral Presenter" || $_SESSION['type'] == "Poster Presenter") {
+            if ($_SESSION['abstract_number'] == 0) {
+              header("refresh: 1; url=/spc2024/auth/fillabnum.php");
+            } else {
+              header("refresh: 1; url=/spc2024/auth/profile.php");
+            }
+          } else {
+            header("refresh: 1; url=/spc2024/auth/profile.php");
+          }
         } else if ($_SESSION['role'] == "admin") {
           header("refresh: 1; url=/spc2024/auth/backend/admin.php");
         } else if ($_SESSION['role'] == "thaiphysic") {
@@ -197,6 +202,38 @@ if (isset($_POST['login'])) {
     echo 'alert("Username Invalid")';
     echo '</script>';
     header("refresh: 1; url=login.php");
+  }
+}
+
+// Add Abstract Number
+if (isset($_POST['abstractnumber'])) {
+  session_start();
+  $abnumber = $_POST['abnumber'];
+  
+  $result = $conn->query("SELECT * FROM tb_user WHERE abstract_number='" . $abnumber . "'");
+
+  if ($result->num_rows > 0) {
+    echo '<script language="javascript">';
+    echo 'alert("This Abstract Number is Already in The System, Please Contact The Staff.")';
+    echo '</script>';
+    header("refresh: 1; url=fillabnum.php");
+  } else {
+
+    $updateabnum = $conn->query("UPDATE tb_user SET abstract_number='$abnumber' WHERE email='" . $_SESSION['email'] . "' ");
+
+    if ($updateabnum) {
+      $_SESSION['abstract_number']=$abnumber;
+      echo '<script language="javascript">';
+      echo 'alert("Successfully")';
+      echo '</script>';
+      header("refresh: 1; url=/spc2024/auth/profile.php");
+
+    } else {
+      echo '<script language="javascript">';
+      echo 'alert("Somthing Wrong!")';
+      echo '</script>';
+      header("refresh: 1; url=/spc2024/auth/fillabnum.php");
+    }
   }
 }
 ?>
