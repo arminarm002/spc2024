@@ -199,7 +199,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://en.cnnc.com.cn/" target="_blank">
-                <img src="/spc2024/img/co-host/51.png" class="img-fluid w-75">
+                <img src="/spc2024/img/sponsors/51.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -443,8 +443,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท ซีแอนด์เอ็นโซลูชั่น จำกัด</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3"></div>
-            <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://abexglobalhc.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/14.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://abexglobalhc.co.th/" target="_blank">
+                <h6 class="abw resfont2">ABEX HYDRAULICS & ENGINEERING CO.,LTD</h6>
+              </a>
+            </div>
             <div class="col-lg-2 col-md-3"></div>
             <div class="col-lg-2 col-md-3"></div>
           </div>

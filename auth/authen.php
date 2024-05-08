@@ -20,6 +20,7 @@ if (isset($_POST['add'])) {
   $receipt = $_POST['receipt'];
   $fee = $_POST['fee'];
   $amount = $_POST['amount'];
+  $abnumber = $_POST['ab-number'];
   $fileupload = (isset($_POST['fileupload']) ? $_POST['fileupload'] : '');
   $role = "user";
   $profile = "user3528.jpg";
@@ -129,7 +130,7 @@ if (isset($_POST['add'])) {
     echo '</script>';
     header("refresh: 1; url=register.php");
   } else {
-    $sql = $conn->query("INSERT INTO tb_user (email, password, title, firstname, lastname, company, career, address, country, telephone, fax, extrameal, food, type, receipt, pay_id, amount, total_price, role, profile, approve) VALUES ('$email', '$password', '$title', '$fname', '$lname', '$company', '$career', '$address', '$country', '$tel', '$fax', '$extrameal', '$food', '$typeu', '$receipt', '$fee', '$amount', '$total', '$role', '$profile', 'wait')");
+    $sql = $conn->query("INSERT INTO tb_user (email, password, title, firstname, lastname, company, career, address, country, telephone, fax, extrameal, food, type, receipt, pay_id, amount, total_price, role, profile, approve, abstract_number) VALUES ('$email', '$password', '$title', '$fname', '$lname', '$company', '$career', '$address', '$country', '$tel', '$fax', '$extrameal', '$food', '$typeu', '$receipt', '$fee', '$amount', '$total', '$role', '$profile', 'wait', '$abnumber')");
 
     if ($sql) {
       $slip = $conn->query("INSERT INTO tb_slip (slip_date, slip_name, email) VALUES ('$date', '$newname', '$email')");

@@ -1,8 +1,9 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 if ($_SESSION['role']) {
   if ($_SESSION['role'] == "thaiphysic") {
+    
     ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -17,7 +18,7 @@ if ($_SESSION['role']) {
 
     <body class="font-mitr">
       <?php
-      include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+      include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
 
       $sql = $conn->query("SELECT * FROM tb_user WHERE approve = 'wait' AND role = 'user' ");
       $i = 0;
@@ -28,9 +29,10 @@ if ($_SESSION['role']) {
       <div class="container-fluid">
         <div class="row mt-3">
           <div class="col-sm-12 col-md-4 col-lg-3">
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/sidebar.php'); ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/sidebar.php'); ?>
           </div>
           <div class="col-sm-12 col-md-8 col-lg-9">
+            
             <?php if ($i != 0) { ?>
               <div class="alert alert-secondary" role="alert">
                 มีข้อมูลที่ยังไม่ได้ตรวจสอบ จำนวน
@@ -48,6 +50,7 @@ if ($_SESSION['role']) {
                   echo $_SESSION['title'] . $_SESSION['firstname'] . " " . $_SESSION['lastname'] . "<br>";
                   ?>
                 </h2>
+                <a href="export.php" class="btn btn-primary"> Export->Excel </a>
                 <h2>รายชื่อผู้สมัคร รอการอนุมัติ</h2>
                 <div class="table-responsive">
                   <table class="table table-striped strip">
@@ -102,9 +105,9 @@ if ($_SESSION['role']) {
       </div><!-- container -->
 
       <?php
-      include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-      include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-      include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+      include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
+      include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+      include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
       ?>
 
     </body>

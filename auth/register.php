@@ -145,10 +145,14 @@ if (isset($_SESSION['role'])) {
                   <?php
                   $sql = $conn->query("SELECT * FROM tb_type");
                   foreach ($sql as $row) {
-                    echo '<input class="form-check-input" type="radio" name="type" value="' . htmlspecialchars($row['type_name']) . '" required> ' . $row['type_name'] . '<br>';
-                    ?>
-                  <?php } ?>
+                    echo '<input class="form-check-input" type="radio" name="type" value="' . htmlspecialchars($row['type_name']) . '" onchange="opennumber(this.value)" required> ' . $row['type_name'] . '<br>'; } ?>
+
+                  <div class="form-check" id="inputabnum" style="margin-left: 30px;display:none;">
+                      <label class="form-label red" >Please Fill Your Abstract Number :</label>
+                      <input type="text" id="ab-number" name="ab-number" class="form-control">
+                      </div>
                 </div>
+                
               </div>
 
               <!-- Address Receipt input -->
@@ -226,7 +230,7 @@ if (isset($_SESSION['role'])) {
                       <td colspan="3">
                         <span class="centerer">
                           กรุณาแนบสำเนาบัตรนักศึกษาเป็นไฟล์รูปภาพ ไม่ใช่ pdf (Attach your student ID card, Only png ,jpg Not pdf) 
-                          <input type="file" name="studencard" accept="image/png, image/jpeg">
+                          <input type="file" name="studencard" accept="image/png, image/jpeg, image/jpg">
                         </span>
                       </td>
                     </tr>
@@ -247,7 +251,7 @@ if (isset($_SESSION['role'])) {
                   </tbody>
                 </table>
                 <label class="mb-3">Choose an money transfer slip to upload (Only png ,jpg Not pdf)</label>
-                <input type="file" name="fileupload" accept="image/png, image/jpeg" required>
+                <input type="file" name="fileupload" accept="image/png, image/jpeg, image/jpg" required>
 
                 <p class="bg-info" style="padding: 25px">
                   Payment

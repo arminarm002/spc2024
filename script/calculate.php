@@ -1,4 +1,14 @@
 <script>
+  function opennumber(val) {
+
+    if (val == 'Oral Presenter' || val == 'Poster Presenter') {
+      document.getElementById('inputabnum').style.display = 'contents';
+    }
+    else {
+      document.getElementById('inputabnum').style.display = 'none';
+      document.getElementById('ab-number').value='';
+    }
+  }
 
   function openamount(val) {
 
@@ -56,5 +66,5 @@
         resultDiv.textContent = ` : ${number * p} `;
       });
     }
-  }
+  } 
 </script>

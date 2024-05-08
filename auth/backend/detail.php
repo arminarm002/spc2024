@@ -75,7 +75,7 @@ $id = $_GET['userid'];
               <?php $sql3 = $conn->query("SELECT * FROM tb_slip WHERE email = '" . $row['email'] . "' ");
               foreach ($sql3 as $row3) {
                 $type2 = strrchr($row3['slip_name'], ".");
-                  if($type==".pdf"){
+                  if($type2==".pdf"){
                     echo "<a href='/spc2024/file/upload/slip/{$row3['slip_name']}' target='_blank'>Link Slip</a>";
                   } else {
                 echo "<img src='/spc2024/file/upload/slip/" . $row3['slip_name'] . "' class='img-thumbnail'
