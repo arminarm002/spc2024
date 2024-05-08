@@ -453,8 +453,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">ABEX HYDRAULICS & ENGINEERING CO.,LTD</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3"></div>
-            <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://histocenter.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/53.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://histocenter.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท ฮีสโตเซ็นเตอร์ (ไทยแลนด์) จำกัด</h6>
+              </a>
+            </div>
           </div>
 
           <hr>
