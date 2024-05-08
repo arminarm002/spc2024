@@ -464,3 +464,7 @@ ul.unlist {
     --bs-btn-active-bg: #141295;
     --bs-btn-active-border-color: #ffffff;
 }
+.submisspagebutton{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 5px 0px;
+}
