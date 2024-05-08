@@ -129,6 +129,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                   May-10 July, 2024.</U></b></li>
             <li>After acceptance, authors will be asked to pay publication fee of 4,000 baht.</li>
           </ul>
+          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/spc2024/img/journals1.jpg"
+            style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           <hr>
           <h5>2. Current Applied Science and Technology Journal: CAST (Scopus & SJR Q4)</h5>
           <ul class="unlist">
@@ -149,7 +151,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             <li>Manuscripts can be submitted during <b><u>10 May- 10 July 2024.</u></b></li>
             <li>There is no publication fee for CAST.</li>
           </ul>
-          <img class="border-bottom border-warning w-25" src="/spc2024/img/journals2.jpg"
+          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/spc2024/img/journals2.jpg"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           <hr>
           <h5>3. Thai Journal of Nanoscience and Nanotechnology (TCI-2)</h5>
@@ -171,25 +173,24 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             <li>Manuscripts can be submitted during <b><u>10 May- 10 July 2024.</u></b></li>
             <li>There is no publication fee for TJNN.</li>
           </ul>
-          <img class="border-bottom border-warning w-25" src="/spc2024/img/journals3.jpg"
+          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/spc2024/img/journals3.jpg"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
           <hr>
-          <p>
-            4. Conference E-proceedings<br>
-            Download Template : >>>
+          <h5>
+            4. Conference E-proceedings</h5><br>
+            <p>Download Template : >>>
             <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
               href="/spc2024/file/download/spc2024-proceedings.docx" class="btn btn-warning" target="_blank"> Click
-            </a><br>
-            E-Proceedings Submission Guide : >>>
+            </a></p>
+            <p>E-Proceedings Submission Guide : >>>
             <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
               href="/spc2024/file/download/E-Proceedings Submission Guide.pdf" class="btn btn-warning" target="_blank">
               Click
-            </a>
-            <br><br>
-            <img class="border-bottom border-warning w-25" src="/spc2024/img/journals4.jpg"
+            </a></p>
+            <img style="margin: auto;" class="border-bottom border-warning w-25" src="/spc2024/img/journals4.jpg"
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-          </p>
+          
         </div>
       </div>
     </div>

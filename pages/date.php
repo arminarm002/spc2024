@@ -47,62 +47,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </tr>
       </tbody>
     </table>
-    <table class="table tb-stip table-striped table-hover mt-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-      <thead style="text-align: center;font-size: 2.5vw;">
-        <tr>
-          <td colspan="2">
-            <p>Overall Program of SPC2024</p>
-          </td>
-        </tr>
-      </thead>
-      <tbody style="font-size: 2vw;">
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <h4 class="fs-35 centerer">Coming soon</h4>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
   </div>
 
   <?php
