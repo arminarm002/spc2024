@@ -2,7 +2,7 @@
 session_start();
 include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 if ($_SESSION['type'] == "Oral Presenter" || $_SESSION['type'] == "Poster Presenter") {
-  if ($_SESSION['abstract_number'] == 0) {
+  if ($_SESSION['abstract_number'] == "0") {
     ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -44,6 +44,7 @@ if ($_SESSION['type'] == "Oral Presenter" || $_SESSION['type'] == "Poster Presen
     </html>
 
     <?php
+
 
   } else {
     header("refresh: 1; url=/spc2024/auth/profile.php");

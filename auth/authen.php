@@ -3,6 +3,11 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 //Register
 if (isset($_POST['add'])) {
+  if (isset($_POST['ab-number'])) {
+    $abnumber = $_POST['ab-number'];
+  } else {
+    $abnumber = "0";
+  }
   $email = $_POST['email'];
   $pass = $_POST['password'];
   $title = $_POST['title'];
@@ -20,7 +25,6 @@ if (isset($_POST['add'])) {
   $receipt = $_POST['receipt'];
   $fee = $_POST['fee'];
   $amount = $_POST['amount'];
-  $abnumber = $_POST['ab-number'];
   $fileupload = (isset($_POST['fileupload']) ? $_POST['fileupload'] : '');
   $role = "user";
   $profile = "user3528.jpg";
@@ -113,11 +117,7 @@ if (isset($_POST['add'])) {
     } else if ($fee == "5") {
       $total = $amount * 4000;
     }
-
-
   }
-
-
   $sql = $conn->query("SELECT * FROM tb_user WHERE email='" . $email . "' ");
 
   if ($sql->num_rows > 0) {
@@ -126,9 +126,9 @@ if (isset($_POST['add'])) {
     echo '</script>';
     header("refresh: 1; url=register.php");
   } else {
-    $sql = $conn->query("INSERT INTO tb_user (email, password, title, firstname, lastname, company, career, address, country, telephone, fax, extrameal, food, type, receipt, pay_id, amount, total_price, role, profile, approve, abstract_number) VALUES ('$email', '$password', '$title', '$fname', '$lname', '$company', '$career', '$address', '$country', '$tel', '$fax', '$extrameal', '$food', '$typeu', '$receipt', '$fee', '$amount', '$total', '$role', '$profile', 'wait', '$abnumber')");
+    $sql2 = $conn->query("INSERT INTO tb_user (email, password, title, firstname, lastname, company, career, address, country, telephone, fax, extrameal, food, type, receipt, pay_id, amount, total_price, role, profile, approve, abstract_number) VALUES ('$email', '$password', '$title', '$fname', '$lname', '$company', '$career', '$address', '$country', '$tel', '$fax', '$extrameal', '$food', '$typeu', '$receipt', '$fee', '$amount', '$total', '$role', '$profile', 'wait', '$abnumber')");
 
-    if ($sql) {
+    if ($sql2) {
       $slip = $conn->query("INSERT INTO tb_slip (slip_date, slip_name, email) VALUES ('$date', '$newname', '$email')");
       echo '<script language="javascript">';
       echo 'alert("Successfully registrater")';
@@ -209,7 +209,7 @@ if (isset($_POST['login'])) {
 if (isset($_POST['abstractnumber'])) {
   session_start();
   $abnumber = $_POST['abnumber'];
-  
+
   $result = $conn->query("SELECT * FROM tb_user WHERE abstract_number='" . $abnumber . "'");
 
   if ($result->num_rows > 0) {
@@ -222,7 +222,7 @@ if (isset($_POST['abstractnumber'])) {
     $updateabnum = $conn->query("UPDATE tb_user SET abstract_number='$abnumber' WHERE email='" . $_SESSION['email'] . "' ");
 
     if ($updateabnum) {
-      $_SESSION['abstract_number']=$abnumber;
+      $_SESSION['abstract_number'] = $abnumber;
       echo '<script language="javascript">';
       echo 'alert("Successfully")';
       echo '</script>';
