@@ -68,49 +68,87 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Physics Innovation & Education</h4>
-          <img src="/spc2024/img/speaker/someone.png" class="w-25">
-          <h6>Prof. Dr.Dheerawan Boonyawan</h6>
+          <img src="/spc2024/img/speaker/kl01.png" class="w-50">
+          <h6>Prof. Dr.Dheerawan Boonyawan<br>
+            <span style="font-size: 0.8rem;">Department of Physics and Materials Science, Faculty of Science
+              Chiang Mai University
+            </span><br>Title : Air Plasma Spray and PlasOne: Top-to-Toe Cold Atmospheric Plasma Innovation
+          </h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Condensed Matters & Material Physics</h5>
-        <img src="/spc2024/img/speaker/kl02.png" class="w-25">
+        <img src="/spc2024/img/speaker/kl02.png" class="w-50">
         <h6>Assoc.Prof.Dr.Jakrapong Kaewkhao<br>
-          <span style="font-size: 0.8rem;">Faculty of Science and Technology,Nakhon Pathom Rajabhat University</span>
+          <span style="font-size: 0.8rem;">Center of Excellence in Glass Technology and Materials Science (CEGM)
+Faculty of Science and Technology, Nakhon Pathom Rajabhat University
+</span>
+          <br>Title : Scintillation Material from Glass: Advantages and Application
         </h6>
-        <h6>Title : Scintillation Material from Glass: Advantages and Application</h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Astronomy, Astrophysics & Cosmology</h5>
-        <img src="/spc2024/img/speaker/someone.png" class="w-25">
-        <h6>Prof. Dr. David Ruffolo</h6>
+        <img src="/spc2024/img/speaker/kl03.png" class="w-50">
+        <h6>Prof. Dr. David Ruffolo<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Mahidol University
+          </span><br>Title : Space Radiation Science and Technology
+        </h6>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
+        <br>
+        <h5 style="color:#df6a00">Symposium : Accelerators & Synchrotron radiations</h5>
+        <img src="/spc2024/img/speaker/someone.png" class="w-50">
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Mathematics, Computational & Numerical Physics</h5>
-        <img src="/spc2024/img/speaker/kl01.png" class="w-25">
-        <h6>Assoc. Prof. Jatuporn Thongsri</h6>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
-        <br>
-        <h5 style="color:#df6a00">Symposium : Quantum Physics & Technology</h5>
-        <img src="/spc2024/img/speaker/someone.png" class="w-25">
-        <h6>Prof. Halina Rubinsztein-Dunlop<br><span style="font-size: 0.8rem;">Department of Physics, University of
-            Queensland, Australia</span></h6>
+        <img src="/spc2024/img/speaker/kl05.png" class="w-50">
+        <h6>Assoc. Prof. Dr. Jatuporn Thongsri<br>
+          <span style="font-size: 0.8rem;">College of Advanced Manufacturing Innovation, King Mongkut’s Institute of
+            Technology Ladkrabang
+          </span><br>Title :
+        </h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Optical Physics & Technology</h5>
-        <img src="/spc2024/img/speaker/someone.png" class="w-25">
-        <h6>Assoc.Prof. Nattaporn Chattham</h6>
+        <img src="/spc2024/img/speaker/someone.png" class="w-50">
+        <h6></h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Symposium : Applied Physics &Technology, Biophysics, Nano-physics and others</h5>
-        <img src="/spc2024/img/speaker/someone.png" class="w-25">
-        <h6>Assoc. Prof. Jessada Chureemart<br>
-          <span style="font-size: 0.8rem;">Department of Physics, Mahasarakham University</span>
+        <h5 style="color:#df6a00">Symposium : Optical Physics & Technology</h5>
+        <img src="/spc2024/img/speaker/kl07.png" class="w-50">
+        <h6>Assoc. Prof. Dr. Nattaporn Chattham<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Kasetsart University
+          </span><br>Title : Exploring Molecular Orientation in Smectic Liquid Crystal Films Induced by Mass Flux:
+          Preparation for the Microgravity Experiment on the International Space Station
+        </h6>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
+        <br>
+        <h5 style="color:#df6a00">Symposium : Applied Physics & Technology</h5>
+        <img src="/spc2024/img/speaker/kl08.png" class="w-50">
+        <h6>Assoc. Prof. Dr. Jessada Chureemart<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Mahasarakham University
+          </span><br>Title : Physics and Engineering in the Application of Magnetic Recording Technology
+        </h6>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
+        <br>
+        <h5 style="color:#df6a00">Symposium : High Energy & Particle Physics</h5>
+        <img src="/spc2024/img/speaker/someone.png" class="w-50">
+        <h6></h6>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
+        <br>
+        <h5 style="color:#df6a00">Symposium : Plasma, Radiation, Nuclear Physics, and Technology</h5>
+        <img src="/spc2024/img/speaker/kl10.png" class="w-50">
+        <h6>Assoc. Prof. Dr. Somsak Dangtip<br>
+          <span style="font-size: 0.8rem;">Thailand Institute of Nuclear Technology
+          </span><br>Title : Capability Building and Networking for Fusion Technology through the First Tokamak of
+          Thailand (TT-1)”
         </h6>
       </div>
     </div>
@@ -125,12 +163,17 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc.Prof.Dr. Mudtorlep Nisoa</h6>
+            <img src="/spc2024/img/speaker/is01-1.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Mudtorlep Nisoa<br>
+          <span style="font-size: 0.8rem;">Division of physics, School of Science, Walailak University
+          </span><br>Title : Engineering physics research to develop microwave heating technology for agricultural and industrial development
+        </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc.Prof.Dr. Suthira Taychakhoonavudh</h6>
+            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Suthira Taychakhoonavudh<br>
+          <span style="font-size: 0.8rem;">Chief Executive Officer and co-founder of Baiya Phytopharm
+          </span><br>Title : </h6>
           </div>
         </div>
       </div>
@@ -142,12 +185,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc.Prof.Dr. Saichon Sriphan</h6>
+            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Saichon Sriphan<br>
+          <span style="font-size: 0.8rem;">King Mongkut's University of Technology North Bangkok
+          </span><br>Title : </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc.Prof. Pongsakorn Kanjanaboos</h6>
+            <img src="/spc2024/img/speaker/is02-2.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Pongsakorn Kanjanaboos<br>
+          <span style="font-size: 0.8rem;">School of Materials Science and Innovation, Faculty of Science, 
+Mahidol University</span><br>Title : Functional Materials and Scalable Processes for Low-Cost Perovskite Solar Cells and Radiative Cooling Films</h6>
           </div>
         </div>
       </div>
@@ -159,12 +206,28 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Prof.Dr. Burin Gumjudpai</h6>
+            <img src="/spc2024/img/speaker/is03-1.png" class="w-50">
+            <h6>Prof. Dr. Burin Gumjudpai<br>
+          <span style="font-size: 0.8rem;">NAS, Centre for Theoretical Physics and Natural Philosophy, Mahidol University, Nakhonsawan Campus Project
+          </span><br>Title : Gravitational UV/IR Mixing with Matter Effects in Cosmology</h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc.Prof.Dr. Piyabut Burikham</h6>
+            <img src="/spc2024/img/speaker/is03-2.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Piyabut Burikham<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
+          </span><br>Title : Thermodynamics of black hole in certain class of Weyl geometric gravity</h6>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="/spc2024/img/speaker/is03-3.png" class="w-50">
+            <h6>Dr. Taweewat Somboonpanyakul<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
+          </span><br>Title : Galaxy Clusters: Exploring Diverse Aspects through Multiwavelength Studies</h6>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="/spc2024/img/speaker/is03-4.png" class="w-50">
+            <h6>Dr. Saran Poshyachinda<br>
+          <span style="font-size: 0.8rem;">National Astronomical Research Institute of Thailand (NARIT)
+          </span><br>Title : </h6>
           </div>
         </div>
       </div>
@@ -176,8 +239,11 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Dr.Thakonwat Chanwattana</h6>
+            <img src="/spc2024/img/speaker/is04.png" class="w-50">
+            <h6>Dr. Thakonwat Chanwattana<br>
+          <span style="font-size: 0.8rem;">Accelerator Research and Instrumentation Section, Accelerator Research and Development Division, Synchrotron Light Research Institute 
+(Public Organization)
+          </span><br>Title : SLRI Ongoing Synchrotron and Accelerator Projects</h6>
           </div>
         </div>
       </div>
@@ -189,12 +255,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc. Prof. Thanayut Kaewmaraya</h6>
+            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Thanayut Kaewmaraya<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Khon Kaen University
+          </span><br>Title : </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc. Prof. Papichaya Chaisakul</h6>
+            <img src="/spc2024/img/speaker/is05-2.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Papichaya Chaisakul<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Kasetsart University
+          </span><br>Title : Finite-Difference Time-Domain method for the investigation of silicon-based photonic integrated circuits</h6>
           </div>
         </div>
       </div>
@@ -206,13 +276,18 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc. Prof. Areeya Chantasri</h6>
+            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Areeya Chantasri<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Mahidol University
+          </span><br>Title : </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Prof. Yoshiaki Yasuno<span style="font-size: 0.8rem;">Institute of Applied Physics, University of
-                Tsukuba, Japan</span></h6>
+            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <h6>Prof. Dr. Yoshiaki Yasuno<span style="font-size: 0.8rem;">Institute of Applied Physics, University of Tsukuba, Japan</span><br>Title : </h6>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="/spc2024/img/speaker/is06-3.png" class="w-50">
+            <h6>Asst. Prof. Dr. Pruet Kalasuwan<span style="font-size: 0.8rem;">Faculty of Science, Prince of Songkla University</span><br>Title : Exploring the realm of quantum communication within the context of Thailand</h6>
           </div>
         </div>
       </div>

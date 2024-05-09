@@ -22,7 +22,7 @@ if (isset($_POST['add'])) {
   $extrameal = $_POST['meal'];
   $food = $_POST['food'];
   $typeu = $_POST['type'];
-  $receipt = $_POST['receipt'];
+  $receipt = htmlspecialchars($_POST['receipt'], ENT_QUOTES);
   $fee = $_POST['fee'];
   $amount = $_POST['amount'];
   $fileupload = (isset($_POST['fileupload']) ? $_POST['fileupload'] : '');
