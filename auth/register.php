@@ -179,10 +179,10 @@ if (isset($_SESSION['role'])) {
                         <h6>Registration types</h6>
                       </td>
                       <td>
-                        <h6>EARLY-BIRD Before 10 May 2024</h6>
+                        <h6>EARLY-BIRD Before 13 May 2024</h6>
                       </td>
                       <td>
-                        <h6>After 10 May 2024</h6>
+                        <h6>After 13 May 2024</h6>
                       </td>
                     </tr>
                     <?php
