@@ -112,6 +112,21 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <div class="cards mb-3 mt-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;padding-bottom: 15px;">
           <h1 class="card-title centerer" style="color: #7b7b7b;padding-top: 15px;">Announcement</h1>
           <div class="row" style="margin: 15px auto;">
+          <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/spc2024/img/news/13may.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 10 May 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attention all prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird registration deadline for the conference has been extended to May 13, 2024. That means you still have time to take advantage of the reduced registration fees.
+                  </p>
+                  <a href="/spc2024/auth/register.php" class="btn btn-warning"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- More --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/spc2024/img/news/tour.jpg" style="width:100%; ">
@@ -150,7 +165,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;">
                 <img class="border-bottom border-warning" src="/spc2024/img/news/rate.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 April 2024
+                  <h5 class="card-title">30 April 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registration and
                     Payment Guide for Participating in SPC2024 and Using the Website System</p>
@@ -199,22 +214,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;">
-                <img class="border-bottom border-warning" src="/spc2024/img/news/exten.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title">31 March 2024 </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abstract submission
-                    deadline extended to 20 April
-                    2024</p>
-                  <a href="/spc2024/img/news/posterspc.jpg" class="btn btn-warning" target="_blank"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+                      </div>
           <a href="/spc2024/pages/news.php" class="btn btn-warning"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;float:right">
             <h4 class="card-title">-- All Announcement --</h4>

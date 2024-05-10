@@ -54,6 +54,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </tr>
       </thead>
       <tbody>
+      <tr>
+          <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 1 May 2024</td>
+          <td>
+            <a class="anews" href="/spc2024/auth/register.php" target="_blank">Attention all prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird registration deadline for the conference has been extended to May 13, 2024. That means you still have time to take advantage of the reduced registration fees.
+            </a>
+          </td>
+        </tr>
         <tr>
           <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 1 May 2024</td>
           <td>
@@ -74,7 +81,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 April 2024</td>
+          <td>30 April 2024</td>
           <td>
             <a class="anews" href="/spc2024/file/download/registration_payment.pdf" target="_blank">Registration and
               Payment Guide for Participating in SPC2024 and Using the Website System
