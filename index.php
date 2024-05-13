@@ -112,13 +112,32 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <div class="cards mb-3 mt-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;padding-bottom: 15px;">
           <h1 class="card-title centerer" style="color: #7b7b7b;padding-top: 15px;">Announcement</h1>
           <div class="row" style="margin: 15px auto;">
-          <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/spc2024/img/news/834019.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 13 May 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
+              ครั้งที่ 19 ประจำปี 2567
+              จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา</p>
+                  <a href="/spc2024/img/news/8340192.jpg" class="btn btn-warning"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- More --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/spc2024/img/news/13may.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 10 May 2024
                   </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attention all prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird registration deadline for the conference has been extended to May 13, 2024. That means you still have time to take advantage of the reduced registration fees.
+                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attention all
+                    prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird
+                    registration deadline for the conference has been extended to May 13, 2024. That means you still
+                    have time to take advantage of the reduced registration fees.
                   </p>
                   <a href="/spc2024/auth/register.php" class="btn btn-warning"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
@@ -135,7 +154,10 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The SPC2024 Organizing
                     Committee has arranged sightseeing tours for the conference delegates offering an opportunity to
-                    experience the central part of Ayuthaya.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two special trips have been arranged for Wednesday, 5th June from 2.30-4.00 pm. Detailed itineraries for each excursion are available below. Note that the spaces are limited and therefore, seats are allocated on a first come, first served basis.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register >>> <a
+                    experience the central part of Ayuthaya.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two special trips have
+                    been arranged for Wednesday, 5th June from 2.30-4.00 pm. Detailed itineraries for each excursion are
+                    available below. Note that the spaces are limited and therefore, seats are allocated on a first
+                    come, first served basis.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register >>> <a
                       href="https://shorturl.at/jCFWX" class="btn btn-warning"
                       style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" target="_blank">Click </a>
                   </p>
@@ -150,7 +172,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/spc2024/img/news/goal.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 30 April 2024
+                  <h5 class="card-title">30 April 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">ประกาศผลโครงงานอิสระที่ผ่านรอบคัดเลือก รอบแรก
                   </p>
@@ -194,27 +216,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/spc2024/img/news/newstopic.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title">1 April 2024
-                  </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are pleased to
-                    announce that the topic of
-                    "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024 Symposium.
-                    Abstract submissions are open until April 20, 2024.<br>Submiss Abstract >>> <a
-                      style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
-                      href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FSPC2024" class="btn btn-warning"
-                      target="_blank">Click</a></p>
-                  <a href="/spc2024/pages/topic.php" class="btn btn-warning"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
-                      </div>
+          </div>
           <a href="/spc2024/pages/news.php" class="btn btn-warning"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;float:right">
             <h4 class="card-title">-- All Announcement --</h4>
