@@ -245,8 +245,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">สำนักงานการวิจัยแห่งชาติ (วช.)</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="http://www.mrsthailand.or.th/annual-meetings.php" target="_blank">
+                <img src="/spc2024/img/sponsors/57.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="http://www.mrsthailand.or.th/annual-meetings.php" target="_blank">
+                <h6 class="abw resfont2">สมาคมวิจัยวัสดุ ประเทศไทย</h6>
+              </a>
+            </div>
             <div class="col-lg-2 col-md-3 col-3 center2"></div>
             <div class="col-lg-2 col-md-3 col-3 center2"></div>
           </div>
@@ -483,8 +491,46 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท โปรเฟสชั่นแนลแวคคัมพาร์ทเนอร์ส จำกัด</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
-            <div class="col-lg-2 col-md-3 col-3 center2"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://cerntek.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/56.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://cerntek.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท เซิร์นเทค จำกัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://kinetics.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/25.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://kinetics.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท ไคเนติคส์ คอร์ปอเรชั่น จำกัด (สำนักงานใหญ่)</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.irct.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/21.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.irct.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท ไออาร์ซี เทคโนโลยีส์ จำกัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.crest-group.net/" target="_blank">
+                <img src="/spc2024/img/sponsors/20.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.crest-group.net/" target="_blank">
+                <h6 class="abw resfont2">บริษัท เครส นาโนโซลูชั่น (ประเทศไทย) จำกัด</h6>
+              </a>
+            </div>
           </div>
 
           <hr>

@@ -19,8 +19,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   ?>
 
   <div class="container">
-    <h1 class="centerer mt-3">Plenary Talks & Speakers</h1><br>
-    <h2 style="text-align: center;">Plenary Talks</h2>
+    <h1 class="centerer mt-3 mb-2">Plenary Talks & Speakers</h1><br>
+    <h1 style="text-align: center;">Plenary Talks</h1>
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12" style="text-align: center;">
         <img src="/spc2024/img/speaker/pss01.png" class="w-25">
@@ -63,7 +63,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </div>
 
     <hr>
-    <h2 style="text-align: center;">Keynote Lectures</h2>
+    <h1 style="text-align: center;">Keynote Lectures</h1>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
@@ -81,8 +81,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <img src="/spc2024/img/speaker/kl02.png" class="w-50">
         <h6>Assoc.Prof.Dr.Jakrapong Kaewkhao<br>
           <span style="font-size: 0.8rem;">Center of Excellence in Glass Technology and Materials Science (CEGM)
-Faculty of Science and Technology, Nakhon Pathom Rajabhat University
-</span>
+            Faculty of Science and Technology, Nakhon Pathom Rajabhat University
+          </span>
           <br>Title : Scintillation Material from Glass: Advantages and Application
         </h6>
       </div>
@@ -155,7 +155,7 @@ Faculty of Science and Technology, Nakhon Pathom Rajabhat University
     <hr>
 
     <!-- *** Invited Speakers *** -->
-    <h2 style="text-align: center;">Invited Speakers</h2>
+    <h1 style="text-align: center;">Invited Speakers</h1>
     <div class="row mt-3" style="background-color: #f6dab8;">
       <div class="col-lg-5 col-md-6 col-sm-6" style="margin: auto;">
         <h5 style="color:#df6a00">Symposium : Physics Innovation & Education</h4>
@@ -165,15 +165,17 @@ Faculty of Science and Technology, Nakhon Pathom Rajabhat University
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is01-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Mudtorlep Nisoa<br>
-          <span style="font-size: 0.8rem;">Division of physics, School of Science, Walailak University
-          </span><br>Title : Engineering physics research to develop microwave heating technology for agricultural and industrial development
-        </h6>
+              <span style="font-size: 0.8rem;">Division of physics, School of Science, Walailak University
+              </span><br>Title : Engineering physics research to develop microwave heating technology for agricultural
+              and industrial development
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/someone.png" class="w-50">
             <h6>Assoc. Prof. Dr. Suthira Taychakhoonavudh<br>
-          <span style="font-size: 0.8rem;">Chief Executive Officer and co-founder of Baiya Phytopharm
-          </span><br>Title : </h6>
+              <span style="font-size: 0.8rem;">Chief Executive Officer and co-founder of Baiya Phytopharm
+              </span><br>Title :
+            </h6>
           </div>
         </div>
       </div>
@@ -187,14 +189,17 @@ Faculty of Science and Technology, Nakhon Pathom Rajabhat University
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/someone.png" class="w-50">
             <h6>Assoc. Prof. Dr. Saichon Sriphan<br>
-          <span style="font-size: 0.8rem;">King Mongkut's University of Technology North Bangkok
-          </span><br>Title : </h6>
+              <span style="font-size: 0.8rem;">King Mongkut's University of Technology North Bangkok
+              </span><br>Title :
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is02-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Pongsakorn Kanjanaboos<br>
-          <span style="font-size: 0.8rem;">School of Materials Science and Innovation, Faculty of Science, 
-Mahidol University</span><br>Title : Functional Materials and Scalable Processes for Low-Cost Perovskite Solar Cells and Radiative Cooling Films</h6>
+              <span style="font-size: 0.8rem;">School of Materials Science and Innovation, Faculty of Science,
+                Mahidol University</span><br>Title : Functional Materials and Scalable Processes for Low-Cost Perovskite
+              Solar Cells and Radiative Cooling Films
+            </h6>
           </div>
         </div>
       </div>
@@ -208,26 +213,31 @@ Mahidol University</span><br>Title : Functional Materials and Scalable Processes
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is03-1.png" class="w-50">
             <h6>Prof. Dr. Burin Gumjudpai<br>
-          <span style="font-size: 0.8rem;">NAS, Centre for Theoretical Physics and Natural Philosophy, Mahidol University, Nakhonsawan Campus Project
-          </span><br>Title : Gravitational UV/IR Mixing with Matter Effects in Cosmology</h6>
+              <span style="font-size: 0.8rem;">NAS, Centre for Theoretical Physics and Natural Philosophy, Mahidol
+                University, Nakhonsawan Campus Project
+              </span><br>Title : Gravitational UV/IR Mixing with Matter Effects in Cosmology
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is03-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Piyabut Burikham<br>
-          <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
-          </span><br>Title : Thermodynamics of black hole in certain class of Weyl geometric gravity</h6>
+              <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
+              </span><br>Title : Thermodynamics of black hole in certain class of Weyl geometric gravity
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is03-3.png" class="w-50">
             <h6>Dr. Taweewat Somboonpanyakul<br>
-          <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
-          </span><br>Title : Galaxy Clusters: Exploring Diverse Aspects through Multiwavelength Studies</h6>
+              <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
+              </span><br>Title : Galaxy Clusters: Exploring Diverse Aspects through Multiwavelength Studies
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is03-4.png" class="w-50">
             <h6>Dr. Saran Poshyachinda<br>
-          <span style="font-size: 0.8rem;">National Astronomical Research Institute of Thailand (NARIT)
-          </span><br>Title : </h6>
+              <span style="font-size: 0.8rem;">National Astronomical Research Institute of Thailand (NARIT)
+              </span><br>Title :
+            </h6>
           </div>
         </div>
       </div>
@@ -241,9 +251,11 @@ Mahidol University</span><br>Title : Functional Materials and Scalable Processes
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is04.png" class="w-50">
             <h6>Dr. Thakonwat Chanwattana<br>
-          <span style="font-size: 0.8rem;">Accelerator Research and Instrumentation Section, Accelerator Research and Development Division, Synchrotron Light Research Institute 
-(Public Organization)
-          </span><br>Title : SLRI Ongoing Synchrotron and Accelerator Projects</h6>
+              <span style="font-size: 0.8rem;">Accelerator Research and Instrumentation Section, Accelerator Research
+                and Development Division, Synchrotron Light Research Institute
+                (Public Organization)
+              </span><br>Title : SLRI Ongoing Synchrotron and Accelerator Projects
+            </h6>
           </div>
         </div>
       </div>
@@ -257,14 +269,17 @@ Mahidol University</span><br>Title : Functional Materials and Scalable Processes
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/someone.png" class="w-50">
             <h6>Assoc. Prof. Dr. Thanayut Kaewmaraya<br>
-          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Khon Kaen University
-          </span><br>Title : </h6>
+              <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Khon Kaen University
+              </span><br>Title :
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is05-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Papichaya Chaisakul<br>
-          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Kasetsart University
-          </span><br>Title : Finite-Difference Time-Domain method for the investigation of silicon-based photonic integrated circuits</h6>
+              <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Kasetsart University
+              </span><br>Title : Finite-Difference Time-Domain method for the investigation of silicon-based photonic
+              integrated circuits
+            </h6>
           </div>
         </div>
       </div>
@@ -278,16 +293,20 @@ Mahidol University</span><br>Title : Functional Materials and Scalable Processes
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/someone.png" class="w-50">
             <h6>Assoc. Prof. Dr. Areeya Chantasri<br>
-          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Mahidol University
-          </span><br>Title : </h6>
+              <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Mahidol University
+              </span><br>Title :
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/someone.png" class="w-50">
-            <h6>Prof. Dr. Yoshiaki Yasuno<span style="font-size: 0.8rem;">Institute of Applied Physics, University of Tsukuba, Japan</span><br>Title : </h6>
+            <h6>Prof. Dr. Yoshiaki Yasuno<span style="font-size: 0.8rem;">Institute of Applied Physics, University of
+                Tsukuba, Japan</span><br>Title : </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is06-3.png" class="w-50">
-            <h6>Asst. Prof. Dr. Pruet Kalasuwan<span style="font-size: 0.8rem;">Faculty of Science, Prince of Songkla University</span><br>Title : Exploring the realm of quantum communication within the context of Thailand</h6>
+            <h6>Asst. Prof. Dr. Pruet Kalasuwan<span style="font-size: 0.8rem;">Faculty of Science, Prince of Songkla
+                University</span><br>Title : Exploring the realm of quantum communication within the context of Thailand
+            </h6>
           </div>
         </div>
       </div>
@@ -299,12 +318,25 @@ Mahidol University</span><br>Title : Functional Materials and Scalable Processes
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc.Prof. Amarin Rattanawit</h6>
+            <img src="/spc2024/img/speaker/is07-1.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Amarin Rattanawit<br>
+              <span style="font-size: 0.8rem;">Department of Industrial Physics and Medical Instrumentation, Faculty of Applied Science, Lasers and Optics Research Center, Science and Technology Research Institute, King Mongkut’s University of Technology North Bangkok
+              </span><br>Title : Development of Laser Systems and Applications
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Asst.Prof. Dr. Chat Teeka</h6>
+            <img src="/spc2024/img/speaker/is07-2.png" class="w-50">
+            <h6>Asst. Prof. Dr. Chat Teeka<br>
+              <span style="font-size: 0.8rem;">Program in General Science, Faculty of Science and Technology, Suan Dusit University, Bangkok, Thailand
+              </span><br>Title : Artificial Intelligence in Meta–Optics
+            </h6>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="/spc2024/img/speaker/is07-3.png" class="w-50">
+            <h6>Prof. Dr. C.K. Jayasankar<br>
+              <span style="font-size: 0.8rem;">Department of Physics, Sri Venkateswara University, Tirupati, India   
+              </span><br>Title : An overview of visible and infrared down- and up-conversion luminescence properties of Er3+-doped glasses for photonic applications
+            </h6>
           </div>
         </div>
       </div>
@@ -316,13 +348,18 @@ Mahidol University</span><br>Title : Functional Materials and Scalable Processes
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc. Prof. Soodkhet Projprapai<span style="font-size: 0.8rem;">School of Ceramic Engineering,
-                Institute of Engineering, Suranaree University of Technology</span></h6>
+            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Soodkhet Projprapai<br>
+              <span style="font-size: 0.8rem;">School of Ceramic Engineering, Institute of Engineering, Suranaree University of Technology, Founder of Suratec
+              </span><br>Title : 
+            </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Assoc. Prof. Dr. Ratchanok Somphonsane</h6>
+            <img src="/spc2024/img/speaker/is08-2.png" class="w-50">
+            <h6>Assoc. Prof. Dr. Ratchanok Somphonsane<br>
+              <span style="font-size: 0.8rem;">Department of Physics, School of Science, King’s Mongkut Institute of Technology Ladkrabang
+              </span><br>Title : Inducing Spin-Dependent Functionality in 2D Semiconductors
+            </h6>
           </div>
         </div>
       </div>
@@ -334,8 +371,19 @@ Mahidol University</span><br>Title : Functional Materials and Scalable Processes
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-25">
-            <h6>Asst.Prof.Dr.Norraphat Srimanobhas</h6>
+            <img src="/spc2024/img/speaker/is09-1.png" class="w-50">
+            <h6>Asst. Prof. Dr. Norraphat Srimanobhas<br>
+              <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Chulalongkorn University
+              </span><br>Title : Highlights from Flavor Physics and CP Violation conference 2024
+            </h6>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="/spc2024/img/speaker/is09-2.png" class="w-50">
+            <h6>Dr. Pinit Kidkhunthod<br>
+              <span style="font-size: 0.8rem;">Synchrotron Light Research Institute (Public Organization)
+              </span><br>Title : Hard X-ray absorption spectroscopy (HXAS) beamline 
+at the new 3 GeV SPS-II
+            </h6>
           </div>
         </div>
       </div>

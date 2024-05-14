@@ -61,8 +61,9 @@ $id = $_GET['userid'];
                   if($type==".pdf"){
                     echo "<a href='/spc2024/file/upload/studentcard/{$row2['student_name']}' target='_blank'>Link Student ID Card</a>";
                   } else {
-                  echo "<img src='/spc2024/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
-                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'>";
+                  echo "<a href='/spc2024/file/upload/studentcard/{$row2['student_name']}' target='_blank'>
+                  <img src='/spc2024/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
+                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'></a>";
                   }
                 } ?>
               </div>
@@ -78,8 +79,8 @@ $id = $_GET['userid'];
                   if($type2==".pdf"){
                     echo "<a href='/spc2024/file/upload/slip/{$row3['slip_name']}' target='_blank'>Link Slip</a>";
                   } else {
-                echo "<img src='/spc2024/file/upload/slip/" . $row3['slip_name'] . "' class='img-thumbnail'
-                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 20rem;margin: 2% 5%;'>";
+                echo "<a href='/spc2024/file/upload/slip/{$row3['slip_name']}' target='_blank'><img src='/spc2024/file/upload/slip/" . $row3['slip_name'] . "' class='img-thumbnail'
+                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 20rem;margin: 2% 5%;'></a>";
                   }
               } ?>
             </div>

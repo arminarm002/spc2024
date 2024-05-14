@@ -14,8 +14,8 @@ if (isset($_POST['add'])) {
   $fname = $_POST['name'];
   $lname = $_POST['lastname'];
   $company = htmlspecialchars($_POST['company'], ENT_QUOTES);
-  $career = $_POST['career'];
-  $address = $_POST['address'];
+  $career = htmlspecialchars($_POST['career'], ENT_QUOTES);
+  $address = htmlspecialchars($_POST['address'], ENT_QUOTES);
   $country = $_POST['country'];
   $tel = $_POST['tel'];
   $fax = $_POST['fax'];
