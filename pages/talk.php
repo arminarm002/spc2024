@@ -97,11 +97,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
-        <h5 style="color:#df6a00">Symposium : Accelerators & Synchrotron radiations</h5>
-        <img src="/spc2024/img/speaker/someone.png" class="w-50">
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
-        <br>
         <h5 style="color:#df6a00">Symposium : Mathematics, Computational & Numerical Physics</h5>
         <img src="/spc2024/img/speaker/kl05.png" class="w-50">
         <h6>Assoc. Prof. Dr. Jatuporn Thongsri<br>
@@ -109,12 +104,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             Technology Ladkrabang
           </span><br>Title :
         </h6>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
-        <br>
-        <h5 style="color:#df6a00">Symposium : Optical Physics & Technology</h5>
-        <img src="/spc2024/img/speaker/someone.png" class="w-50">
-        <h6></h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
@@ -134,12 +123,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <span style="font-size: 0.8rem;">Department of Physics, Mahasarakham University
           </span><br>Title : Physics and Engineering in the Application of Magnetic Recording Technology
         </h6>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
-        <br>
-        <h5 style="color:#df6a00">Symposium : High Energy & Particle Physics</h5>
-        <img src="/spc2024/img/speaker/someone.png" class="w-50">
-        <h6></h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
@@ -171,7 +154,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <img src="/spc2024/img/speaker/is01-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Suthira Taychakhoonavudh<br>
               <span style="font-size: 0.8rem;">Chief Executive Officer and co-founder of Baiya Phytopharm
               </span><br>Title :
@@ -187,10 +170,11 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <img src="/spc2024/img/speaker/is02-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Saichon Sriphan<br>
               <span style="font-size: 0.8rem;">King Mongkut's University of Technology North Bangkok
-              </span><br>Title :
+              </span><br>Title : Tribovoltaic effect based on solid-solid interface: 
+transition from emerging mechanism into potential applications
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
@@ -229,7 +213,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             <img src="/spc2024/img/speaker/is03-3.png" class="w-50">
             <h6>Dr. Taweewat Somboonpanyakul<br>
               <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
-              </span><br>Title : Galaxy Clusters: Exploring Diverse Aspects through Multiwavelength Studies
+              </span><br>Title : CHIPS1911+4455: A Cooling flow in a Mering Cluster
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
@@ -267,10 +251,10 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <img src="/spc2024/img/speaker/is05-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Thanayut Kaewmaraya<br>
               <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Khon Kaen University
-              </span><br>Title :
+              </span><br>Title : Two-dimensional Materials as Cathode Host for Inhibiting Polysulfide Shuttling and Promoting Kinetics in Metal–Sulfur Batteries
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
@@ -298,9 +282,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <img src="/spc2024/img/speaker/is06-2.png" class="w-50">
             <h6>Prof. Dr. Yoshiaki Yasuno<span style="font-size: 0.8rem;">Institute of Applied Physics, University of
-                Tsukuba, Japan</span><br>Title : </h6>
+                Tsukuba, Japan</span><br>Title : Contrast augmentation of optical coherence tomography by computational methods</h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is06-3.png" class="w-50">
@@ -319,23 +303,27 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is07-1.png" class="w-50">
-            <h6>Assoc. Prof. Dr. Amarin Rattanawit<br>
-              <span style="font-size: 0.8rem;">Department of Industrial Physics and Medical Instrumentation, Faculty of Applied Science, Lasers and Optics Research Center, Science and Technology Research Institute, King Mongkut’s University of Technology North Bangkok
+            <h6>Assoc. Prof. Dr. Amarin Ratanavis<br>
+              <span style="font-size: 0.8rem;">Department of Industrial Physics and Medical Instrumentation, Faculty of
+                Applied Science, Lasers and Optics Research Center, Science and Technology Research Institute, King
+                Mongkut’s University of Technology North Bangkok
               </span><br>Title : Development of Laser Systems and Applications
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is07-2.png" class="w-50">
             <h6>Asst. Prof. Dr. Chat Teeka<br>
-              <span style="font-size: 0.8rem;">Program in General Science, Faculty of Science and Technology, Suan Dusit University, Bangkok, Thailand
+              <span style="font-size: 0.8rem;">Program in General Science, Faculty of Science and Technology, Suan Dusit
+                University, Bangkok, Thailand
               </span><br>Title : Artificial Intelligence in Meta–Optics
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is07-3.png" class="w-50">
             <h6>Prof. Dr. C.K. Jayasankar<br>
-              <span style="font-size: 0.8rem;">Department of Physics, Sri Venkateswara University, Tirupati, India   
-              </span><br>Title : An overview of visible and infrared down- and up-conversion luminescence properties of Er3+-doped glasses for photonic applications
+              <span style="font-size: 0.8rem;">Department of Physics, Sri Venkateswara University, Tirupati, India
+              </span><br>Title : An overview of visible and infrared down- and up-conversion luminescence properties of
+              Er3+-doped glasses for photonic applications
             </h6>
           </div>
         </div>
@@ -350,14 +338,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/someone.png" class="w-50">
             <h6>Assoc. Prof. Dr. Soodkhet Projprapai<br>
-              <span style="font-size: 0.8rem;">School of Ceramic Engineering, Institute of Engineering, Suranaree University of Technology, Founder of Suratec
-              </span><br>Title : 
+              <span style="font-size: 0.8rem;">School of Ceramic Engineering, Institute of Engineering, Suranaree
+                University of Technology, Founder of Suratec
+              </span><br>Title :
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is08-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Ratchanok Somphonsane<br>
-              <span style="font-size: 0.8rem;">Department of Physics, School of Science, King’s Mongkut Institute of Technology Ladkrabang
+              <span style="font-size: 0.8rem;">Department of Physics, School of Science, King’s Mongkut Institute of
+                Technology Ladkrabang
               </span><br>Title : Inducing Spin-Dependent Functionality in 2D Semiconductors
             </h6>
           </div>
@@ -378,11 +368,11 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-          <img src="/spc2024/img/speaker/is09-2.png" class="w-50">
+            <img src="/spc2024/img/speaker/is09-2.png" class="w-50">
             <h6>Dr. Pinit Kidkhunthod<br>
               <span style="font-size: 0.8rem;">Synchrotron Light Research Institute (Public Organization)
-              </span><br>Title : Hard X-ray absorption spectroscopy (HXAS) beamline 
-at the new 3 GeV SPS-II
+              </span><br>Title : Hard X-ray absorption spectroscopy (HXAS) beamline
+              at the new 3 GeV SPS-II
             </h6>
           </div>
         </div>
