@@ -255,16 +255,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">สมาคมวิจัยวัสดุ ประเทศไทย</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
-              <a href="https://www.thermofisher.com/th/en/home.html" target="_blank">
-                <img src="/spc2024/img/sponsors/58.png" class="img-fluid w-75">
-              </a>
-            </div>
-            <div class="col-lg-2 col-md-3 col-3 center2">
-              <a href="https://www.thermofisher.com/th/en/home.html" target="_blank">
-                <h6 class="abw resfont2">บริษัท เทอร์โม ฟิชเชอร์ ไซเอนทิฟิค (ประเทศไทย) จำกัด</h6>
-              </a>
-            </div>
+            <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3"></div>
           </div>
 
           <hr>
@@ -539,6 +531,20 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท เครส นาโนโซลูชั่น (ประเทศไทย) จำกัด</h6>
               </a>
             </div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.ie.co.th/" target="_blank">
+                <img src="/spc2024/img/sponsors/60.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.ie.co.th/" target="_blank">
+                <h6 class="abw resfont2">บริษัท ไฟฟ้าอุตสาหกรรม จํากัด</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3"></div>
+            <div class="col-lg-2 col-md-3 col-3"></div>
+            <div class="col-lg-2 col-md-3 col-3"></div>
+            <div class="col-lg-2 col-md-3 col-3"></div>
           </div>
 
           <hr>
@@ -574,7 +580,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <!-- Copper -->
           <h2 style="text-align: center;">Copper</h2>
           <div class="row">
-            <div class="col-lg-2 col-md-3"></div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.asgexperience.com/" target="_blank">
                 <img src="/spc2024/img/sponsors/29.png" class="img-fluid w-75">
@@ -595,7 +600,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 <h6 class="abw resfont2">บริษัท อนาไลติค เยน่า ฟาร์อีสต์ (ประเทศไทย) จำกัด</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.thermofisher.com/th/en/home.html" target="_blank">
+                <img src="/spc2024/img/sponsors/58.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.thermofisher.com/th/en/home.html" target="_blank">
+                <h6 class="abw resfont2">บริษัท เทอร์โม ฟิชเชอร์ ไซเอนทิฟิค (ประเทศไทย) จำกัด</h6>
+              </a>
+            </div>
           </div>
 
         </div>

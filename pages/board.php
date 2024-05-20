@@ -38,26 +38,26 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <td></td>
             </tr>
             <tr>
-              <td>The President of Thai Physics Society</td>
+              <td>President of Thai Physics Society</td>
               <td></td>
             </tr>
             <tr>
-              <td>The Director of Synchrotron Light Research Institute</td>
+              <td>Director of Synchrotron Light Research Institute</td>
               <td></td>
             </tr>
             <tr>
-              <td>The Director of National Astronomical Research Institute of Thailand (Public Organization)</td>
+              <td>Director of National Astronomical Research Institute of Thailand (Public Organization)</td>
               <td></td>
             </tr>
             <tr>
-              <td>The Director of National Nanotechnology Center (NANOTEC)</td>
+              <td>Director of National Nanotechnology Center (NANOTEC)</td>
               <td></td>
             </tr>
             <tr>
-              <td>The Director of Thailand Institute of Nuclear Technology</td>
+              <td>Director of Thailand Institute of Nuclear Technology</td>
               <td></td>
             <tr>
-              <td>The Director of Thailand Center of Excellence in Physics</td>
+              <td>Director of Thailand Center of Excellence in Physics</td>
               <td></td>
             </tr>
             <tr>
@@ -89,11 +89,11 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <td></td>
             </tr>
             <tr>
-              <td>The Dean of School of Science, KMITL</td>
+              <td>Dean of School of Science, KMITL</td>
               <td></td>
             </tr>
             <tr>
-              <td>The Dean of College of Materials Innovation and Technology, KMITL</td>
+              <td>Dean of College of Materials Innovation and Technology, KMITL</td>
               <td></td>
             </tr>
             <tr>
