@@ -97,12 +97,30 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
+        <h5 style="color:#df6a00">Symposium : Accelerators & Synchrotron radiations</h5>
+        <img src="/spc2024/img/speaker/kl04.png" class="w-50">
+        <h6>Dr.Prapong Klysubun<br>
+          <span style="font-size: 0.8rem;">Director of Synchrotron Light Research Institute (SLRI)
+          </span><br>Title : Advanced physics and engineering developments for Siam Photon Source II particle accelerator complex
+        </h6>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
+        <br>
         <h5 style="color:#df6a00">Symposium : Mathematics, Computational & Numerical Physics</h5>
         <img src="/spc2024/img/speaker/kl05.png" class="w-50">
         <h6>Assoc. Prof. Dr. Jatuporn Thongsri<br>
           <span style="font-size: 0.8rem;">College of Advanced Manufacturing Innovation, King Mongkut’s Institute of
             Technology Ladkrabang
-          </span><br>Title :
+          </span><br>Title : Computer Simulation in Engineering
+        </h6>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
+        <br>
+        <h5 style="color:#df6a00">Symposium : Quantum Physics & Technology</h5>
+        <img src="/spc2024/img/speaker/kl06.png" class="w-50">
+        <h6>Assoc. Prof. Dr. Areeya Chantasri<br>
+          <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Mahidol University
+          </span><br>Title : Quantum measurement, estimation, and control, all continuous in time
         </h6>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
@@ -157,7 +175,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             <img src="/spc2024/img/speaker/is01-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Suthira Taychakhoonavudh<br>
               <span style="font-size: 0.8rem;">Chief Executive Officer and co-founder of Baiya Phytopharm
-              </span><br>Title :
+              </span><br>Title : Navigating through the innovation journey: case study of Baiya Phytopharm
             </h6>
           </div>
         </div>
@@ -220,7 +238,7 @@ transition from emerging mechanism into potential applications
             <img src="/spc2024/img/speaker/is03-4.png" class="w-50">
             <h6>Dr. Saran Poshyachinda<br>
               <span style="font-size: 0.8rem;">National Astronomical Research Institute of Thailand (NARIT)
-              </span><br>Title :
+              </span><br>Title : National Astronomical Research Institute of Thailand (NARIT) 
             </h6>
           </div>
         </div>
@@ -274,13 +292,6 @@ transition from emerging mechanism into potential applications
       </div>
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-50">
-            <h6>Assoc. Prof. Dr. Areeya Chantasri<br>
-              <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Mahidol University
-              </span><br>Title :
-            </h6>
-          </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
             <img src="/spc2024/img/speaker/is06-2.png" class="w-50">
             <h6>Prof. Dr. Yoshiaki Yasuno<span style="font-size: 0.8rem;">Institute of Applied Physics, University of
@@ -336,11 +347,11 @@ transition from emerging mechanism into potential applications
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/someone.png" class="w-50">
+            <img src="/spc2024/img/speaker/is08-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Soodkhet Projprapai<br>
               <span style="font-size: 0.8rem;">School of Ceramic Engineering, Institute of Engineering, Suranaree
                 University of Technology, Founder of Suratec
-              </span><br>Title :
+              </span><br>Title : A case study of Suratec: from research to a startup
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
