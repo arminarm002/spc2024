@@ -69,10 +69,8 @@ header("Expires: 0");
   </div>
   </div>
 
-
   <?php
   include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
   ?>
 
 </body>

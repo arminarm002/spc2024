@@ -231,7 +231,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/blink.php');
   include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
   include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/countdown.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
   ?>
 
 </body>
