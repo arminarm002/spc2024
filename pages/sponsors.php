@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,13 +9,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPC2024 KMITL</title>
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
 </head>
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
 
   <section class="mt-3">
@@ -26,7 +26,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <div class="row mt-3">
           <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
             <a href="http://www.thaiphysoc.org/" target="_blank">
-              <img src="/spc2024/img/co-host/physic.png" class="img-fluid">
+              <img src="/img/co-host/physic.png" class="img-fluid">
             </a>
           </div>
           <div class="col-lg-2 col-md-3 col-3 center2">
@@ -36,7 +36,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </div>
           <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
             <a href="https://www.science.kmitl.ac.th/new" target="_blank">
-              <img src="/spc2024/img/co-host/logo-b.png" class="img-fluid">
+              <img src="/img/co-host/logo-b.png" class="img-fluid">
             </a>
           </div>
           <div class="col-lg-2 col-md-3 col-3 center2">
@@ -46,7 +46,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </div>
           <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
             <a href="http://www.cmit.kmitl.ac.th/" target="_blank">
-              <img src="/spc2024/img/co-host/cmit.png" class="img-fluid">
+              <img src="/img/co-host/cmit.png" class="img-fluid">
             </a>
           </div>
           <div class="col-lg-2 col-md-3 col-3 center2">
@@ -56,7 +56,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </div>
           <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
             <a href="https://www.princess-it.org/" target="_blank">
-              <img src="/spc2024/img/co-host/hrh.png" class="img-fluid w-75">
+              <img src="/img/co-host/hrh.png" class="img-fluid w-75">
             </a>
           </div>
           <div class="col-lg-2 col-md-3 col-3 center2">
@@ -67,7 +67,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </div>
           <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
             <a href="https://www.aru.ac.th/" target="_blank">
-              <img src="/spc2024/img/co-host/pru.png" class="img-fluid w-75">
+              <img src="/img/co-host/pru.png" class="img-fluid w-75">
             </a>
           </div>
           <div class="col-lg-2 col-md-3 col-3 center2">
@@ -77,7 +77,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           </div>
           <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
             <a href="https://www.nst.or.th/" target="_blank">
-              <img src="/spc2024/img/co-host/nst.png" class="img-fluid w-75">
+              <img src="/img/co-host/nst.png" class="img-fluid w-75">
             </a>
           </div>
           <div class="col-lg-2 col-md-3 col-3 center2">
@@ -99,7 +99,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.tsri.or.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/08.png" class="img-fluid w-75">
+                <img src="/img/sponsors/08.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -109,7 +109,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.pttep.com/th/home.aspx" target="_blank">
-                <img src="/spc2024/img/sponsors/26.png" class="img-fluid w-75">
+                <img src="/img/sponsors/26.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -119,7 +119,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.slri.or.th/th/" target="_blank">
-                <img src="/spc2024/img/sponsors/27.png" class="img-fluid w-75">
+                <img src="/img/sponsors/27.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -129,7 +129,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.nstda.or.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/30.png" class="img-fluid w-75">
+                <img src="/img/sponsors/30.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -139,7 +139,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.narit.or.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/05.png" class="img-fluid w-75 resw-100">
+                <img src="/img/sponsors/05.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -149,7 +149,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.thep-center.org/" target="_blank">
-                <img src="/spc2024/img/sponsors/02.png" class="img-fluid w-75 resw-100">
+                <img src="/img/sponsors/02.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -159,7 +159,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.costat.or.th/2567/" target="_blank">
-                <img src="/spc2024/img/sponsors/09.png" class="img-fluid w-75 resw-100">
+                <img src="/img/sponsors/09.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -179,7 +179,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <div class="row">
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.barascientific.com/slide/" target="_blank">
-                <img src="/spc2024/img/sponsors/33.png" class="img-fluid w-75 resw-100">
+                <img src="/img/sponsors/33.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -189,7 +189,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.posn.or.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/28.png" class="img-fluid w-75 resw-100">
+                <img src="/img/sponsors/28.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -199,7 +199,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://en.cnnc.com.cn/" target="_blank">
-                <img src="/spc2024/img/sponsors/51.png" class="img-fluid w-75">
+                <img src="/img/sponsors/51.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -210,7 +210,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.designalternative.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/37.png" class="img-fluid w-75">
+                <img src="/img/sponsors/37.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -220,7 +220,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="http://www.aml-tech.com/index.php" target="_blank">
-                <img src="/spc2024/img/sponsors/38.png" class="img-fluid w-75">
+                <img src="/img/sponsors/38.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -229,7 +229,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
-              <img src="/spc2024/img/sponsors/47.png" class="img-fluid w-75">
+              <img src="/img/sponsors/47.png" class="img-fluid w-75">
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
               <h6 class="abw resfont2">ศูนย์กลางความรู้ด้านการให้ความร้อนด้วยคลื่นไมโครเวฟ
@@ -237,7 +237,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.nrct.go.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/10.png" class="img-fluid w-75">
+                <img src="/img/sponsors/10.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -247,7 +247,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="http://www.mrsthailand.or.th/annual-meetings.php" target="_blank">
-                <img src="/spc2024/img/sponsors/57.png" class="img-fluid w-75">
+                <img src="/img/sponsors/57.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -265,7 +265,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <div class="row">
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.fortistrading.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/15.png" class="img-fluid w-75 resw-100">
+                <img src="/img/sponsors/15.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -275,7 +275,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="http://www.saengvith2000.com/index.php?ContentID=ContentID-110322171728296" target="_blank">
-                <img src="/spc2024/img/sponsors/18.png" class="img-fluid w-75 resw-100">
+                <img src="/img/sponsors/18.png" class="img-fluid w-75 resw-100">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -285,7 +285,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3" style="text-align: center;">
               <a href="https://www.puditec.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/17.png" class="img-fluid w-75">
+                <img src="/img/sponsors/17.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -295,7 +295,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.anton-paar.com/si-en/" target="_blank">
-                <img src="/spc2024/img/sponsors/34.png" class="img-fluid w-75">
+                <img src="/img/sponsors/34.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -305,7 +305,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.lableader.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/35.png" class="img-fluid w-75">
+                <img src="/img/sponsors/35.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -314,14 +314,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
-              <img src="/spc2024/img/sponsors/36.png" class="img-fluid w-75">
+              <img src="/img/sponsors/36.png" class="img-fluid w-75">
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
               <h6 class="abw resfont2">โครงการวิจัยควอนตัม รศ.ดร.วรวัฒน์ มีวาสนา</h6>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.vernier-thai.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/39.png" class="img-fluid w-75">
+                <img src="/img/sponsors/39.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -331,7 +331,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.intesalogic.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/40.png" class="img-fluid w-75">
+                <img src="/img/sponsors/40.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -341,7 +341,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.intesalogic.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/41.png" class="img-fluid w-75">
+                <img src="/img/sponsors/41.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -351,7 +351,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.coax.co.th/th/" target="_blank">
-                <img src="/spc2024/img/sponsors/42.png" class="img-fluid w-75">
+                <img src="/img/sponsors/42.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -361,7 +361,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://k2graphene.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/43.png" class="img-fluid w-75">
+                <img src="/img/sponsors/43.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -371,7 +371,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://lmsinstruments.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/44.png" class="img-fluid w-75">
+                <img src="/img/sponsors/44.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -382,7 +382,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.npru.ac.th/index.php" target="_blank">
-                <img src="/spc2024/img/sponsors/45.png" class="img-fluid w-75">
+                <img src="/img/sponsors/45.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -392,7 +392,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.sci.nu.ac.th/science/" target="_blank">
-                <img src="/spc2024/img/sponsors/46.png" class="img-fluid w-75">
+                <img src="/img/sponsors/46.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -403,7 +403,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.facebook.com/smchem/" target="_blank">
-                <img src="/spc2024/img/sponsors/48.png" class="img-fluid w-75">
+                <img src="/img/sponsors/48.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -413,7 +413,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.tint.or.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/06.png" class="img-fluid w-75">
+                <img src="/img/sponsors/06.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -423,7 +423,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.cidiskthailand.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/49.png" class="img-fluid w-75">
+                <img src="/img/sponsors/49.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -433,7 +433,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.spectralinstrument.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/50.png" class="img-fluid w-75">
+                <img src="/img/sponsors/50.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -443,7 +443,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://csnsolution.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/52.png" class="img-fluid w-75">
+                <img src="/img/sponsors/52.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -453,7 +453,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://abexglobalhc.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/14.png" class="img-fluid w-75">
+                <img src="/img/sponsors/14.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -463,7 +463,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://histocenter.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/53.png" class="img-fluid w-75">
+                <img src="/img/sponsors/53.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -473,7 +473,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://qtft.org/" target="_blank">
-                <img src="/spc2024/img/sponsors/54.png" class="img-fluid w-75">
+                <img src="/img/sponsors/54.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -483,7 +483,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="http://www.pvpvacuum.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/55.png" class="img-fluid w-75">
+                <img src="/img/sponsors/55.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -493,7 +493,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://cerntek.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/56.png" class="img-fluid w-75">
+                <img src="/img/sponsors/56.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -503,7 +503,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://kinetics.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/25.png" class="img-fluid w-75">
+                <img src="/img/sponsors/25.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -513,7 +513,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.irct.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/21.png" class="img-fluid w-75">
+                <img src="/img/sponsors/21.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -523,7 +523,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.crest-group.net/" target="_blank">
-                <img src="/spc2024/img/sponsors/20.png" class="img-fluid w-75">
+                <img src="/img/sponsors/20.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -533,7 +533,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.ie.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/60.png" class="img-fluid w-75">
+                <img src="/img/sponsors/60.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -543,7 +543,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.metrohm.com/th_th/jobs.html" target="_blank">
-                <img src="/spc2024/img/sponsors/61.png" class="img-fluid w-75">
+                <img src="/img/sponsors/61.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -562,7 +562,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <div class="col-lg-2 col-md-3"></div>
           <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.fitel.co.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/32.png" class="img-fluid w-75">
+                <img src="/img/sponsors/32.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -572,7 +572,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="http://www.science.up.ac.th/" target="_blank">
-                <img src="/spc2024/img/sponsors/59.png" class="img-fluid w-75">
+                <img src="/img/sponsors/59.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -590,7 +590,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <div class="row">
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.asgexperience.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/29.png" class="img-fluid w-75">
+                <img src="/img/sponsors/29.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -600,7 +600,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.analytik-jena.com/" target="_blank">
-                <img src="/spc2024/img/sponsors/31.png" class="img-fluid w-75">
+                <img src="/img/sponsors/31.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -610,7 +610,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.thermofisher.com/th/en/home.html" target="_blank">
-                <img src="/spc2024/img/sponsors/58.png" class="img-fluid w-75">
+                <img src="/img/sponsors/58.png" class="img-fluid w-75">
               </a>
             </div>
             <div class="col-lg-2 col-md-3 col-3 center2">
@@ -628,8 +628,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   </div>
 
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 </body>
 

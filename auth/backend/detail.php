@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 $id = $_GET['userid'];
 ?>
 <!DOCTYPE html>
@@ -10,13 +10,13 @@ $id = $_GET['userid'];
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPC2024 KMITL</title>
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
 </head>
 
 <body class="font-mitr">
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/components/navbar.php');
   ?>
   <div class="container">
     <div class="card mt-3" style="box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;">
@@ -59,10 +59,10 @@ $id = $_GET['userid'];
                 foreach ($sql2 as $row2) {
                   $type = strrchr($row2['student_name'], ".");
                   if($type==".pdf"){
-                    echo "<a href='/spc2024/file/upload/studentcard/{$row2['student_name']}' target='_blank'>Link Student ID Card</a>";
+                    echo "<a href='/file/upload/studentcard/{$row2['student_name']}' target='_blank'>Link Student ID Card</a>";
                   } else {
-                  echo "<a href='/spc2024/file/upload/studentcard/{$row2['student_name']}' target='_blank'>
-                  <img src='/spc2024/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
+                  echo "<a href='/file/upload/studentcard/{$row2['student_name']}' target='_blank'>
+                  <img src='/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
                     style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'></a>";
                   }
                 } ?>
@@ -77,9 +77,9 @@ $id = $_GET['userid'];
               foreach ($sql3 as $row3) {
                 $type2 = strrchr($row3['slip_name'], ".");
                   if($type2==".pdf"){
-                    echo "<a href='/spc2024/file/upload/slip/{$row3['slip_name']}' target='_blank'>Link Slip</a>";
+                    echo "<a href='/file/upload/slip/{$row3['slip_name']}' target='_blank'>Link Slip</a>";
                   } else {
-                echo "<a href='/spc2024/file/upload/slip/{$row3['slip_name']}' target='_blank'><img src='/spc2024/file/upload/slip/" . $row3['slip_name'] . "' class='img-thumbnail'
+                echo "<a href='/file/upload/slip/{$row3['slip_name']}' target='_blank'><img src='/file/upload/slip/" . $row3['slip_name'] . "' class='img-thumbnail'
                     style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 20rem;margin: 2% 5%;'></a>";
                   }
               } ?>
@@ -121,8 +121,8 @@ $id = $_GET['userid'];
   </div>
 
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
   <script type="text/javascript">
     function addmessage() {

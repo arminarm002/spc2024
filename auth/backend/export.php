@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 header("Content-Type: application/xls;  charset=utf-8");
 header("Content-Disposition: attachment; filename=รายชื่อผู้สมัคร.xls; worksheet1=ชื่อชีท");
 header("Pragma: no-cache");
@@ -70,7 +70,7 @@ header("Expires: 0");
   </div>
 
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 
 </body>

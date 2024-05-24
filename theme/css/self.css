@@ -63,11 +63,11 @@ ul.unlist {
 }
 
 .backdate {
-  background-image: url('/spc2024/img/earthbulb.jpg');
+  background-image: url('/img/earthbulb.jpg');
 }
 
 .imageback {
-  background-image: url(/spc2024/img/sci2.JPG);
+  background-image: url(/img/sci2.JPG);
   background-color: #cccccc;
   height: 250px;
   background-position: center;

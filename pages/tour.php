@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,13 +9,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPC2024 KMITL</title>
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
 </head>
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
   <div class="container">
     <h3 class="card-title centerer mt-3" style="text-align: center;">The SPC2024 Organizing Committee has arranged sightseeing tours for the
@@ -23,16 +23,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6 centerer mt-3">
         <div class="card border-0 mt-3" style="color: #494949;">
-          <a href="/spc2024/img/news/tour1.jpg" target="_blank">
-            <img src="/spc2024/img/news/tour1.jpg"
+          <a href="/img/news/tour1.jpg" target="_blank">
+            <img src="/img/news/tour1.jpg"
               style="display:block; margin:auto; width:70%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </a>
         </div>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6 centerer mt-3">
         <div class="card border-0 mt-3" style="color: #494949;">
-          <a href="/spc2024/img/news/tour2.jpg" target="_blank">
-            <img src="/spc2024/img/news/tour2.jpg"
+          <a href="/img/news/tour2.jpg" target="_blank">
+            <img src="/img/news/tour2.jpg"
               style="display:block; margin:auto; width:70%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </a>
         </div>
@@ -46,8 +46,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         target="_blank">Click </a></h5>
   </div>
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 
 </body>

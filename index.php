@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +14,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     content="19 th of Siam Physics Congress 2024 (SPC2024), Krungsri River Hotel, Phra Nakorn Sri Ayutthaya, Thailand, JUNE 5-7, 2024.">
   <meta name="keywords"
     content="spc2024, SPC2024,19 th of Siam Physics Congress, ครั้งที่ 19, ประกวดโครงงานอิสระ, สมาคมฟิสิกส์">
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
   <style>
     /* สีข้อความที่กระพริบ */
     .blinking {
@@ -43,10 +43,10 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/spc2024/img/home02.jpg" class="img-fluid" style="width:100%">
+        <img src="/img/home02.jpg" class="img-fluid" style="width:100%">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/queen.jpg" class="img-fluid" style="width:100%">
+        <img src="/img/queen.jpg" class="img-fluid" style="width:100%">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -59,7 +59,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </button>
   </div>
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
 
   <div class="container">
@@ -91,20 +91,20 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       </section>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-6 mt-3">
-          <a href="/spc2024/img/news/posterspc.jpg" target="_blank">
-            <img src="/spc2024/img/news/posterspc.jpg" class="d-block w-100"
+          <a href="/img/news/posterspc.jpg" target="_blank">
+            <img src="/img/news/posterspc.jpg" class="d-block w-100"
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </a>
         </div>
         <div class="col-lg-4 col-md-4 col-6 mt-3">
-          <a href="/spc2024/img/news/project1.jpg" target="_blank">
-            <img src="/spc2024/img/news/project1.jpg" class="d-block w-100"
+          <a href="/img/news/project1.jpg" target="_blank">
+            <img src="/img/news/project1.jpg" class="d-block w-100"
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </a>
         </div>
         <div class="col-lg-4 col-md-4 col-6 mt-3">
-          <a href="/spc2024/img/news/project2.jpg" target="_blank">
-            <img src="/spc2024/img/news/project2.jpg" class="d-block w-100"
+          <a href="/img/news/project2.jpg" target="_blank">
+            <img src="/img/news/project2.jpg" class="d-block w-100"
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           </a>
         </div>
@@ -114,14 +114,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <div class="row" style="margin: 15px auto;">
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/spc2024/img/news/834019.jpg" style="width:100%; ">
+                <img class="border-bottom border-warning" src="/img/news/834019.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 13 May 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
               ครั้งที่ 19 ประจำปี 2567
               จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา</p>
-                  <a href="/spc2024/img/news/8340192.jpg" class="btn btn-warning" target="_blank"
+                  <a href="/img/news/8340192.jpg" class="btn btn-warning" target="_blank"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
@@ -130,7 +130,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/spc2024/img/news/13may.jpg" style="width:100%; ">
+                <img class="border-bottom border-warning" src="/img/news/13may.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 10 May 2024
                   </h5>
@@ -139,7 +139,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                     registration deadline for the conference has been extended to May 13, 2024. That means you still
                     have time to take advantage of the reduced registration fees.
                   </p>
-                  <a href="/spc2024/auth/register.php" class="btn btn-warning"
+                  <a href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" class="btn btn-warning"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
@@ -148,7 +148,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/spc2024/img/news/tour.jpg" style="width:100%; ">
+                <img class="border-bottom border-warning" src="/img/news/tour.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 1 May 2024
                   </h5>
@@ -161,7 +161,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                       href="https://shorturl.at/jCFWX" class="btn btn-warning"
                       style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" target="_blank">Click </a>
                   </p>
-                  <a href="/spc2024/pages/tour.php" class="btn btn-warning"
+                  <a href="/pages/tour.php" class="btn btn-warning"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
@@ -170,13 +170,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/spc2024/img/news/goal.jpg" style="width:100%; ">
+                <img class="border-bottom border-warning" src="/img/news/goal.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title">30 April 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">ประกาศผลโครงงานอิสระที่ผ่านรอบคัดเลือก รอบแรก
                   </p>
-                  <a href="/spc2024/pages/project.php" class="btn btn-warning"
+                  <a href="/pages/project.php" class="btn btn-warning"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
@@ -185,13 +185,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;">
-                <img class="border-bottom border-warning" src="/spc2024/img/news/rate.jpg" style="width:100%; ">
+                <img class="border-bottom border-warning" src="/img/news/rate.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title">30 April 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registration and
                     Payment Guide for Participating in SPC2024 and Using the Website System</p>
-                  <a href="/spc2024/file/download/registration_payment.pdf" class="btn btn-warning" target="_blank"
+                  <a href="/file/download/registration_payment.pdf" class="btn btn-warning" target="_blank"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
@@ -200,7 +200,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/spc2024/img/news/16extended.jpg" style="width:100%; ">
+                <img class="border-bottom border-warning" src="/img/news/16extended.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title">17 April 2024
                   </h5>
@@ -209,7 +209,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                     project contest has been postponed to 30 April 2024. We are sorry for any inconvenience it may cause
                     <br><br><u>Please stay tuned.</u>
                   </p>
-                  <a href="/spc2024/pages/project.php" class="btn btn-warning"
+                  <a href="/pages/project.php" class="btn btn-warning"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>
@@ -217,7 +217,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               </div>
             </div>
           </div>
-          <a href="/spc2024/pages/news.php" class="btn btn-warning"
+          <a href="/pages/news.php" class="btn btn-warning"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;float:right">
             <h4 class="card-title">-- All Announcement --</h4>
           </a>
@@ -227,10 +227,10 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/blink.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/countdown.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/blink.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/countdown.php');
   ?>
 
 </body>

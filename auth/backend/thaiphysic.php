@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 if ($_SESSION['role']) {
   if ($_SESSION['role'] == "thaiphysic") {
     
@@ -12,13 +12,13 @@ if ($_SESSION['role']) {
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>SPC2024 KMITL</title>
-      <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-      <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+      <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+      <link rel="stylesheet" href="/theme/css/self.css">
     </head>
 
     <body class="font-mitr">
       <?php
-      include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+      include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
 
       $sql = $conn->query("SELECT * FROM tb_user WHERE approve = 'wait' AND role = 'user' ");
       $i = 0;
@@ -29,7 +29,7 @@ if ($_SESSION['role']) {
       <div class="container-fluid">
         <div class="row mt-3">
           <div class="col-sm-12 col-md-4 col-lg-3">
-            <?php include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/sidebar.php'); ?>
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . '/components/sidebar.php'); ?>
           </div>
           <div class="col-sm-12 col-md-8 col-lg-9">
             
@@ -100,18 +100,18 @@ if ($_SESSION['role']) {
       </div><!-- container -->
 
       <?php
-      include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-      include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+      include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+      include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
       ?>
 
     </body>
 
     </html>
   <?php } else if ($_SESSION['role'] == "user") {
-    header("refresh: 1; url= /spc2024/auth/profile.php");
+    header("refresh: 1; url= /auth/profile.php");
   } else if ($_SESSION['role'] == "admin") {
-    header("refresh: 1; url= /spc2024/auth/backend/admin.php");
+    header("refresh: 1; url= /auth/backend/admin.php");
   }
 } else {
-  header("refresh: 1; url= /spc2024/auth/register.php");
+  header("refresh: 1; url= /../index.php");
 } ?>

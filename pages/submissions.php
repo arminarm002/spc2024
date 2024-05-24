@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,13 +9,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPC2024 KMITL</title>
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
 </head>
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
 
   <div class="container">
@@ -26,7 +26,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <h5>Abstract submission open : 1 February - <span class="redmidline">31 March 2024</span>
             <span class="redmidline" style="color: #f78787;"> 20 April 2024</span><span class="red"> 30 April
               2024</span><br>Template for SPC 2024 abstract.
-            <a href="/spc2024/file/download/spc2024-abstract-template.docx">Download File</a><br>Please do not modify
+            <a href="/file/download/spc2024-abstract-template.docx">Download File</a><br>Please do not modify
             the format
             and please convert to pdf. for submission.<br><br>Topic :
           </h5>
@@ -53,7 +53,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               self-plagiarism are not allowed.</li>
           </ul>
           <h4><b>** Guidelines on submitting an abstract **</b> >>> <a
-              style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/file/download/guidelines.pdf"
+              style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/file/download/guidelines.pdf"
               class="btn btn-warning" target="_blank">Click</a></h4>
           <h5>Abstracts must be submitted using the MS CMT platform >>> <a
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
@@ -62,7 +62,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
           <br>
           <h5>The outcome of the review will be emailed to the main author by 30 April 2024.</h5><br>
           <h5>Note, however, that any accepted abstracts will be cancelled if the presenting author has not registered
-            and paid >>> <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/spc2024/auth/register.php"
+            and paid >>> <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="https://forms.gle/Sh1Arn4sVrKbN3Wm9"
               class="btn btn-warning" target="_blank">Click</a> the
             registration fee for the
             congress by 15 May 2024.
@@ -116,7 +116,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               <a href="https://publishingsupport.iopscience.iop.org/author-guidelines-for-conference-proceedings"
                 class="btn btn-warning submisspagebutton" target="_blank">Click</a>
             </li>
-            <li>Please use the provided template >>> <a href="/spc2024/file/download/journal/IOP-ConfSer-template.docx"
+            <li>Please use the provided template >>> <a href="/file/download/journal/IOP-ConfSer-template.docx"
                 class="btn btn-warning submisspagebutton" target="_blank">IOP Template</a></li>
             <li>To submit your manuscript please go to this link
               <a href="https://www.morressier.com/call-for-papers/65e6eb98a4dbea87c733a6d2"
@@ -129,7 +129,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                   May-10 July, 2024.</U></b></li>
             <li>After acceptance, authors will be asked to pay publication fee of 4,000 baht.</li>
           </ul>
-          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/spc2024/img/journals1.jpg"
+          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/img/journals1.jpg"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           <hr>
           <h5>2. Current Applied Science and Technology Journal: CAST (Scopus & SJR Q4)</h5>
@@ -138,7 +138,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               To prepare your full paper for submitting to this journal, please refer to the journal Guide for Authors
               when preparing manuscripts >>> <a href="https://li01.tci-thaijo.org/index.php/cast/author_guidelines"
                 class="btn btn-warning submisspagebutton" target="_blank">Click</a> and use this provided template
-              <a href="/spc2024/file/download/journal/CAST_Template.docx" class="btn btn-warning submisspagebutton"
+              <a href="/file/download/journal/CAST_Template.docx" class="btn btn-warning submisspagebutton"
                 target="_blank">CAST Template</a>
             </li>
             <li>Full paper must be submitted directly to the journal via the submission system of the journal. <a
@@ -146,12 +146,12 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
                 class="btn btn-warning submisspagebutton" target="_blank">Make Submission</a>
             </li>
             <li>Please submit the cover letter informing the manuscript is from SPC2024. <a
-                href="/spc2024/file/download/journal/Cover Letter_CAST-SPC2024.docx" class="btn btn-warning submisspagebutton"
+                href="/file/download/journal/Cover Letter_CAST-SPC2024.docx" class="btn btn-warning submisspagebutton"
                 target="_blank">Download</a></li>
             <li>Manuscripts can be submitted during <b><u>10 May- 10 July 2024.</u></b></li>
             <li>There is no publication fee for CAST.</li>
           </ul>
-          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/spc2024/img/journals2.jpg"
+          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/img/journals2.jpg"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           <hr>
           <h5>3. Thai Journal of Nanoscience and Nanotechnology (TCI-2)</h5>
@@ -161,19 +161,19 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
               Authors when preparing manuscripts >>> <a
                 href="https://ph05.tci-thaijo.org/index.php/TJNN/guide_for_author"
                 class="btn btn-warning submisspagebutton" target="_blank">Click</a> and use this provided template
-              <a href="/spc2024/file/download/journal/TJNN_Template.docx" class="btn btn-warning submisspagebutton"
+              <a href="/file/download/journal/TJNN_Template.docx" class="btn btn-warning submisspagebutton"
                 target="_blank">TJNN Template </a>
             </li>
             <li>Full paper must be submitted directly to the journal via the submission system of the journal <a
                 href="https://ph05.tci-thaijo.org/index.php/TJNN/about/submissions"
                 class="btn btn-warning submisspagebutton" target="_blank">Make Submission</a></li>
             <li>Please submit the cover letter informing the manuscript is from SPC2024. <a
-                href="/spc2024/file/download/journal/Cover Letter_TJNN-SPC2024.docx"
+                href="/file/download/journal/Cover Letter_TJNN-SPC2024.docx"
                 class="btn btn-warning submisspagebutton" target="_blank">Download</a></li>
             <li>Manuscripts can be submitted during <b><u>10 May- 10 July 2024.</u></b></li>
             <li>There is no publication fee for TJNN.</li>
           </ul>
-          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/spc2024/img/journals3.jpg"
+          <img style="margin: auto;" class="border-bottom border-warning w-25" src="/img/journals3.jpg"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
 
           <hr>
@@ -181,14 +181,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             4. Conference E-proceedings</h5><br>
             <p>Download Template : >>>
             <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
-              href="/spc2024/file/download/spc2024-proceedings.docx" class="btn btn-warning" target="_blank"> Click
+              href="/file/download/spc2024-proceedings.docx" class="btn btn-warning" target="_blank"> Click
             </a></p>
             <p>E-Proceedings Submission Guide : >>>
             <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
-              href="/spc2024/file/download/E-Proceedings Submission Guide.pdf" class="btn btn-warning" target="_blank">
+              href="/file/download/E-Proceedings Submission Guide.pdf" class="btn btn-warning" target="_blank">
               Click
             </a></p>
-            <img style="margin: auto;" class="border-bottom border-warning w-25" src="/spc2024/img/journals4.jpg"
+            <img style="margin: auto;" class="border-bottom border-warning w-25" src="/img/journals4.jpg"
               style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
           
         </div>
@@ -197,8 +197,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   </div>
 
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 </body>
 

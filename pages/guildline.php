@@ -7,13 +7,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPC2024 KMITL</title>
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
 </head>
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
   <div class="container">
     <h1 class="card-title centerer mt-3">Presentation Guidelines</h1>
@@ -40,7 +40,7 @@
       </ul>
       <hr>
       <h5>Poster Presentation and Display Schedule</h5>
-      <img src="/spc2024/img/soon.png" style="display:block; margin:auto; width:50%;">
+      <img src="/img/soon.png" style="display:block; margin:auto; width:50%;">
       <!-- <ul class="unlist">
         <li>Authors are responsible for setting up their poster on June 15, 2024 (before 12:00 pm), and removing
           it at the end of session (June 16, 2024 before 11:00 am)</li>
@@ -52,9 +52,9 @@
     </div>
   </div>
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/messenger.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/messenger.php');
   ?>
 </body>
 

@@ -1,8 +1,8 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 if (isset($_SESSION['role'])) {
-  header("refresh: 1; url= /spc2024/auth/profile.php");
+  header("refresh: 1; url= /auth/profile.php");
 } else { ?>
   <!DOCTYPE html>
   <html lang="en">
@@ -11,14 +11,14 @@ if (isset($_SESSION['role'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
-    <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+    <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/theme/css/self.css">
 
   </head>
 
   <body class="font-mitr">
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
     ?>
     <div class="container">
       <div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
@@ -29,7 +29,7 @@ if (isset($_SESSION['role'])) {
           </div>
           <div class="card-body">
             <div class="mt-2">
-              <img src="/spc2024/img/logo-b.png" alt="" style="display:table; margin: 0 auto; max-width:200px;">
+              <img src="/img/logo-b.png" alt="" style="display:table; margin: 0 auto; max-width:200px;">
             </div>
             <form action="authen.php" class="mb-3" method="POST">
               <div class="form-group mt-5">
@@ -44,7 +44,7 @@ if (isset($_SESSION['role'])) {
                 <button type="submit" class="btn btn-l mt-2 text-white" name="login">Log in</button>
               </div>
             </form>
-            <a href="register.php"><button class="btn btn-l text-white"
+            <a href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" target="_blank"><button class="btn btn-l text-white"
                 style="float: right;">Register</button></a>
           </div>
           <a href="forgetpassword.php"><button class="btn btn-l text-white mb-3"
@@ -54,8 +54,8 @@ if (isset($_SESSION['role'])) {
       </div>
     </div>
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-    include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
     ?>
   </body>
 

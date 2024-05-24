@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,13 +9,13 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPC2024 KMITL</title>
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
 </head>
 
 <body class="font-mitr"> 
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
   <div class="container mt-3">
   <h1 class="card-title centerer mb-3">Contact Us</h1>
@@ -37,40 +37,40 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <h1 class="card-title centerer mt-5 mb-3">Gallery</h1>
     <div class="row mb-4">
       <div class="col-6">
-        <img src=/spc2024/img/gsci1.jpg class="border border-warning border-2 img-fluid">
+        <img src=/img/gsci1.jpg class="border border-warning border-2 img-fluid">
       </div>
       <div class="col-6">
-        <img src=/spc2024/img/gsci8.jpg class="border border-warning border-2 img-fluid">
-      </div>
-    </div>
-    <div class="row mb-4">
-      <div class="col-6">
-        <img src=/spc2024/img/gsci2.jpg class="border border-warning border-2 img-fluid">
-      </div>
-      <div class="col-6">
-        <img src=/spc2024/img/gsci3.jpg class="border border-warning border-2 img-fluid">
+        <img src=/img/gsci8.jpg class="border border-warning border-2 img-fluid">
       </div>
     </div>
     <div class="row mb-4">
       <div class="col-6">
-        <img src=/spc2024/img/gsci9.jpg class="border border-warning border-2 img-fluid">
+        <img src=/img/gsci2.jpg class="border border-warning border-2 img-fluid">
       </div>
       <div class="col-6">
-        <img src=/spc2024/img/gsci5.jpg class="border border-warning border-2 img-fluid">
+        <img src=/img/gsci3.jpg class="border border-warning border-2 img-fluid">
       </div>
     </div>
     <div class="row mb-4">
       <div class="col-6">
-        <img src=/spc2024/img/gsci7.jpg class="border border-warning border-2 img-fluid">
+        <img src=/img/gsci9.jpg class="border border-warning border-2 img-fluid">
       </div>
       <div class="col-6">
-        <img src=/spc2024/img/gsci4.jpg class="border border-warning border-2 img-fluid">
+        <img src=/img/gsci5.jpg class="border border-warning border-2 img-fluid">
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-6">
+        <img src=/img/gsci7.jpg class="border border-warning border-2 img-fluid">
+      </div>
+      <div class="col-6">
+        <img src=/img/gsci4.jpg class="border border-warning border-2 img-fluid">
       </div>
     </div>
   </div>
   <?php
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 </body>
 

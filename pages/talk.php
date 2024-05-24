@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,13 +9,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPC2024 KMITL</title>
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
 </head>
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
 
   <div class="container">
@@ -23,7 +23,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     <h1 style="text-align: center;">Plenary Talks</h1>
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12" style="text-align: center;">
-        <img src="/spc2024/img/speaker/pss01.png" class="w-25">
+        <img src="/img/speaker/pss01.png" class="w-25">
         <h2 style="color:#df6a00">Prof. Yifang WANG</h2>
         <h5 style="color:#df6a00">Director of Institute of High Energy Physics of Chinese Academy of Sciences</h5>
         <h5 style="color:#df6a00"><b>Title : </b> Jiangmen Underground Neutrino Observatory (JUNO)</h5>
@@ -40,7 +40,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </p>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12" style="text-align: center;">
-        <img src="/spc2024/img/speaker/pss02.png" class="w-25">
+        <img src="/img/speaker/pss02.png" class="w-25">
         <h2 style="color:#df6a00">Prof. Albrecht Karle</h2>
         <h5 style="color:#df6a00">Full professor and former Chair of the Department of Physics at the University of
           Wisconsin-Madison.</h5>
@@ -68,7 +68,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Physics Innovation & Education</h4>
-          <img src="/spc2024/img/speaker/kl01.png" class="w-50">
+          <img src="/img/speaker/kl01.png" class="w-50">
           <h6>Prof. Dr.Dheerawan Boonyawan<br>
             <span style="font-size: 0.8rem;">Department of Physics and Materials Science, Faculty of Science
               Chiang Mai University
@@ -78,7 +78,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Condensed Matters & Material Physics</h5>
-        <img src="/spc2024/img/speaker/kl02.png" class="w-50">
+        <img src="/img/speaker/kl02.png" class="w-50">
         <h6>Assoc.Prof.Dr.Jakrapong Kaewkhao<br>
           <span style="font-size: 0.8rem;">Center of Excellence in Glass Technology and Materials Science (CEGM)
             Faculty of Science and Technology, Nakhon Pathom Rajabhat University
@@ -89,7 +89,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Astronomy, Astrophysics & Cosmology</h5>
-        <img src="/spc2024/img/speaker/kl03.png" class="w-50">
+        <img src="/img/speaker/kl03.png" class="w-50">
         <h6>Prof. Dr. David Ruffolo<br>
           <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Mahidol University
           </span><br>Title : Space Radiation Science and Technology
@@ -98,7 +98,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Accelerators & Synchrotron radiations</h5>
-        <img src="/spc2024/img/speaker/kl04.png" class="w-50">
+        <img src="/img/speaker/kl04.png" class="w-50">
         <h6>Dr.Prapong Klysubun<br>
           <span style="font-size: 0.8rem;">Director of Synchrotron Light Research Institute (SLRI)
           </span><br>Title : Advanced physics and engineering developments for Siam Photon Source II particle accelerator complex
@@ -107,7 +107,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Mathematics, Computational & Numerical Physics</h5>
-        <img src="/spc2024/img/speaker/kl05.png" class="w-50">
+        <img src="/img/speaker/kl05.png" class="w-50">
         <h6>Assoc. Prof. Dr. Jatuporn Thongsri<br>
           <span style="font-size: 0.8rem;">College of Advanced Manufacturing Innovation, King Mongkut’s Institute of
             Technology Ladkrabang
@@ -117,7 +117,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Quantum Physics & Technology</h5>
-        <img src="/spc2024/img/speaker/kl06.png" class="w-50">
+        <img src="/img/speaker/kl06.png" class="w-50">
         <h6>Assoc. Prof. Dr. Areeya Chantasri<br>
           <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Mahidol University
           </span><br>Title : Quantum measurement, estimation, and control, all continuous in time
@@ -126,7 +126,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Optical Physics & Technology</h5>
-        <img src="/spc2024/img/speaker/kl07.png" class="w-50">
+        <img src="/img/speaker/kl07.png" class="w-50">
         <h6>Assoc. Prof. Dr. Nattaporn Chattham<br>
           <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Kasetsart University
           </span><br>Title : Exploring Molecular Orientation in Smectic Liquid Crystal Films Induced by Mass Flux:
@@ -136,7 +136,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Applied Physics & Technology</h5>
-        <img src="/spc2024/img/speaker/kl08.png" class="w-50">
+        <img src="/img/speaker/kl08.png" class="w-50">
         <h6>Assoc. Prof. Dr. Jessada Chureemart<br>
           <span style="font-size: 0.8rem;">Department of Physics, Mahasarakham University
           </span><br>Title : Physics and Engineering in the Application of Magnetic Recording Technology
@@ -145,7 +145,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-4 col-md-6 col-sm-12" style="text-align: center;">
         <br>
         <h5 style="color:#df6a00">Symposium : Plasma, Radiation, Nuclear Physics, and Technology</h5>
-        <img src="/spc2024/img/speaker/kl10.png" class="w-50">
+        <img src="/img/speaker/kl10.png" class="w-50">
         <h6>Assoc. Prof. Dr. Somsak Dangtip<br>
           <span style="font-size: 0.8rem;">Thailand Institute of Nuclear Technology
           </span><br>Title : Capability Building and Networking for Fusion Technology through the First Tokamak of
@@ -164,7 +164,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is01-1.png" class="w-50">
+            <img src="/img/speaker/is01-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Mudtorlep Nisoa<br>
               <span style="font-size: 0.8rem;">Division of physics, School of Science, Walailak University
               </span><br>Title : Engineering physics research to develop microwave heating technology for agricultural
@@ -172,7 +172,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is01-2.png" class="w-50">
+            <img src="/img/speaker/is01-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Suthira Taychakhoonavudh<br>
               <span style="font-size: 0.8rem;">Chief Executive Officer and co-founder of Baiya Phytopharm
               </span><br>Title : Navigating through the innovation journey: case study of Baiya Phytopharm
@@ -188,7 +188,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is02-1.png" class="w-50">
+            <img src="/img/speaker/is02-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Saichon Sriphan<br>
               <span style="font-size: 0.8rem;">King Mongkut's University of Technology North Bangkok
               </span><br>Title : Tribovoltaic effect based on solid-solid interface: 
@@ -196,7 +196,7 @@ transition from emerging mechanism into potential applications
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is02-2.png" class="w-50">
+            <img src="/img/speaker/is02-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Pongsakorn Kanjanaboos<br>
               <span style="font-size: 0.8rem;">School of Materials Science and Innovation, Faculty of Science,
                 Mahidol University</span><br>Title : Functional Materials and Scalable Processes for Low-Cost Perovskite
@@ -213,7 +213,7 @@ transition from emerging mechanism into potential applications
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is03-1.png" class="w-50">
+            <img src="/img/speaker/is03-1.png" class="w-50">
             <h6>Prof. Dr. Burin Gumjudpai<br>
               <span style="font-size: 0.8rem;">NAS, Centre for Theoretical Physics and Natural Philosophy, Mahidol
                 University, Nakhonsawan Campus Project
@@ -221,21 +221,21 @@ transition from emerging mechanism into potential applications
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is03-2.png" class="w-50">
+            <img src="/img/speaker/is03-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Piyabut Burikham<br>
               <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
               </span><br>Title : Thermodynamics of black hole in certain class of Weyl geometric gravity
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is03-3.png" class="w-50">
+            <img src="/img/speaker/is03-3.png" class="w-50">
             <h6>Dr. Taweewat Somboonpanyakul<br>
               <span style="font-size: 0.8rem;">Department of Physics, Chulalongkorn University
               </span><br>Title : CHIPS1911+4455: A Cooling flow in a Mering Cluster
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is03-4.png" class="w-50">
+            <img src="/img/speaker/is03-4.png" class="w-50">
             <h6>Dr. Saran Poshyachinda<br>
               <span style="font-size: 0.8rem;">National Astronomical Research Institute of Thailand (NARIT)
               </span><br>Title : National Astronomical Research Institute of Thailand (NARIT) 
@@ -251,7 +251,7 @@ transition from emerging mechanism into potential applications
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is04.png" class="w-50">
+            <img src="/img/speaker/is04.png" class="w-50">
             <h6>Dr. Thakonwat Chanwattana<br>
               <span style="font-size: 0.8rem;">Accelerator Research and Instrumentation Section, Accelerator Research
                 and Development Division, Synchrotron Light Research Institute
@@ -269,14 +269,14 @@ transition from emerging mechanism into potential applications
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is05-1.png" class="w-50">
+            <img src="/img/speaker/is05-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Thanayut Kaewmaraya<br>
               <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Khon Kaen University
               </span><br>Title : Two-dimensional Materials as Cathode Host for Inhibiting Polysulfide Shuttling and Promoting Kinetics in Metal–Sulfur Batteries
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is05-2.png" class="w-50">
+            <img src="/img/speaker/is05-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Papichaya Chaisakul<br>
               <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Kasetsart University
               </span><br>Title : Finite-Difference Time-Domain method for the investigation of silicon-based photonic
@@ -293,12 +293,12 @@ transition from emerging mechanism into potential applications
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is06-2.png" class="w-50">
+            <img src="/img/speaker/is06-2.png" class="w-50">
             <h6>Prof. Dr. Yoshiaki Yasuno<span style="font-size: 0.8rem;">Institute of Applied Physics, University of
                 Tsukuba, Japan</span><br>Title : Contrast augmentation of optical coherence tomography by computational methods</h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is06-3.png" class="w-50">
+            <img src="/img/speaker/is06-3.png" class="w-50">
             <h6>Asst. Prof. Dr. Pruet Kalasuwan<span style="font-size: 0.8rem;">Faculty of Science, Prince of Songkla
                 University</span><br>Title : Exploring the realm of quantum communication within the context of Thailand
             </h6>
@@ -313,7 +313,7 @@ transition from emerging mechanism into potential applications
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is07-1.png" class="w-50">
+            <img src="/img/speaker/is07-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Amarin Ratanavis<br>
               <span style="font-size: 0.8rem;">Department of Industrial Physics and Medical Instrumentation, Faculty of
                 Applied Science, Lasers and Optics Research Center, Science and Technology Research Institute, King
@@ -322,7 +322,7 @@ transition from emerging mechanism into potential applications
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is07-2.png" class="w-50">
+            <img src="/img/speaker/is07-2.png" class="w-50">
             <h6>Asst. Prof. Dr. Chat Teeka<br>
               <span style="font-size: 0.8rem;">Program in General Science, Faculty of Science and Technology, Suan Dusit
                 University, Bangkok, Thailand
@@ -330,7 +330,7 @@ transition from emerging mechanism into potential applications
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is07-3.png" class="w-50">
+            <img src="/img/speaker/is07-3.png" class="w-50">
             <h6>Prof. Dr. C.K. Jayasankar<br>
               <span style="font-size: 0.8rem;">Department of Physics, Sri Venkateswara University, Tirupati, India
               </span><br>Title : An overview of visible and infrared down- and up-conversion luminescence properties of
@@ -347,7 +347,7 @@ transition from emerging mechanism into potential applications
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is08-1.png" class="w-50">
+            <img src="/img/speaker/is08-1.png" class="w-50">
             <h6>Assoc. Prof. Dr. Soodkhet Projprapai<br>
               <span style="font-size: 0.8rem;">School of Ceramic Engineering, Institute of Engineering, Suranaree
                 University of Technology, Founder of Suratec
@@ -355,7 +355,7 @@ transition from emerging mechanism into potential applications
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is08-2.png" class="w-50">
+            <img src="/img/speaker/is08-2.png" class="w-50">
             <h6>Assoc. Prof. Dr. Ratchanok Somphonsane<br>
               <span style="font-size: 0.8rem;">Department of Physics, School of Science, King’s Mongkut Institute of
                 Technology Ladkrabang
@@ -372,14 +372,14 @@ transition from emerging mechanism into potential applications
       <div class="col-lg-7 col-md-6 col-sm-6">
         <div class="row mt-3" style="text-align: center;">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is09-1.png" class="w-50">
+            <img src="/img/speaker/is09-1.png" class="w-50">
             <h6>Asst. Prof. Dr. Norraphat Srimanobhas<br>
               <span style="font-size: 0.8rem;">Department of Physics, Faculty of Science, Chulalongkorn University
               </span><br>Title : Highlights from Flavor Physics and CP Violation conference 2024
             </h6>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="/spc2024/img/speaker/is09-2.png" class="w-50">
+            <img src="/img/speaker/is09-2.png" class="w-50">
             <h6>Dr. Pinit Kidkhunthod<br>
               <span style="font-size: 0.8rem;">Synchrotron Light Research Institute (Public Organization)
               </span><br>Title : Hard X-ray absorption spectroscopy (HXAS) beamline
@@ -393,8 +393,8 @@ transition from emerging mechanism into potential applications
 
   </div>
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 </body>
 

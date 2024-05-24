@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +14,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     content="19 th of Siam Physics Congress 2024 (SPC2024), Krungsri River Hotel, Phra Nakorn Sri Ayutthaya, Thailand, JUNE 5-7, 2024.">
   <meta name="keywords"
     content="spc2024, SPC2024,19 th of Siam Physics Congress, ครั้งที่ 19, ประกวดโครงงานอิสระ, สมาคมฟิสิกส์">
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
   <style>
     /* สีข้อความที่กระพริบ */
     .blinking {
@@ -41,7 +41,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
 
   <div class="container">
@@ -57,14 +57,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
       <tr>
           <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 1 May 2024</td>
           <td>
-            <a class="anews" href="/spc2024/auth/register.php" target="_blank">Attention all prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird registration deadline for the conference has been extended to May 13, 2024. That means you still have time to take advantage of the reduced registration fees.
+            <a class="anews" href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" target="_blank">Attention all prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird registration deadline for the conference has been extended to May 13, 2024. That means you still have time to take advantage of the reduced registration fees.
             </a>
           </td>
         </tr>
         <tr>
           <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 1 May 2024</td>
           <td>
-            <a class="anews" href="/spc2024/pages/tour.php" target="_blank">The SPC2024
+            <a class="anews" href="/pages/tour.php" target="_blank">The SPC2024
               Organizing Committee has arranged sightseeing tours for the conference delegates offering an opportunity
               to experience the central part of Ayuthaya.<br>A special two groups of tours have been arranged for
               Wednesday, 5th June from 2.30-4.00 pm. Detailed itineraries for each excursion are available below. Note
@@ -75,7 +75,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 30 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/file/download/registration_payment.pdf"
+            <a class="anews" href="/file/download/registration_payment.pdf"
               target="_blank">ประกาศผลโครงงานอิสระที่ผ่านรอบคัดเลือก รอบแรก
             </a>
           </td>
@@ -83,7 +83,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td>30 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/file/download/registration_payment.pdf" target="_blank">Registration and
+            <a class="anews" href="/file/download/registration_payment.pdf" target="_blank">Registration and
               Payment Guide for Participating in SPC2024 and Using the Website System
             </a>
           </td>
@@ -91,7 +91,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td>17 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/pages/project.php" target="_blank">The notice for qualified applicants of
+            <a class="anews" href="/pages/project.php" target="_blank">The notice for qualified applicants of
               the 16th project contest has been postponed to 30 April 2024. We are sorry for any inconvenience it may
               cause <u>Please stay tuned.</u>
             </a>
@@ -100,7 +100,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td>1 April 2024</td>
           <td>
-            <a class="anews" href="/spc2024/img/news/posterspc.jpg" target="_blank">We are pleased to announce that the
+            <a class="anews" href="/img/news/posterspc.jpg" target="_blank">We are pleased to announce that the
               topic of "<u>Plasma, Radiation, Nuclear Physics, and Technology</u>" has been added to the SPC2024
               Symposium. Abstract submissions are open until April 20, 2024.
             </a>
@@ -109,7 +109,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td>31 March 2024</td>
           <td>
-            <a class="anews" href="/spc2024/img/news/posterspc.jpg" target="_blank">Abstract submission deadline
+            <a class="anews" href="/img/news/posterspc.jpg" target="_blank">Abstract submission deadline
               extended to 20 April 2024
             </a>
           </td>
@@ -117,7 +117,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td>20 March 2024</td>
           <td>
-            <a href="/spc2024/file/download/manual book.pdf" class="anews" target="_blank">Registration Guide for
+            <a href="/file/download/manual book.pdf" class="anews" target="_blank">Registration Guide for
               Participating in SPC2024 and Using the Website System
             </a>
           </td>
@@ -125,7 +125,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td>15 February 2024</td>
           <td>
-            <a href="/spc2024/img/news/8340192.jpg" class="anews"
+            <a href="/img/news/8340192.jpg" class="anews"
               target="_blank">ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
               ครั้งที่ 19 ประจำปี 2567
               จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา
@@ -135,7 +135,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         <tr>
           <td>12 February 2024</td>
           <td>
-            <a href="/spc2024/pages/talk.php" class="anews" target="_blank">The updated list of plenary talks includes
+            <a href="/pages/talk.php" class="anews" target="_blank">The updated list of plenary talks includes
               presentations by Prof. Yifang Wang And Prof. Albrecht Karle
             </a>
           </td>
@@ -163,9 +163,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   </div>
 
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/blink.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/blink.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 
 </body>

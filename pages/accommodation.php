@@ -1,6 +1,6 @@
 <?php
 session_start();
-include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,58 +9,58 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPC2024 KMITL</title>
-  <link rel="stylesheet" href="/spc2024/theme/css/bootstrap-theme.css">
-  <link rel="stylesheet" href="/spc2024/theme/css/self.css">
+  <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="/theme/css/self.css">
 </head>
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/navbar2.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
   <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"
     data-bs-interval="3000">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1">
-        <img src="/spc2024/img/hotel/01.jpg" class="d-block w-100">
+        <img src="/img/hotel/01.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
-        <img src="/spc2024/img/hotel/02.jpg" class="d-block w-100">
+        <img src="/img/hotel/02.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">
-        <img src="/spc2024/img/hotel/03.jpg" class="d-block w-100">
+        <img src="/img/hotel/03.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4">
-        <img src="/spc2024/img/hotel/04.jpg" class="d-block w-100">
+        <img src="/img/hotel/04.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5">
-        <img src="/spc2024/img/hotel/05.jpg" class="d-block w-100">
+        <img src="/img/hotel/05.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6">
-        <img src="/spc2024/img/hotel/06.jpg" class="d-block w-100">
+        <img src="/img/hotel/06.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7">
-        <img src="/spc2024/img/hotel/07.jpg" class="d-block w-100">
+        <img src="/img/hotel/07.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8">
-        <img src="/spc2024/img/hotel/08.jpg" class="d-block w-100">
+        <img src="/img/hotel/08.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9">
-        <img src="/spc2024/img/hotel/09.jpg" class="d-block w-100">
+        <img src="/img/hotel/09.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10">
-        <img src="/spc2024/img/hotel/10.jpg" class="d-block w-100">
+        <img src="/img/hotel/10.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11">
-        <img src="/spc2024/img/hotel/11.jpg" class="d-block w-100">
+        <img src="/img/hotel/11.jpg" class="d-block w-100">
       </button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12">
-        <img src="/spc2024/img/hotel/12.jpg" class="d-block w-100">
+        <img src="/img/hotel/12.jpg" class="d-block w-100">
       </button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/spc2024/img/hotel/01.jpg" class="d-block w-100">
+        <img src="/img/hotel/01.jpg" class="d-block w-100">
         <div class="carousel-caption d-none d-md-block">
           <h1>Krungsri River Hotel</h1>
           <p>Krungsri Hotel is the first in the city of Ayutthaya to install the Pa Sak River for convenience,
@@ -70,37 +70,37 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/02.jpg" class="d-block w-100">
+        <img src="/img/hotel/02.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/03.jpg" class="d-block w-100">
+        <img src="/img/hotel/03.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/04.jpg" class="d-block w-100">
+        <img src="/img/hotel/04.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/05.jpg" class="d-block w-100">
+        <img src="/img/hotel/05.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/06.jpg" class="d-block w-100">
+        <img src="/img/hotel/06.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/07.jpg" class="d-block w-100">
+        <img src="/img/hotel/07.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/08.jpg" class="d-block w-100">
+        <img src="/img/hotel/08.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/09.jpg" class="d-block w-100">
+        <img src="/img/hotel/09.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/10.jpg" class="d-block w-100">
+        <img src="/img/hotel/10.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/11.jpg" class="d-block w-100">
+        <img src="/img/hotel/11.jpg" class="d-block w-100">
       </div>
       <div class="carousel-item">
-        <img src="/spc2024/img/hotel/12.jpg" class="d-block w-100">
+        <img src="/img/hotel/12.jpg" class="d-block w-100">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -195,15 +195,15 @@ include($_SERVER['DOCUMENT_ROOT'] . '/spc2024/connectdb.php');
     </h4>
     <h4>Other hotels in Ayutthaya Province >>> 
       <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" 
-      href="/spc2024/file/download/hotel.pdf" 
+      href="/file/download/hotel.pdf" 
       class="btn bookhotel" target="_blank">Click</a>
     </h4>
 
   </div>
 
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/spc2024/script/script.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 
 </body>
