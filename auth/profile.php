@@ -71,30 +71,47 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
                         </h4>
                       </div>
                     </div>
-                    <!-- สำเนาบัตรนักเรียน / นักศึกษา -->
-                    <?php if ($_SESSION['pay_id'] == 4) { ?>
-                      <div class="card mt-3">
-                        <div class="cardbody" style="padding:2% 5%;">
-                          <h5 class="card-title">สำเนาบัตรนักเรียน</h5>
-                          <?php $sql2 = $conn->query("SELECT * FROM tb_student WHERE email='" . $_SESSION['email'] . "'");
-                          foreach ($sql2 as $row2) {
-                            echo "<img src='/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
-                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'>";
-                          } ?>
+                    <?php
+                    $sliporkey = $conn->query("SELECT * FROM tb_slip WHERE email='" . $_SESSION['email'] . "'");
+                    foreach ($sliporkey as $split) {
+                      if (Is_numeric($split['slip_name'])) { ?>
+                        <!-- The Key -->
+                        <div class="card mt-3">
+                          <div class="cardbody" style="padding:2% 5%;">
+                            <h5 class="card-title">"KEY" for Attach file</h5>
+                            <?php echo $split['slip_name']; ?>
+                            <p>Go to Attach file >>> <a href="https://forms.gle/odsfTXvzRz6TXoA16"
+                                class="btn btn-warning submisspagebutton" target="_blank">Click</a></p>
+                          </div>
                         </div>
-                      </div>
-                    <?php } ?>
-                    <!-- สลีปโอนเงิน -->
-                    <div class="card mt-3">
-                      <div class="cardbody" style="padding:2% 5%;">
-                        <h5 class="card-title">หลักฐานการโอนเงิน</h5>
-                        <?php $sql3 = $conn->query("SELECT * FROM tb_slip WHERE email='" . $_SESSION['email'] . "'");
-                        foreach ($sql3 as $row3) {
-                          echo "<img src='/file/upload/slip/" . $row3['slip_name'] . "' class='img-thumbnail'
-                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 20rem;margin: 2% 5%;'>";
-                        } ?>
-                      </div>
-                    </div>
+                      <?php } else { ?>
+                        <!-- สำเนาบัตรนักเรียน / นักศึกษา -->
+                        <?php if ($_SESSION['pay_id'] == 4) { ?>
+                          <div class="card mt-3">
+                            <div class="cardbody" style="padding:2% 5%;">
+                              <h5 class="card-title">สำเนาบัตรนักเรียน</h5>
+                              <?php $sql2 = $conn->query("SELECT * FROM tb_student WHERE email='" . $_SESSION['email'] . "'");
+                              foreach ($sql2 as $row2) {
+                                echo "<img src='/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
+                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'>";
+                              } ?>
+                            </div>
+                          </div>
+                        <?php } ?>
+                        <!-- สลีปโอนเงิน -->
+                        <div class="card mt-3">
+                          <div class="cardbody" style="padding:2% 5%;">
+                            <h5 class="card-title">หลักฐานการโอนเงิน</h5>
+                            <?php $sql3 = $conn->query("SELECT * FROM tb_slip WHERE email='" . $_SESSION['email'] . "'");
+                            foreach ($sql3 as $row3) {
+                              echo "<img src='/file/upload/slip/" . $row3['slip_name'] . "' class='img-thumbnail'
+                      style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 20rem;margin: 2% 5%;'>";
+                            } ?>
+                          </div>
+                        </div>
+                      <?php }
+                    }
+                    ?>
                     <?php if ($row['approve'] == "disapprove") { ?>
                       <div class="card mt-3" style="background-color: rgb(255 122 1 / 20%);padding: 2%;">
                         <div class="card-body">
@@ -236,19 +253,8 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
                       </h4>
                     </div>
                   </div>
-                  <!-- สำเนาบัตรนักเรียน / นักศึกษา -->
-                  <?php if ($_SESSION['pay_id'] == 4) { ?>
-                    <div class="card mt-3">
-                      <div class="cardbody" style="padding:2% 5%;">
-                        <h5 class="card-title">สำเนาบัตรนักเรียน</h5>
-                        <?php $sql2 = $conn->query("SELECT * FROM tb_student WHERE email='" . $_SESSION['email'] . "'");
-                        foreach ($sql2 as $row2) {
-                          echo "<img src='/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
-                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'>";
-                        } ?>
-                      </div>
-                    </div>
-                  <?php }
+
+                  <?php
                   $sliporkey = $conn->query("SELECT * FROM tb_slip WHERE email='" . $_SESSION['email'] . "'");
                   foreach ($sliporkey as $split) {
                     if (Is_numeric($split['slip_name'])) { ?>
@@ -262,6 +268,19 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
                         </div>
                       </div>
                     <?php } else { ?>
+                      <!-- สำเนาบัตรนักเรียน / นักศึกษา -->
+                      <?php if ($_SESSION['pay_id'] == 4) { ?>
+                        <div class="card mt-3">
+                          <div class="cardbody" style="padding:2% 5%;">
+                            <h5 class="card-title">สำเนาบัตรนักเรียน</h5>
+                            <?php $sql2 = $conn->query("SELECT * FROM tb_student WHERE email='" . $_SESSION['email'] . "'");
+                            foreach ($sql2 as $row2) {
+                              echo "<img src='/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
+                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'>";
+                            } ?>
+                          </div>
+                        </div>
+                      <?php } ?>
                       <!-- สลีปโอนเงิน -->
                       <div class="card mt-3">
                         <div class="cardbody" style="padding:2% 5%;">

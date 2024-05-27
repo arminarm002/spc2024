@@ -51,25 +51,7 @@ $id = $_GET['userid'];
             } ?>
           </h5>
 
-          <!-- สำเนาบัตรนักเรียน / นักศึกษา -->
-          <?php if ($row['pay_id'] == 4) { ?>
-            <div class="card mt-3" style="box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-              <div class="cardbody" style="padding:2% 5%;">
-                <h5 class="card-title">สำเนาบัตรนักเรียน</h5>
-                <?php $sql2 = $conn->query("SELECT * FROM tb_student WHERE email = '" . $row['email'] . "' ");
-                foreach ($sql2 as $row2) {
-                  $type = strrchr($row2['student_name'], ".");
-                  if ($type == ".pdf") {
-                    echo "<a href='/file/upload/studentcard/{$row2['student_name']}' target='_blank'>Link Student ID Card</a>";
-                  } else {
-                    echo "<a href='/file/upload/studentcard/{$row2['student_name']}' target='_blank'>
-                  <img src='/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
-                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'></a>";
-                  }
-                } ?>
-              </div>
-            </div>
-          <?php }
+          <?php
           $sliporkey = $conn->query("SELECT * FROM tb_slip WHERE email = '" . $row['email'] . "' ");
           foreach ($sliporkey as $split) {
             if (Is_numeric($split['slip_name'])) { ?>
@@ -83,6 +65,25 @@ $id = $_GET['userid'];
                 </div>
               </div>
             <?php } else { ?>
+              <!-- สำเนาบัตรนักเรียน / นักศึกษา -->
+              <?php if ($row['pay_id'] == 4) { ?>
+                <div class="card mt-3" style="box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                  <div class="cardbody" style="padding:2% 5%;">
+                    <h5 class="card-title">สำเนาบัตรนักเรียน</h5>
+                    <?php $sql2 = $conn->query("SELECT * FROM tb_student WHERE email = '" . $row['email'] . "' ");
+                    foreach ($sql2 as $row2) {
+                      $type = strrchr($row2['student_name'], ".");
+                      if ($type == ".pdf") {
+                        echo "<a href='/file/upload/studentcard/{$row2['student_name']}' target='_blank'>Link Student ID Card</a>";
+                      } else {
+                        echo "<a href='/file/upload/studentcard/{$row2['student_name']}' target='_blank'>
+                  <img src='/file/upload/studentcard/" . $row2['student_name'] . "' class='img-thumbnail'
+                    style='box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 15rem;margin: 0% 5%;'></a>";
+                      }
+                    } ?>
+                  </div>
+                </div>
+              <?php } ?>
               <!-- สลีปโอนเงิน -->
               <div class="card mt-5" style="box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                 <div class="cardbody" style="padding:2% 5%;">
