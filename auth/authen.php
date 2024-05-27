@@ -1,6 +1,120 @@
 <?php
 include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 
+//Register
+if (isset($_POST['add'])) {
+  if (isset($_POST['ab-number'])) {
+    $abnumber = $_POST['ab-number'];
+  } else {
+    $abnumber = "0";
+  }
+  $email = $_POST['email'];
+  $pass = $_POST['password'];
+  $title = $_POST['title'];
+  $fname = $_POST['name'];
+  $lname = $_POST['lastname'];
+  $company = htmlspecialchars($_POST['company'], ENT_QUOTES);
+  $career = htmlspecialchars($_POST['career'], ENT_QUOTES);
+  $address = htmlspecialchars($_POST['address'], ENT_QUOTES);
+  $country = $_POST['country'];
+  $tel = $_POST['tel'];
+  $fax = $_POST['fax'];
+  $extrameal = $_POST['meal'];
+  $food = $_POST['food'];
+  $typeu = $_POST['type'];
+  $receipt = htmlspecialchars($_POST['receipt'], ENT_QUOTES);
+  $fee = $_POST['fee'];
+  $amount = $_POST['amount'];
+  $role = "user";
+  $password = password_hash($pass, PASSWORD_DEFAULT);
+
+  $date_end = $conn->query("SELECT * FROM tb_setdate");
+  foreach ($date_end as $rowdate) {
+    $datepro = $rowdate['date_end'];
+  }
+  $datenows = date("Y-m-d");
+  if ($datenows < $datepro) {
+
+
+    if ($fee == "1") {
+      $amount = 1;
+    } else if ($fee == "2") {
+      $amount = 1;
+    } else if ($fee == "5") {
+      $amount = 1;
+    }
+    if ($fee == "1") {
+      $total = $amount * 4000;
+
+    } else if ($fee == "2") {
+      $total = $amount * 5000;
+
+    } else if ($fee == "3") {
+      $total = $amount * 4000;
+
+    } else if ($fee == "4") {
+      $total = $amount * 3000;
+
+    } else if ($fee == "5") {
+      $total = $amount * 3000;
+    }
+
+  } else {
+
+    if ($fee == "1") {
+      $amount = 1;
+    } else if ($fee == "2") {
+      $amount = 1;
+    } else if ($fee == "5") {
+      $amount = 1;
+    }
+    if ($fee == "1") {
+      $total = $amount * 5000;
+
+    } else if ($fee == "2") {
+      $total = $amount * 6000;
+
+    } else if ($fee == "3") {
+      $total = $amount * 5000;
+
+    } else if ($fee == "4") {
+      $total = $amount * 4000;
+
+    } else if ($fee == "5") {
+      $total = $amount * 4000;
+    }
+  }
+  $sql = $conn->query("SELECT * FROM tb_user WHERE email='" . $email . "' ");
+
+  if ($sql->num_rows > 0) {
+    echo '<script language="javascript">';
+    echo 'alert("This email is already done, Can not register again.")';
+    echo '</script>';
+    header("refresh: 1; url=register.php");
+  } else {
+    $sql2 = $conn->query("INSERT INTO tb_user (email, password, title, firstname, lastname, company, career, address, country, telephone, fax, extrameal, food, type, receipt, pay_id, amount, total_price, role,  approve, abstract_number) VALUES ('$email', '$password', '$title', '$fname', '$lname', '$company', '$career', '$address', '$country', '$tel', '$fax', '$extrameal', '$food', '$typeu', '$receipt', '$fee', '$amount', '$total', '$role',  'wait', '$abnumber')");
+
+    if ($sql2) {
+      //ฟังก์ชั่นวันที่
+      date_default_timezone_set('Asia/Bangkok');
+      $date = date("Ymd");
+      $numrand = sprintf("%06d", rand(0, 999999));
+      $slip = $conn->query("INSERT INTO tb_slip (slip_date, slip_name, email) VALUES ('$date', '$numrand', '$email') ");
+      if ($slip) {
+        echo '<script language="javascript">';
+        echo 'alert("Successfully registrater, Please Log in to get KEY for Attach file")';
+        echo '</script>';
+        header("refresh: 1; url=login.php");
+      } else {
+        echo '<script language="javascript">';
+        echo 'alert("Somthing Wrong!")';
+        echo '</script>';
+        header("refresh: 1; url=register.php");
+      }
+    } 
+  }
+}
+
 // Log in
 if (isset($_POST['login'])) {
   session_start();

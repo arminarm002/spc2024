@@ -20,7 +20,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
   <div class="container">
     <h1 class="centerer mt-3">Registration Fee (THB)</h1>
     <h4 class="centerer mt-3"><b>Register Form </b>&nbsp;>>>&nbsp; 
-      <a href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" class="btn btn-warning" target="_blank">Click</a>
+      <a href="../auth/register.php" class="btn btn-warning">Click</a>
     </h4>
     <div class="centerer mt-3">
       <a href="/img/news/registration.jpg" target="_blank" style="text-align: center;">

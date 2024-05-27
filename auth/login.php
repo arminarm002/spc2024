@@ -44,7 +44,7 @@ if (isset($_SESSION['role'])) {
                 <button type="submit" class="btn btn-l mt-2 text-white" name="login">Log in</button>
               </div>
             </form>
-            <a href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" target="_blank"><button class="btn btn-l text-white"
+            <a href="register.php"><button class="btn btn-l text-white"
                 style="float: right;">Register</button></a>
           </div>
           <a href="forgetpassword.php"><button class="btn btn-l text-white mb-3"
