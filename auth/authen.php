@@ -122,7 +122,6 @@ if (isset($_POST['add'])) {
 
 // Log in
 if (isset($_POST['login'])) {
-  session_start();
   $email = $_POST['email'];
   $pass = $_POST['password'];
 

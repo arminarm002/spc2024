@@ -14,6 +14,7 @@ if ($_SESSION['role']) {
       <title>SPC2024 KMITL</title>
       <link rel="stylesheet" href="/theme/css/bootstrap-theme.css">
       <link rel="stylesheet" href="/theme/css/self.css">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     </head>
 
     <body class="font-mitr">
@@ -52,7 +53,8 @@ if ($_SESSION['role']) {
                 </h2>
                 <a href="export.php" class="btn btn-primary"> ดาวน์โหลดข้อมูลผู้ลงทะเบียนทั้งหมด </a>
                 <h2>รายชื่อผู้สมัคร รอการอนุมัติ</h2>
-                <div class="table-responsive">
+                <input type="text" class="form-control mt-3" name="search" id="search" placeholder="ค้นหารายชื่อโดยใช้ KEY">
+                <div class="table-responsive" id="display">
                   <table class="table table-striped strip">
                     <thead>
                       <tr style="text-align: center;">
@@ -99,6 +101,25 @@ if ($_SESSION['role']) {
         </div><!-- row ใหญ่ -->
       </div><!-- container -->
 
+      <script>
+			$(document).ready(function () {
+				$("#search").keyup(function () {
+					var text = $('#search').val();
+					$.ajax({
+						type: "POST",
+						url: "search.php",
+						data: { search: text },
+						success: function (response) {
+							$("#display").html(response);
+						},
+						error: function () {
+							$("#display").html("something wrong with ajax...!!");
+						}
+					});
+				});
+			});	
+		</script>
+    
       <?php
       include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
       include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');

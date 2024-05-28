@@ -26,7 +26,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           style="display:block; margin:auto; width:70%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
       </a>
     </div>
-    <h1 class="card-title centerer mt-5">Overview Program (TBA)</h1>
+    <h1 class="card-title centerer mt-5">Overview Program</h1>
     <div style="text-align: center;">
       <a href="https://drive.google.com/file/d/1oPnrF0XPxZMV1kfHNvz7-8jC5Y5LAaeg/view?usp=drive_link"><img
           src="/img/overall.jpg"></a>

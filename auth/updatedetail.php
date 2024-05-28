@@ -53,16 +53,14 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
                       <!-- Address input -->
                       <div class="form-outline mb-2">
                         <label class="form-label" for="address">Contact Address :</label>
-                        <input type="text" id="address" name="address" class="form-control"
-                        value="<?php echo $row['address'];?>" required />
+                        <textarea rows="3" cols="" name="address" class="form-control" required><?php echo $row['address'];?></textarea>
                       </div>
 
                       <!-- Address Receipt input -->
                       <div class="form-outline">
                         <label class="form-label" for="receipt">Name and address for payment
                           receipt<br>(ชื่อและที่อยู่ในใบเสร็จสำหรับเบิก) :</label>
-                        <input type="text" id="receipt" name="receipt" class="form-control"
-                        value="<?php echo $row['receipt'];?>" required />
+                          <textarea rows="3" cols="" name="receipt" class="form-control" required><?php echo $row['receipt'];?></textarea>
                       </div>
 
                       <!-- Submit button -->
