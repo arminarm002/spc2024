@@ -66,7 +66,7 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
                             echo "ส่ง Abstract จำนวน " . $row['amount'] . " เรื่อง<br>รวมเป็นเงิน " . $row['total_price'] . " บาท<br>";
                           } else {
                             echo "<br>ราคา " . $row['total_price'] . " บาท<br>";
-                          }
+                          } echo "ที่อยู่สำหรับใบเสร็จ".$row['receipt'];
                           ?>
                         </h4>
                       </div>
@@ -248,7 +248,7 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
                           echo "ส่ง Abstract จำนวน " . $row['amount'] . " เรื่อง<br>รวมเป็นเงิน " . $row['total_price'] . " บาท<br>";
                         } else {
                           echo "<br>ราคา " . $row['total_price'] . " บาท<br>";
-                        }
+                        } echo "ที่อยู่สำหรับใบเสร็จ : ".$row['receipt'];
                         ?>
                       </h4>
                     </div>

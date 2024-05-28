@@ -1,5 +1,6 @@
 <?php
 include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
+session_start();
 
 //Register
 if (isset($_POST['add'])) {
@@ -92,15 +93,19 @@ if (isset($_POST['add'])) {
     echo '</script>';
     header("refresh: 1; url=register.php");
   } else {
-    $sql2 = $conn->query("INSERT INTO tb_user (email, password, title, firstname, lastname, company, career, address, country, telephone, fax, extrameal, food, type, receipt, pay_id, amount, total_price, role,  approve, abstract_number) VALUES ('$email', '$password', '$title', '$fname', '$lname', '$company', '$career', '$address', '$country', '$tel', '$fax', '$extrameal', '$food', '$typeu', '$receipt', '$fee', '$amount', '$total', '$role',  'wait', '$abnumber')");
+    $sqlregis = "INSERT INTO tb_user
+    (email, password, title, firstname, lastname, company, career, address, country, telephone, fax, extrameal, food, type, receipt, pay_id, amount, total_price, role, approve, abstract_number	) VALUES 
+    ('$email', '$password', '$title', '$fname', '$lname', '$company', '$career', '$address', '$country', '$tel', '$fax', '$extrameal', '$food', '$typeu', '$receipt', '$fee', '$amount', '$total', '$role', 'wait', '$abnumber')";
+
+    $sql2 = $conn->query($sqlregis);
 
     if ($sql2) {
       //ฟังก์ชั่นวันที่
       date_default_timezone_set('Asia/Bangkok');
       $date = date("Ymd");
       $numrand = sprintf("%06d", rand(0, 999999));
-      $slip = $conn->query("INSERT INTO tb_slip (slip_date, slip_name, email) VALUES ('$date', '$numrand', '$email') ");
-      if ($slip) {
+      $key = $conn->query("INSERT INTO tb_slip (slip_date, slip_name, email) VALUES ('$date', '$numrand', '$email') ");
+      if ($key) {
         echo '<script language="javascript">';
         echo 'alert("Successfully registrater, Please Log in to get KEY for Attach file")';
         echo '</script>';
@@ -111,7 +116,7 @@ if (isset($_POST['add'])) {
         echo '</script>';
         header("refresh: 1; url=register.php");
       }
-    } 
+    }
   }
 }
 
@@ -173,6 +178,30 @@ if (isset($_POST['login'])) {
     echo 'alert("Username Invalid")';
     echo '</script>';
     header("refresh: 1; url=login.php");
+  }
+}
+
+//Update Personal Data
+if (isset($_POST['updatedetail'])) {
+  $fname = $_POST['name'];
+  $lname = $_POST['lastname'];
+  $address = htmlspecialchars($_POST['address'], ENT_QUOTES);
+  $receipt = htmlspecialchars($_POST['receipt'], ENT_QUOTES);
+
+  $sqlupdate = "UPDATE tb_user SET firstname='$fname', lastname='$lname', address='$address', receipt='$receipt'  WHERE email='" . $_SESSION['email'] . "' ";
+
+  $updatedata = $conn->query($sqlupdate);
+
+  if ($updatedata) {
+    echo '<script language="javascript">';
+    echo 'alert("Successfully Update")';
+    echo '</script>';
+    header("refresh: 1; url=profile.php");
+  } else {
+    echo '<script language="javascript">';
+    echo 'alert("Somthing Wrong!")';
+    echo '</script>';
+    header("refresh: 1; url=updatedetail.php");
   }
 }
 
