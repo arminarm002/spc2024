@@ -559,7 +559,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           <!-- Silver -->
           <h2 style="text-align: center;">Silver</h2>
           <div class="row">
-          <div class="col-lg-2 col-md-3"></div>
           <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.fitel.co.th/" target="_blank">
                 <img src="/img/sponsors/32.png" class="img-fluid w-75">
@@ -580,7 +579,16 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                 <h6 class="abw resfont2">คณะวิทยาศาสตร์ มหาวิทยาลัยพะเยา</h6>
               </a>
             </div>
-            <div class="col-lg-2 col-md-3"></div>
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+              <a href="https://www.g-able.com/th" target="_blank">
+                <img src="/img/sponsors/62.png" class="img-fluid w-75">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-3 center2">
+              <a href="https://www.g-able.com/th" target="_blank">
+                <h6 class="abw resfont2">บริษัท จีเอเบิล จำกัด (มหาชน)</h6>
+              </a>
+            </div>
             
           </div>
 

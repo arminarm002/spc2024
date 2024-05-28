@@ -55,6 +55,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
       </thead>
       <tbody>
       <tr>
+          <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 28 May 2024</td>
+          <td>
+            <a class="anews" href="/file/download/presentationlist.pdf" target="_blank">SPC2024 Oral and Poster presentation list
+            </a>
+          </td>
+        </tr>
+        <tr>
           <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 1 May 2024</td>
           <td>
             <a class="anews" href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" target="_blank">Attention all prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird registration deadline for the conference has been extended to May 13, 2024. That means you still have time to take advantage of the reduced registration fees.
@@ -73,7 +80,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 30 April 2024</td>
+          <td>30 April 2024</td>
           <td>
             <a class="anews" href="/file/download/registration_payment.pdf"
               target="_blank">ประกาศผลโครงงานอิสระที่ผ่านรอบคัดเลือก รอบแรก

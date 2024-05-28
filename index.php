@@ -114,13 +114,29 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           <div class="row" style="margin: 15px auto;">
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/img/news/presentlist.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 28 May 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPC2024 Oral and Poster
+                    presentation list</p>
+                  <a href="/file/download/presentationlist.pdf" class="btn btn-warning" target="_blank"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- More --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/834019.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 13 May 2024
                   </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
-              ครั้งที่ 19 ประจำปี 2567
-              จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา</p>
+                  <p class="card-text" style="text-align:justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
+                    ครั้งที่ 19 ประจำปี 2567
+                    จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา</p>
                   <a href="/img/news/8340192.jpg" class="btn btn-warning" target="_blank"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
@@ -150,7 +166,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/tour.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 1 May 2024
+                  <h5 class="card-title">1 May 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The SPC2024 Organizing
                     Committee has arranged sightseeing tours for the conference delegates offering an opportunity to
@@ -192,24 +208,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registration and
                     Payment Guide for Participating in SPC2024 and Using the Website System</p>
                   <a href="/file/download/registration_payment.pdf" class="btn btn-warning" target="_blank"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/img/news/16extended.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title">17 April 2024
-                  </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The notice for
-                    qualified applicants of the 16th
-                    project contest has been postponed to 30 April 2024. We are sorry for any inconvenience it may cause
-                    <br><br><u>Please stay tuned.</u>
-                  </p>
-                  <a href="/pages/project.php" class="btn btn-warning"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>

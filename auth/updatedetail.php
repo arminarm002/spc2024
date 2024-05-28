@@ -178,7 +178,6 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
     <?php
     include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
     include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
-    include ($_SERVER['DOCUMENT_ROOT'] . '/script/messenger.php');
     ?>
 
   </body>
