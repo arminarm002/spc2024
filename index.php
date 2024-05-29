@@ -118,11 +118,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                 <div class="card-body">
                   <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 28 May 2024
                   </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPC2024 Oral and Poster
-                    presentation list</p>
+                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oral and Poster presentation List and Program</p>
                   <a href="/file/download/presentationlist.pdf" class="btn btn-warning" target="_blank"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
+                    style="margin:5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">presentation list</h6>
+                  </a>
+                  <a href="/file/download/presentationprogram.pdf" class="btn btn-warning" target="_blank"
+                    style="margin:5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">presentation program</h6>
                   </a>
                 </div>
               </div>

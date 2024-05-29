@@ -1,5 +1,5 @@
 <?php
-//สร้างตัวแปรเพื่อใช้เชื่อม db
+//ข้างนอกใช้ username และชื่อ db เหมือนกัน bbabodyc_spc2024
 $servername = "localhost";
 $username = "suradechdb";
 $password = "#Science@suradech1234+";
