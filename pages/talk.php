@@ -100,7 +100,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         <h5 style="color:#df6a00">Symposium : Accelerators & Synchrotron radiations</h5>
         <img src="/img/speaker/kl04.png" class="w-50">
         <h6>Dr.Prapong Klysubun<br>
-          <span style="font-size: 0.8rem;">Director of Synchrotron Light Research Institute (SLRI)
+          <span style="font-size: 0.8rem;">Deputy Director for SPS-II Development
           </span><br>Title : Advanced physics and engineering developments for Siam Photon Source II particle accelerator complex
         </h6>
       </div>
