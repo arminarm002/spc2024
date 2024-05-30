@@ -102,6 +102,11 @@ ul.unlist {
     position: absolute;
     right: 50px;
   }
+  .videohome{
+    width: 75%;
+    height:auto;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 991px) {

@@ -89,6 +89,10 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         </div>
 
       </section>
+      <div class="videohome">
+        <video class="border border-warning rounded" width="100%" height="auto" muted controls loop autoplay src="/video/spc2024 open.mp4"></video>
+      </div>
+
       <div class="row">
         <div class="col-lg-4 col-md-4 col-6 mt-3">
           <a href="/img/news/posterspc.jpg" target="_blank">
