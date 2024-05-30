@@ -114,11 +114,47 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           <div class="row" style="margin: 15px auto;">
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/img/news/parking.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 30 May 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แผนผังที่จอดรถบริเวณโรงแรมและสถานที่ใกล้เคียง</p>
+                  <a href="/img/news/parking.jpg" class="btn btn-warning" target="_blank"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- Download --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/img/news/exten2.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 May 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The full-paper
+                    submission for SPC e-proceedings is extended to June 15th, 2024!!!<br>Download Template : >>>
+                    <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                      href="/file/download/spc2024-proceedings.docx" class="btn btn-warning" target="_blank"> Click
+                    </a><br>
+                    E-Proceedings Submission Guide : >>>
+                    <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                      href="/file/download/E-Proceedings Submission Guide.pdf" class="btn btn-warning" target="_blank">
+                      Click
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/presentlist.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 28 May 2024
                   </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oral and Poster presentation List and Program</p>
+                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oral and Poster
+                    presentation List and Program</p>
                   <a href="/file/download/presentationlist.pdf" class="btn btn-warning" target="_blank"
                     style="margin:5px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">presentation list</h6>
@@ -134,7 +170,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/834019.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 13 May 2024
+                  <h5 class="card-title">13 May 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
@@ -151,7 +187,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/13may.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 10 May 2024
+                  <h5 class="card-title">10 May 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attention all
                     prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird
@@ -181,36 +217,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                       style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" target="_blank">Click </a>
                   </p>
                   <a href="/pages/tour.php" class="btn btn-warning"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/img/news/goal.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title">30 April 2024
-                  </h5>
-                  <p class="card-text" style="text-align:justify;">ประกาศผลโครงงานอิสระที่ผ่านรอบคัดเลือก รอบแรก
-                  </p>
-                  <a href="/pages/project.php" class="btn btn-warning"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;">
-                <img class="border-bottom border-warning" src="/img/news/rate.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title">30 April 2024
-                  </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registration and
-                    Payment Guide for Participating in SPC2024 and Using the Website System</p>
-                  <a href="/file/download/registration_payment.pdf" class="btn btn-warning" target="_blank"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- More --</h6>
                   </a>

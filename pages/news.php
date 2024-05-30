@@ -54,22 +54,42 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         </tr>
       </thead>
       <tbody>
-      <tr>
+        <tr>
+          <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 May 2024</td>
+          <td>
+            <a class="anews" href="/img/news/parking.jpg" target="_blank">แผนผังที่จอดรถบริเวณโรงแรมและสถานที่ใกล้เคียง
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 30 May 2024</td>
+          <td>
+            <p>The full-paper submission for SPC e-proceedings is extended to June 15th, 2024!!!</p>
+            <a href="/file/download/spc2024-proceedings.docx" target="_blank"> Download Template</a> &nbsp;
+            <a href="/file/download/E-Proceedings Submission Guide.pdf" target="_blank">E-Proceedings Submission Guid
+            </a>
+          </td>
+        </tr>
+        <tr>
           <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 28 May 2024</td>
           <td>
-            <a class="anews" href="/file/download/presentationlist.pdf" target="_blank">SPC2024 Oral and Poster presentation list
+            <a class="anews" href="/file/download/presentationlist.pdf" target="_blank">SPC2024 Oral and Poster
+              presentation list
             </a>
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 1 May 2024</td>
+          <td>1 May 2024</td>
           <td>
-            <a class="anews" href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" target="_blank">Attention all prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird registration deadline for the conference has been extended to May 13, 2024. That means you still have time to take advantage of the reduced registration fees.
+            <a class="anews" href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" target="_blank">Attention all prospective
+              attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird registration
+              deadline for the conference has been extended to May 13, 2024. That means you still have time to take
+              advantage of the reduced registration fees.
             </a>
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 1 May 2024</td>
+          <td>1 May 2024</td>
           <td>
             <a class="anews" href="/pages/tour.php" target="_blank">The SPC2024
               Organizing Committee has arranged sightseeing tours for the conference delegates offering an opportunity
@@ -132,8 +152,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         <tr>
           <td>15 February 2024</td>
           <td>
-            <a href="/img/news/8340192.jpg" class="anews"
-              target="_blank">ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
+            <a href="/img/news/8340192.jpg" class="anews" target="_blank">ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
               ครั้งที่ 19 ประจำปี 2567
               จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา
             </a>
