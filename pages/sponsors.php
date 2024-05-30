@@ -89,11 +89,12 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         <hr>
       </div>
 
-      <h1 class="card-title centerer mt-3">Sponsors</h1>
+      <h1 class="card-title centerer mt-2 mb-3">Sponsors</h1>
       <div class="blog-con">
         <div class="blog-item">
-          <h2 class="mt-3" style="text-align: center;">Supreme</h2>
-
+          <div style="text-align: center;">
+            <img src="/img/sponsors/supreme.png" style="width: 18%;">
+          </div>
           <!-- Supremea -->
           <div class="row">
 
@@ -175,7 +176,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 
           <hr>
           <!-- Platinum -->
-          <h2 style="text-align: center;">Platinum</h2>
+          <div style="text-align: center;">
+            <img src="/img/sponsors/platinum.png" style="width: 18%;">
+          </div>
           <div class="row">
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.barascientific.com/slide/" target="_blank">
@@ -261,7 +264,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 
           <hr>
           <!-- Gold  -->
-          <h2 style="text-align: center;">Gold</h2>
+          <div style="text-align: center;">
+            <img src="/img/sponsors/gold.png" style="width: 18%;">
+          </div>
           <div class="row">
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.fortistrading.co.th/" target="_blank">
@@ -557,9 +562,11 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 
           <hr>
           <!-- Silver -->
-          <h2 style="text-align: center;">Silver</h2>
+          <div style="text-align: center;">
+            <img src="/img/sponsors/silver.png" style="width: 18%;">
+          </div>
           <div class="row">
-          <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
+            <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.fitel.co.th/" target="_blank">
                 <img src="/img/sponsors/32.png" class="img-fluid w-75">
               </a>
@@ -589,12 +596,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                 <h6 class="abw resfont2">บริษัท จีเอเบิล จำกัด (มหาชน)</h6>
               </a>
             </div>
-            
+
           </div>
 
           <hr>
           <!-- Copper -->
-          <h2 style="text-align: center;">Copper</h2>
+          <div style="text-align: center;">
+            <img src="/img/sponsors/copper.png" style="width: 18%;">
+          </div>
           <div class="row">
             <div class="col-lg-2 col-md-3 col-3 center2" style="text-align: center;">
               <a href="https://www.asgexperience.com/" target="_blank">
