@@ -80,7 +80,7 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
                           <div class="cardbody" style="padding:2% 5%;">
                             <h5 class="card-title">"KEY" for Attach file</h5>
                             <?php echo $split['slip_name']; ?>
-                            <p>Go to Attach file >>> <a href="https://forms.gle/odsfTXvzRz6TXoA16"
+                            <p>Go to Attach file >>> <a href="https://forms.gle/GGaWnWZJL7K8z1AY7"
                                 class="btn btn-warning submisspagebutton" target="_blank">Click</a></p>
                           </div>
                         </div>
@@ -262,7 +262,7 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
                         <div class="cardbody" style="padding:2% 5%;">
                           <h5 class="card-title">"KEY" for Attach file</h5>
                           <?php echo $split['slip_name']; ?>
-                          <p>Go to Attach file >>> <a href="https://forms.gle/odsfTXvzRz6TXoA16"
+                          <p>Go to Attach file >>> <a href="https://forms.gle/GGaWnWZJL7K8z1AY7"
                               class="btn btn-warning submisspagebutton" target="_blank">Click</a></p>
                         </div>
                       </div>
