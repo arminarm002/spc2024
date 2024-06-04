@@ -4,7 +4,6 @@
     style="background-color: #ff7a01;border-color: #813d00;">Profile</a>
   <a href="/auth/profile.php" class="list-group-item list-group-item-action">Home</a>
   <a href="/auth/changepass.php" class="list-group-item list-group-item-action">Change Password</a>
-  <a href="/auth/updatedetail.php" class="list-group-item list-group-item-action">Update Personal Data</a>
   <?php if ($_SESSION['role'] == "thaiphysic") { ?>
     <a href="/auth/backend/thaiphysic.php" class="list-group-item list-group-item-action">รอการอนุมัติ</a>
     <a href="/auth/backend/approved.php" class="list-group-item list-group-item-action">อนุมัติแล้ว</a>

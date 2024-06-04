@@ -372,6 +372,8 @@ if ($_SESSION['role'] && $_SESSION['role'] == "user") {
   <?php }
 
 
+} else if ($_SESSION['role'] && $_SESSION['role'] == "thaiphysic"){
+  header("refresh: 1; url= backend/thaiphysic.php");
 } else {
   header("refresh: 1; url= /../index.php");
 } ?>
