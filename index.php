@@ -90,7 +90,30 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 
       </section>
       <div class="videohome">
-        <video class="border border-warning rounded" width="100%" height="auto" muted controls loop autoplay src="/video/spc2024 open.mp4"></video>
+        <video class="border border-warning rounded" width="100%" height="auto" muted controls loop autoplay
+          src="/video/spc2024 open.mp4"></video>
+      </div>
+
+      <div class="pt-3 pb-3" style="text-align:center; background-color:#f6dbbb;">
+        <div class="row" style="padding: 10px 0px;">
+          <div class="col-6">
+            <h4>SPC2024 Abstract Book >>> <a
+                href="https://drive.google.com/file/d/16L39u1EOuNbV4jMmJwv1XjIlmPEUb_pj/view?usp=sharing"
+                class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">--
+                Download
+                --</a>
+            </h4>
+          </div>
+          <div class="col-6">
+            <h4>SPC2024 Program Book >>> <a
+                href="https://drive.google.com/file/d/1oleTz4e_hcfVEXf8gYTTEG-TLlHzynLR/view?usp=sharing"
+                class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">--
+                Download
+                --</a>
+            </h4>
+          </div>
+        </div>
+        <h4>PASSWORD : <span class="red">SPC2024</span></h4>
       </div>
 
       <div class="row">
