@@ -66,7 +66,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
     <h4 class="card-text fss-14 mt-3" style="text-align:justify;">The organizers and hosts of the 19th Siam Physics
       Congress 2024 (SPC2024) are duly honored to receive gracious support from Her Royal Highness (H.R.H.) Princess
       Maha Chakri Sirindhorn, who will preside over the opening ceremony on June 6, 2024.</h6>
-      <section class="countdown-container centerer mt-3 mb-3">
+      <!-- <section class="countdown-container centerer mt-3 mb-3">
 
         <div class="countdown">
           <span class="days" id="days"></span>
@@ -88,7 +88,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           <div class="seconds-label">seconds</div>
         </div>
 
-      </section>
+      </section> -->
       <div class="videohome">
         <video class="border border-warning rounded" width="100%" height="auto" muted controls loop autoplay
           src="/video/spc2024 open.mp4"></video>
@@ -114,6 +114,14 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           </div>
         </div>
         <h4>PASSWORD : <span class="red">SPC2024</span></h4>
+        <hr style="width: 90%;margin:10px auto;">
+        <h4>
+          ประกาศผู้ชนะรางวัลประกวดโครงงานครั้งที่16SPC2024 >>> <a
+            href="https://drive.google.com/file/d/1rHklD76ili1MBwfc6qBOA9nBZCnyCKSi/view?usp=sharing"
+            class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">--
+            Download
+            --</a>
+        </h4>
       </div>
 
       <div class="row">
@@ -264,7 +272,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
   include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
   include ($_SERVER['DOCUMENT_ROOT'] . '/script/blink.php');
   include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/script/countdown.php');
   ?>
 
 </body>

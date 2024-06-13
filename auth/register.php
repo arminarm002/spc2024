@@ -28,18 +28,19 @@ if (isset($_SESSION['role'])) {
           </h5>
         </div>
         <div class="card-body" style="margin: 0px 10%;">
+        <img src="/img/closed.png" style="display:block; margin:auto; width:50%;">
           <div class="row">
             <form action="authen.php" method="POST" enctype="multipart/form-data">
               <!-- Email input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="email">Email Address :</label>
-                <input type="email" id="email" class="form-control" name="email" required />
+                <input type="email" id="email" class="form-control" name="email" required disabled />
               </div>
 
               <!-- Password input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="password">Password :</label>
-                <input type="password" id="password" class="form-control" name="password" required />
+                <input type="password" id="password" class="form-control" name="password" required disabled />
               </div>
 
               <!-- Title input -->
@@ -52,8 +53,8 @@ if (isset($_SESSION['role'])) {
                   <div class="col-8">
                     <div class="dropdown">
                       <select class="btn btn-secondary dropdown-toggle titlebut" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" name="title" style="border-color:black;" required>
-                        <option value="" selected disabled>Title</option>
+                        data-bs-toggle="dropdown" name="title" style="border-color:black;" required disabled>
+                        <option value="" selected disabledd>Title</option>
                         <option value="Mr.">Mr.</option>
                         <option value="Ms.">Ms.</option>
                         <option value="Emeritus Professor">Emeritus Professor</option>
@@ -70,49 +71,49 @@ if (isset($_SESSION['role'])) {
               <!-- Firstname input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="name">First name :</label>
-                <input type="text" id="name" name="name" class="form-control" required />
+                <input type="text" id="name" name="name" class="form-control" required disabled />
               </div>
 
               <!-- Lastname input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="lastname">Last name :</label>
-                <input type="text" id="lastname" name="lastname" class="form-control" required />
+                <input type="text" id="lastname" name="lastname" class="form-control" required disabled />
               </div>
 
               <!-- Company input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="company">Company/Organization :</label>
-                <input type="text" id="company" name="company" class="form-control" required />
+                <input type="text" id="company" name="company" class="form-control" required disabled />
               </div>
 
               <!-- Career input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="career">Career/Position :</label>
-                <input type="text" id="career" name="career" class="form-control" required />
+                <input type="text" id="career" name="career" class="form-control" required disabled />
               </div>
 
               <!-- Address input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="address">Contact Address :</label>
-                <input type="text" id="address" name="address" class="form-control" required />
+                <input type="text" id="address" name="address" class="form-control" required disabled />
               </div>
 
               <!-- Country input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="country">Country :</label>
-                <input type="text" id="country" name="country" class="form-control" required />
+                <input type="text" id="country" name="country" class="form-control" required disabled />
               </div>
 
               <!-- Telephone input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="tel">Telephone :</label>
-                <input type="text" id="tel" name="tel" class="form-control" required />
+                <input type="text" id="tel" name="tel" class="form-control" required disabled />
               </div>
 
               <!-- Fax input -->
               <div class="form-outline mb-2">
                 <label class="form-label" for="fax">Fax :</label>
-                <input type="text" id="fax" name="fax" class="form-control" />
+                <input type="text" id="fax" name="fax" class="form-control" disabled/>
               </div>
 
               <!-- Food input -->
@@ -122,7 +123,7 @@ if (isset($_SESSION['role'])) {
                   <?php
                   $sql = $conn->query("SELECT * FROM tb_meal");
                   foreach ($sql as $row) {
-                    echo '<input class="form-check-input" type="radio" name="meal" value="' . htmlspecialchars($row['meal_name']) . '" required> ' . $row['meal_name'] . '<br>';
+                    echo '<input class="form-check-input" type="radio" name="meal" value="' . htmlspecialchars($row['meal_name']) . '" required disabled> ' . $row['meal_name'] . '<br>';
                     ?>
                   <?php } ?>
                 </div>
@@ -132,7 +133,7 @@ if (isset($_SESSION['role'])) {
                     <label>Food allergy and intolerance : </label>
                   </div>
                   <div class="col-8">
-                    <input type="text" id="food" name="food" class="form-control" />
+                    <input type="text" id="food" name="food" class="form-control" disabled/>
                   </div>
                 </div>
 
@@ -145,7 +146,7 @@ if (isset($_SESSION['role'])) {
                   <?php
                   $sql = $conn->query("SELECT * FROM tb_type");
                   foreach ($sql as $row) {
-                    echo '<input class="form-check-input" type="radio" name="type" value="' . htmlspecialchars($row['type_name']) . '" onchange="opennumber(this.value)" required> ' . $row['type_name'] . '<br>';
+                    echo '<input class="form-check-input" type="radio" name="type" value="' . htmlspecialchars($row['type_name']) . '" onchange="opennumber(this.value)" required disabled> ' . $row['type_name'] . '<br>';
                   } ?>
 
                   <div class="form-check" id="inputabnum" style="margin-left: 30px;display:none;">
@@ -160,7 +161,7 @@ if (isset($_SESSION['role'])) {
               <div class="form-outline">
                 <label class="form-label" for="receipt">Name and address for payment
                   receipt<br>(ชื่อและที่อยู่ในใบเสร็จสำหรับเบิก) :</label>
-                <input type="text" id="receipt" name="receipt" class="form-control" required />
+                <input type="text" id="receipt" name="receipt" class="form-control" required disabled/>
               </div>
 
               <!-- Fee input -->
@@ -271,7 +272,7 @@ if (isset($_SESSION['role'])) {
               </div>
 
               <!-- Submit button -->
-              <button type="submit" class="btn btn-l btn-block text-white mb-2" name="add">Submit</button>
+              <!-- <button type="submit" class="btn btn-l btn-block text-white mb-2" name="add">Submit</button> -->
             </form>
           </div>
         </div>

@@ -80,28 +80,29 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           <h5>รอบแรก</h5>
           <ul class="unlist">
             <li>Abstract Template for Physics Project 2024
-              <button class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">Download File</button>
+              <button class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">Download
+                File</button>
             </li>
             <li>แบบยินยอมให้ส่งผลงานเข้าประกวดจากอาจารย์ที่ปรึกษาโครง งานค้นคว้าอิสระ
-              <button class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">Download File</button>
+              <button class="btn btn-warning" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">Download
+                File</button>
             </li>
           </ul>
           <h5>รอบสอง </h5>
           <h6>โครงงานที่ผ่านเข้ารอบ กรุณาอ่านประกาศหลักเกณฑ์การสนับสนุนค่าใช้จ่าย และ แนวปฏิบัติสำหรับการเข้าประกวด</h6>
           <ul class="unlist">
             <li>ประกาศหลักเกณฑ์การสนับสนุนค่าใช้จ่าย >>
-              <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
-              href="/file/download/project-announce.pdf"
+              <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/file/download/project-announce.pdf"
                 class="btn btn-warning" target="_blank">Download File</a>
             </li>
             <li>แนวปฏิบัติสำหรับการเข้าประกวด >>
-              <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" 
-              href="/file/download/project-guild.pdf"
+              <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="/file/download/project-guild.pdf"
                 class="btn btn-warning" target="_blank">Download File</a>
             </li>
           </ul>
           <ul class="unlist">
-            <li>ไฟล์รายงานโครงงานอิสระฉบับสมบูรณ์ ส่งได้ที่ >> <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" href="https://forms.gle/yvfuMJ89p9BGNP6j9" class="btn btn-warning" target="_blank">Link</a>
+            <li>ไฟล์รายงานโครงงานอิสระฉบับสมบูรณ์ ส่งได้ที่ >> <a style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                href="https://forms.gle/yvfuMJ89p9BGNP6j9" class="btn btn-warning" target="_blank">Link</a>
             </li>
             <li>การนำเสนอผลงาน ภาษาที่จะใช้ในการนำเสนอรอบสุดท้าย ท่านสามารถนำเสนอได้ทั้งภาษาไทยและภาษาอังกฤษ </li>
           </ul>
@@ -120,123 +121,195 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
     </div>
     <hr>
     <div class="row" style="margin: 15px auto;">
-      <h1 class="card-title centerer">ประกาศผลโครงงานที่ผ่านรอบคัดเลือก รอบแรก</h1>
+      <h1 class="card-title centerer">ประกาศผู้ชนะรางวัลประกวดโครงงานครั้งที่16SPC2024</h1>
       <div class="col-12">
         <div class="card border-0" style="color: #494949;">
-        <div class="table-responsive">
-          <table class="table table-success table-striped table-hover mt-3">
-            <thead style="text-align: center;">
-              <tr>
-                <td style="width:10%">
-                  <h4>ลำดับ</h4>
-                </td>
-                <td style="width:25%">
-                  <h4>ชื่อ - นามสกุล</h4>
-                </td>
-                <td>
-                  <h4>มหาวิทยาลัยที่สังกัด</h4>
-                </td>
-                <td>
-                  <h4>ชื่อโครงงาน ภาษาไทย/ภาษาอังกฤษ</h4>
-                </td>
-              </tr>
-            </thead>
-            <tbody class="fs-18">
-              <tr>
-                <td style="text-align: center;">1</td>
-                <td style="text-align: center;">Parita Jumpaburee</td>
-                <td style="text-align: center;">Khon Kaen University</td>
-                <td>Exploring the Effects of Different External Pressures on Sodium Deposition Behavior in Sodium
-                  Anode-Free Batteries through an In-Depth Investigation</td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">2</td>
-                <td style="text-align: center;">กิตติพงศ์วิระ พรสวรรค์</td>
-                <td style="text-align: center;">มหาวิทยาลัย ธรรมศาสตร์</td>
-                <td>เอนโทรปีแบบพัวพันและเส้นของเพจ สำหรับหลุมดำที่มีสมมาตรทรงกลมในทฤษฎีสนามโน้มถ่วงแบบปรับปรุง (The
-                  Entanglement Entropy and Page Curves of The Spherically Symmetric Black Hole in Modified Gravity.)
-                </td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">3</td>
-                <td style="text-align: center;">ทศนัท รมโพธิ์เงิน</td>
-                <td style="text-align: center;">มหิดล</td>
-                <td>การพัฒนาชุดเครื่องมือสาธิตการกระจายกุญแจรหัสทางควอนตัมที่ใช้หลักการโพลาไรเซชันของแสง/Development of
-                  polarizationbased demonstration kits for Quantum key distribution</td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">4</td>
-                <td style="text-align: center;">พรพิพัฒน์เพ็ชรพงษ์ </td>
-                <td style="text-align: center;">มหาวิทยาลัยราชภัฏพิบูลสงครามร</td>
-                <td>การเพิ่มประสิทธิภาพคุณสมบัติไฮบริดเพียโซ/ไทรโบอิเล็กทริกบนฟิล์มคอมโพสิต BaTiO3/PDMS
-                  ที่ปรับปรุงด้วยการเจือรีดิวซ์กราฟีนออกไซด์/Enhanced performance of hybrid piezo/triboelectric using
-                  BaTiO3/polymer composite film modified with rGO </td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">5</td>
-                <td style="text-align: center;">พลเศรษฐ ฉึ่น ธีรศาสตร</td>
-                <td style="text-align: center;">มหาวิทยาลัยขอนแก่น</td>
-                <td>การเพิ่มประสิทธิภาพการสังเคราะห์ด้วยแสงในต้นข้าวด้วย คาร์บอนควอนตัมดอท</td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">6</td>
-                <td style="text-align: center;">มนัสนันท์ ธนะสาร</td>
-                <td style="text-align: center;">มหาวิทยาลัยเชียงใหม</td>
-                <td>การสังเกตการณ์แสงสว่างวาบของ SN2023wrk สำหรับการคัดว่าที่คลื่น ความโน้มถ่วง / Optical Transient
-                  Observation of SN2023wrk for Gravitational Wave Candidate Exclusion</td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">7</td>
-                <td style="text-align: center;">มรรษธร พรหมจันทร์</td>
-                <td style="text-align: center;">มหาวิทยาลัยขอนแก่น</td>
-                <td>ปลดล็อกศักยภาพในการชาร์จเร็วโดยการศึกษาผลกระทบของความหนาแน่นของกระแสไฟฟ้าต่อสัณฐานวิทยาของ
-                  แบตเตอรี่ชนิดโลหะโซเดียม/Unlocking the Potential for Fast Charging through Exploration of the
-                  Influence of Critical Current Density on the Morphology of Sodium Metal Batteries</td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">8</td>
-                <td style="text-align: center;">มัชฌิมา วังพิมล</td>
-                <td style="text-align: center;">มหาวิทยาลัยขอนแก่น</td>
-                <td>
-                  การพัฒนาสื่อการเรียนการสอนโดยใช้แบบจําลองการตรวจจับดาวเคราะห์นอกระบบสุริยะด้วยวิธีการเคลื่อนที่ผ่านหน้า/The
-                  development of teaching and learning apparatus based on the simulation of exoplanet detection by the
-                  transit method </td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">9</td>
-                <td style="text-align: center;">วรดร โสภณอัมพรสุชา</td>
-                <td style="text-align: center;">มหาวิทยาลัยมหิดล</td>
-                <td>Study of the light production and transmission to observe the efficiency of the range counter
-                  particle detector for COMET phase-alpha collaboration</td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">10</td>
-                <td style="text-align: center;">วรพล เจนพาณิชย์วงศ์</td>
-                <td style="text-align: center;">มหาวิทยาลัยมหิดล</td>
-                <td>พลศาสตร์ของสปินของคิวบิทแบบโมเลกุลที่อุณหภูมิห้อง ด้วยการคำนวณแบบ ab initio</td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">11</td>
-                <td style="text-align: center;">ศศิกานต์ สุริยศ</td>
-                <td style="text-align: center;">มหาวิทยาลัยเชียงใหม</td>
-                <td>การออกแบบและประมาณค่าสมรรถนะเบื้องต้นของกล้องโทรทรรศน์ 0.8 เมตร แบบริชชี่ เครเทียน
-                  สำหรับหอดูดาวภูมิภาค สถาบันวิจัยดาราศาสตร์แห่งชาติ / Preliminary design and performance estimation of
-                  the 0.8 m Ritchey–Chrétien telescope for NARIT's public regional observatory.</td>
-              </tr>
-              <tr>
-                <td style="text-align: center;">12</td>
-                <td style="text-align: center;">สุภกิจ ชินภักดี</td>
-                <td style="text-align: center;">มหาวิทยาลัยเกษตรศาสตร์</td>
-                <td>ลูกบอลเตือนภัย: การตรวจจับก๊าซอันตรายผ่านการโยน/ Safety Alert Smart ball: Detecting Hazardous Gas
-                  through Tossing </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="table-responsive">
+            <table class="table table-success table-striped table-hover mt-3">
+              <thead style="text-align: center;">
+                <tr>
+                  <td style="width:10%">
+                    <h4>รางวัล</h4>
+                  </td>
+                  <td style="width:25%">
+                    <h4>ชื่อ - นามสกุล</h4>
+                  </td>
+                  <td>
+                    <h4>มหาวิทยาลัยที่สังกัด</h4>
+                  </td>
+                  <td>
+                    <h4>ชื่อโครงงาน ภาษาไทย/ภาษาอังกฤษ</h4>
+                  </td>
+                </tr>
+              </thead>
+              <tbody class="fs-18">
+                <tr>
+                  <td style="text-align: center;">รางวัลชนะเลิศ</td>
+                  <td style="text-align: center;">นายพลเศรษฐ ฉึ่น ธีรศาสตร์</td>
+                  <td style="text-align: center;">มหาวิทยาลัยขอนแก่น</td>
+                  <td>การเพิ่มประสิทธิภาพการสังเคราะห์ด้วยแสงในต้นข้าวด้วย คาร์บอนควอนตัมดอท<br>(Boosting Photosynthesis in
+                    Rice with Carbon Quantum Dots)</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">รางวัลรองชนะเลิศอันดับ 1</td>
+                  <td style="text-align: center;">นายวรพล เจนพาณิชย์วงศ์</td>
+                  <td style="text-align: center;">มหาวิทยาลัยมหิดล</td>
+                  <td>พลศาสตร์ของสปินของคิวบิทแบบโมเลกุลที่อุณหภูมิห้องด้วยการคำนวณแบบ<br>(ab initio
+                    Ab Initio Investigation for Spin Coherence Dynamics of the Molecular Qubits at Room
+                    Temperature)
+                  </td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">รางวัลรองชนะเลิศอันดับ 2</td>
+                  <td style="text-align: center;">นายสุภกิจ ชินภักดี</td>
+                  <td style="text-align: center;">มหาวิทยาลัยเกษตรศาสตร์</td>
+                  <td>ลูกบอลเตือนภัย: การตรวจจับก๊าซอันตรายผ่านการโยน<br>(Safety Alert Smart ball: Detecting Hazardous Gas
+                    through Tossing)</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">รางวัลประกาศเกียรติคุณ</td>
+                  <td style="text-align: center;">นายทศนัท ริมโพธิ์เงิน</td>
+                  <td style="text-align: center;">มหาวิทยาลัยมหิดล</td>
+                  <td>การพัฒนาชุดเครื่องมือสาธิตการกระจายกุญแจรหัสทางควอนตัมที่ใช้หลักการโพลาไรเซชันของแสง<br>(Development
+                    of polarization-based demonstration kits for Quantum key distribution)</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">รางวัลประกาศเกียรติคุณ</td>
+                  <td style="text-align: center;">นางสาวมัชฌิมา วังพิมูล</td>
+                  <td style="text-align: center;">มหาวิทยาลัยขอนแก่น</td>
+                  <td>
+                    การพัฒนาสื่อการเรียนการสอนโดยใช้แบบจําลองการตรวจจับดาวเคราะห์นอกระบบสุริยะด้วยวิธีการเคลื่อนที่ผ่านหน้า<br>
+                    (The development of teaching and learning apparatus based on the simulation of exoplanet
+                    detection by the transit method)</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          
         </div>
       </div>
     </div>
+    <hr>
+    <div class="row" style="margin: 15px auto;">
+      <h1 class="card-title centerer">ประกาศผลโครงงานที่ผ่านรอบคัดเลือก รอบแรก</h1>
+      <div class="col-12">
+        <div class="card border-0" style="color: #494949;">
+          <div class="table-responsive">
+            <table class="table table-success table-striped table-hover mt-3">
+              <thead style="text-align: center;">
+                <tr>
+                  <td style="width:10%">
+                    <h4>ลำดับ</h4>
+                  </td>
+                  <td style="width:25%">
+                    <h4>ชื่อ - นามสกุล</h4>
+                  </td>
+                  <td>
+                    <h4>มหาวิทยาลัยที่สังกัด</h4>
+                  </td>
+                  <td>
+                    <h4>ชื่อโครงงาน ภาษาไทย/ภาษาอังกฤษ</h4>
+                  </td>
+                </tr>
+              </thead>
+              <tbody class="fs-18">
+                <tr>
+                  <td style="text-align: center;">1</td>
+                  <td style="text-align: center;">Parita Jumpaburee</td>
+                  <td style="text-align: center;">Khon Kaen University</td>
+                  <td>Exploring the Effects of Different External Pressures on Sodium Deposition Behavior in Sodium
+                    Anode-Free Batteries through an In-Depth Investigation</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">2</td>
+                  <td style="text-align: center;">กิตติพงศ์วิระ พรสวรรค์</td>
+                  <td style="text-align: center;">มหาวิทยาลัยธรรมศาสตร์</td>
+                  <td>เอนโทรปีแบบพัวพันและเส้นของเพจ สำหรับหลุมดำที่มีสมมาตรทรงกลมในทฤษฎีสนามโน้มถ่วงแบบปรับปรุง (The
+                    Entanglement Entropy and Page Curves of The Spherically Symmetric Black Hole in Modified Gravity.)
+                  </td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">3</td>
+                  <td style="text-align: center;">ทศนัท รมโพธิ์เงิน</td>
+                  <td style="text-align: center;">มหาวิทยาลัยมหิดล</td>
+                  <td>การพัฒนาชุดเครื่องมือสาธิตการกระจายกุญแจรหัสทางควอนตัมที่ใช้หลักการโพลาไรเซชันของแสง/Development
+                    of
+                    polarizationbased demonstration kits for Quantum key distribution</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">4</td>
+                  <td style="text-align: center;">พรพิพัฒน์ เพ็ชรพงษ์ </td>
+                  <td style="text-align: center;">มหาวิทยาลัยราชภัฏพิบูลสงคราม</td>
+                  <td>การเพิ่มประสิทธิภาพคุณสมบัติไฮบริดเพียโซ/ไทรโบอิเล็กทริกบนฟิล์มคอมโพสิต BaTiO3/PDMS
+                    ที่ปรับปรุงด้วยการเจือรีดิวซ์กราฟีนออกไซด์/Enhanced performance of hybrid piezo/triboelectric using
+                    BaTiO3/polymer composite film modified with rGO </td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">5</td>
+                  <td style="text-align: center;">พลเศรษฐ ฉึ่น ธีรศาสตร</td>
+                  <td style="text-align: center;">มหาวิทยาลัยขอนแก่น</td>
+                  <td>การเพิ่มประสิทธิภาพการสังเคราะห์ด้วยแสงในต้นข้าวด้วย คาร์บอนควอนตัมดอท</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">6</td>
+                  <td style="text-align: center;">มนัสนันท์ ธนะสาร</td>
+                  <td style="text-align: center;">มหาวิทยาลัยเชียงใหม</td>
+                  <td>การสังเกตการณ์แสงสว่างวาบของ SN2023wrk สำหรับการคัดว่าที่คลื่น ความโน้มถ่วง / Optical Transient
+                    Observation of SN2023wrk for Gravitational Wave Candidate Exclusion</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">7</td>
+                  <td style="text-align: center;">มรรษธร พรหมจันทร์</td>
+                  <td style="text-align: center;">มหาวิทยาลัยขอนแก่น</td>
+                  <td>ปลดล็อกศักยภาพในการชาร์จเร็วโดยการศึกษาผลกระทบของความหนาแน่นของกระแสไฟฟ้าต่อสัณฐานวิทยาของ
+                    แบตเตอรี่ชนิดโลหะโซเดียม/Unlocking the Potential for Fast Charging through Exploration of the
+                    Influence of Critical Current Density on the Morphology of Sodium Metal Batteries</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">8</td>
+                  <td style="text-align: center;">มัชฌิมา วังพิมล</td>
+                  <td style="text-align: center;">มหาวิทยาลัยขอนแก่น</td>
+                  <td>
+                    การพัฒนาสื่อการเรียนการสอนโดยใช้แบบจําลองการตรวจจับดาวเคราะห์นอกระบบสุริยะด้วยวิธีการเคลื่อนที่ผ่านหน้า/The
+                    development of teaching and learning apparatus based on the simulation of exoplanet detection by the
+                    transit method </td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">9</td>
+                  <td style="text-align: center;">วรดร โสภณอัมพรสุชา</td>
+                  <td style="text-align: center;">มหาวิทยาลัยมหิดล</td>
+                  <td>Study of the light production and transmission to observe the efficiency of the range counter
+                    particle detector for COMET phase-alpha collaboration</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">10</td>
+                  <td style="text-align: center;">วรพล เจนพาณิชย์วงศ์</td>
+                  <td style="text-align: center;">มหาวิทยาลัยมหิดล</td>
+                  <td>พลศาสตร์ของสปินของคิวบิทแบบโมเลกุลที่อุณหภูมิห้อง ด้วยการคำนวณแบบ ab initio</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">11</td>
+                  <td style="text-align: center;">ศศิกานต์ สุริยศ</td>
+                  <td style="text-align: center;">มหาวิทยาลัยเชียงใหม</td>
+                  <td>การออกแบบและประมาณค่าสมรรถนะเบื้องต้นของกล้องโทรทรรศน์ 0.8 เมตร แบบริชชี่ เครเทียน
+                    สำหรับหอดูดาวภูมิภาค สถาบันวิจัยดาราศาสตร์แห่งชาติ / Preliminary design and performance estimation
+                    of
+                    the 0.8 m Ritchey–Chrétien telescope for NARIT's public regional observatory.</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center;">12</td>
+                  <td style="text-align: center;">สุภกิจ ชินภักดี</td>
+                  <td style="text-align: center;">มหาวิทยาลัยเกษตรศาสตร์</td>
+                  <td>ลูกบอลเตือนภัย: การตรวจจับก๊าซอันตรายผ่านการโยน/ Safety Alert Smart ball: Detecting Hazardous Gas
+                    through Tossing </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </div>
   <?php
   include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
