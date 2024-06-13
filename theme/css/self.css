@@ -102,9 +102,10 @@ ul.unlist {
     position: absolute;
     right: 50px;
   }
-  .videohome{
+
+  .videohome {
     width: 75%;
-    height:auto;
+    height: auto;
     margin: auto;
   }
 }
@@ -454,22 +455,31 @@ ul.unlist {
   text-decoration: line-through;
   text-decoration-color: red;
 }
-.red{
-  color:red;
+
+.red {
+  color: red;
 }
-.bookhotel{
+
+.bookhotel {
   --bs-btn-color: #fff;
-    --bs-btn-bg: #1d10e3;
-    --bs-btn-border-color: #007aff;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #0010f1;
-    --bs-btn-hover-border-color: #fdfdfd;
-    --bs-btn-focus-shadow-rgb: 216, 164, 6;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #141295;
-    --bs-btn-active-border-color: #ffffff;
+  --bs-btn-bg: #1d10e3;
+  --bs-btn-border-color: #007aff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0010f1;
+  --bs-btn-hover-border-color: #fdfdfd;
+  --bs-btn-focus-shadow-rgb: 216, 164, 6;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #141295;
+  --bs-btn-active-border-color: #ffffff;
 }
-.submisspagebutton{
+
+.submisspagebutton {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: 5px 0px;
+}
+
+.border-announce {
+  border-top: solid 3px #ff7a01;
+  border-bottom: solid 3px #ff7a01;
+  padding: 20px;
 }

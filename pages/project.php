@@ -119,9 +119,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         </div>
       </div>
     </div>
-    <hr>
     <div class="row" style="margin: 15px auto;">
-      <h1 class="card-title centerer">ประกาศผู้ชนะรางวัลประกวดโครงงานครั้งที่16SPC2024</h1>
+      <h1 class="card-title centerer border-announce">ประกาศผู้ชนะรางวัลประกวดโครงงานครั้งที่ 16 SPC2024</h1>
       <div class="col-12">
         <div class="card border-0" style="color: #494949;">
           <div class="table-responsive">
@@ -188,9 +187,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         </div>
       </div>
     </div>
-    <hr>
     <div class="row" style="margin: 15px auto;">
-      <h1 class="card-title centerer">ประกาศผลโครงงานที่ผ่านรอบคัดเลือก รอบแรก</h1>
+      <h1 class="card-title centerer border-announce">ประกาศผลโครงงานที่ผ่านรอบคัดเลือก รอบแรก</h1>
       <div class="col-12">
         <div class="card border-0" style="color: #494949;">
           <div class="table-responsive">
