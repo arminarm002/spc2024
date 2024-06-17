@@ -122,6 +122,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
             Download
             --</a>
         </h4>
+        <h4>
+        Oral and Poster presentation award >>> <a
+            href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view"
+            class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">--
+            Download
+            --</a>
+        </h4>
       </div>
 
       <div class="row">
@@ -147,6 +154,21 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         <div class="cards mb-3 mt-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;padding-bottom: 15px;">
           <h1 class="card-title centerer" style="color: #7b7b7b;padding-top: 15px;">Announcement</h1>
           <div class="row" style="margin: 15px auto;">
+          <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/img/news/award2.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 17 June 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oral and Poster presentation award</p>
+                  <a href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view" class="btn btn-warning" target="_blank"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- Download --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/parking.jpg" style="width:100%; ">
@@ -186,7 +208,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/presentlist.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 28 May 2024
+                  <h5 class="card-title">28 May 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oral and Poster
                     presentation List and Program</p>
@@ -236,28 +258,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/img/news/tour.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title">1 May 2024
-                  </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The SPC2024 Organizing
-                    Committee has arranged sightseeing tours for the conference delegates offering an opportunity to
-                    experience the central part of Ayuthaya.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two special trips have
-                    been arranged for Wednesday, 5th June from 2.30-4.00 pm. Detailed itineraries for each excursion are
-                    available below. Note that the spaces are limited and therefore, seats are allocated on a first
-                    come, first served basis.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register >>> <a
-                      href="https://shorturl.at/jCFWX" class="btn btn-warning"
-                      style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" target="_blank">Click </a>
-                  </p>
-                  <a href="/pages/tour.php" class="btn btn-warning"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
+            
           </div>
           <a href="/pages/news.php" class="btn btn-warning"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;float:right">

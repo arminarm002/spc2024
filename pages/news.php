@@ -54,6 +54,12 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         </tr>
       </thead>
       <tbody>
+      <tr>
+          <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 17 June 2024</td>
+          <td>
+            <a target="_blank" class="anews" href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view">Oral and Poster presentation awar</a>
+          </td>
+        </tr>
         <tr>
           <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 May 2024</td>
           <td>
@@ -71,7 +77,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 28 May 2024</td>
+          <td>28 May 2024</td>
           <td>
             <a class="anews" href="/file/download/presentationlist.pdf" target="_blank">SPC2024 Oral and Poster
               presentation list
