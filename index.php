@@ -123,9 +123,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
             --</a>
         </h4>
         <h4>
-        Oral and Poster presentation award >>> <a
-            href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view"
-            class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">--
+          Oral and Poster presentation award >>> <a
+            href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view" class="btn btn-warning"
+            target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">--
             Download
             --</a>
         </h4>
@@ -154,7 +154,22 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
         <div class="cards mb-3 mt-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;padding-bottom: 15px;">
           <h1 class="card-title centerer" style="color: #7b7b7b;padding-top: 15px;">Announcement</h1>
           <div class="row" style="margin: 15px auto;">
-          <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/img/news/gallery.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 19 June 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event photo gallery : SPC2024</p>
+                  <a href="https://drive.google.com/drive/folders/1bUzR9dybL51K-vfrDNCty2_KiD_bo3qj?usp=sharing" class="btn btn-warning" target="_blank"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- Download --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/award2.jpg" style="width:100%; ">
                 <div class="card-body">
@@ -162,8 +177,8 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                   </h5>
                   <p class="card-text" style="text-align:justify;">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oral and Poster presentation award</p>
-                  <a href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view" class="btn btn-warning" target="_blank"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                  <a href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view"
+                    class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- Download --</h6>
                   </a>
                 </div>
@@ -188,7 +203,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/exten2.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 May 2024
+                  <h5 class="card-title">30 May 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The full-paper
                     submission for SPC e-proceedings is extended to June 15th, 2024!!!<br>Download Template : >>>
@@ -240,25 +255,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/img/news/13may.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title">10 May 2024
-                  </h5>
-                  <p class="card-text" style="text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attention all
-                    prospective attendees of Siam Physics Congress 2024! We have some great news for you: the early-bird
-                    registration deadline for the conference has been extended to May 13, 2024. That means you still
-                    have time to take advantage of the reduced registration fees.
-                  </p>
-                  <a href="https://forms.gle/Sh1Arn4sVrKbN3Wm9" class="btn btn-warning"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
-            
+
           </div>
           <a href="/pages/news.php" class="btn btn-warning"
             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;float:right">

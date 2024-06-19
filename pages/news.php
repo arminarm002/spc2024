@@ -55,6 +55,12 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
       </thead>
       <tbody>
       <tr>
+          <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 19 June 2024</td>
+          <td>
+            <a target="_blank" class="anews" href="https://drive.google.com/drive/folders/1bUzR9dybL51K-vfrDNCty2_KiD_bo3qj?usp=sharing">Event photo gallery : SPC2024</a>
+          </td>
+        </tr>
+      <tr>
           <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 17 June 2024</td>
           <td>
             <a target="_blank" class="anews" href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view">Oral and Poster presentation awar</a>
@@ -68,7 +74,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 30 May 2024</td>
+          <td>30 May 2024</td>
           <td>
             <p>The full-paper submission for SPC e-proceedings is extended to June 15th, 2024!!!</p>
             <a href="/file/download/spc2024-proceedings.docx" target="_blank"> Download Template</a> &nbsp;
