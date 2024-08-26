@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +41,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 
 <body class="font-mitr">
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
 
   <div class="container">
@@ -55,19 +55,30 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
       </thead>
       <tbody>
       <tr>
-          <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 19 June 2024</td>
+          <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 26 August 2024</td>
           <td>
-            <a target="_blank" class="anews" href="https://drive.google.com/drive/folders/1bUzR9dybL51K-vfrDNCty2_KiD_bo3qj?usp=sharing">Event photo gallery : SPC2024</a>
-          </td>
-        </tr>
-      <tr>
-          <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 17 June 2024</td>
-          <td>
-            <a target="_blank" class="anews" href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view">Oral and Poster presentation awar</a>
+            <a target="_blank" class="anews"
+              href="https://drive.google.com/file/d/1-KrgQ_UquyYUOKJ7DCnr5sobz_kyOEko/view?usp=drive_link">SPC2024 Proceeding</a>
           </td>
         </tr>
         <tr>
-          <td><b id="blinkingText" class="blinkin" style="color:red;">New</b> 30 May 2024</td>
+          <td><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 19 June 2024</td>
+          <td>
+            <a target="_blank" class="anews"
+              href="https://drive.google.com/drive/folders/1bUzR9dybL51K-vfrDNCty2_KiD_bo3qj?usp=sharing">Event photo
+              gallery : SPC2024</a>
+          </td>
+        </tr>
+        <tr>
+          <td><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 17 June 2024</td>
+          <td>
+            <a target="_blank" class="anews"
+              href="https://drive.google.com/file/d/1HwvD_t00bTZ8FD2pWxb0W-ojPPDGRzNC/view">Oral and Poster presentation
+              awar</a>
+          </td>
+        </tr>
+        <tr>
+          <td>30 May 2024</td>
           <td>
             <a class="anews" href="/img/news/parking.jpg" target="_blank">แผนผังที่จอดรถบริเวณโรงแรมและสถานที่ใกล้เคียง
             </a>
@@ -201,9 +212,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
   </div>
 
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/script/blink.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/script/blink.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 
 </body>

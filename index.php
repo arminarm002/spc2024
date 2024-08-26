@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -59,7 +59,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
     </button>
   </div>
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/components/navbar2.php');
   ?>
 
   <div class="container">
@@ -129,6 +129,13 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
             Download
             --</a>
         </h4>
+        <h4>
+          SPC2024 Proceeding >>> <a
+            href="https://drive.google.com/file/d/1-KrgQ_UquyYUOKJ7DCnr5sobz_kyOEko/view?usp=drive_link"
+            class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">--
+            Download
+            --</a>
+        </h4>
       </div>
 
       <div class="row">
@@ -156,14 +163,29 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
           <div class="row" style="margin: 15px auto;">
             <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
+                <img class="border-bottom border-warning" src="/img/news/proceeding.jpg" style="width:100%; ">
+                <div class="card-body">
+                  <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 26 August 2024
+                  </h5>
+                  <p class="card-text" style="text-align:justify;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPC2024 Proceeding</p>
+                  <a href="https://drive.google.com/file/d/1-KrgQ_UquyYUOKJ7DCnr5sobz_kyOEko/view?usp=drive_link"
+                    class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <h6 class="card-title">-- More --</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
+              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/gallery.jpg" style="width:100%; ">
                 <div class="card-body">
                   <h5 class="card-title"><b id="blinkingText" class="blinkin" style="color:red;">New</b> 19 June 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event photo gallery : SPC2024</p>
-                  <a href="https://drive.google.com/drive/folders/1bUzR9dybL51K-vfrDNCty2_KiD_bo3qj?usp=sharing" class="btn btn-warning" target="_blank"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                  <a href="https://drive.google.com/drive/folders/1bUzR9dybL51K-vfrDNCty2_KiD_bo3qj?usp=sharing"
+                    class="btn btn-warning" target="_blank" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     <h6 class="card-title">-- Download --</h6>
                   </a>
                 </div>
@@ -173,7 +195,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/award2.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText2" class="blinkin" style="color:red;">New</b> 17 June 2024
+                  <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 17 June 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oral and Poster presentation award</p>
@@ -188,7 +210,7 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
               <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
                 <img class="border-bottom border-warning" src="/img/news/parking.jpg" style="width:100%; ">
                 <div class="card-body">
-                  <h5 class="card-title"><b id="blinkingText3" class="blinkin" style="color:red;">New</b> 30 May 2024
+                  <h5 class="card-title">30 May 2024
                   </h5>
                   <p class="card-text" style="text-align:justify;">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;แผนผังที่จอดรถบริเวณโรงแรมและสถานที่ใกล้เคียง</p>
@@ -238,23 +260,6 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 col-12 centerer mt-3">
-              <div class="card border border-warning rounded" style="width: 28rem;"><!-- 18rem -->
-                <img class="border-bottom border-warning" src="/img/news/834019.jpg" style="width:100%; ">
-                <div class="card-body">
-                  <h5 class="card-title">13 May 2024
-                  </h5>
-                  <p class="card-text" style="text-align:justify;">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ขอเชิญเข้าร่วมประชุมวิชาการฟิสิกส์ระดับชาติ
-                    ครั้งที่ 19 ประจำปี 2567
-                    จัดขึ้นระหว่างวันที่ 5-7 มิถุนายน 2567 ณ โรงแรมกรุงศรีริเวอร์ จังหวัดพระนครศรีอยุธยา</p>
-                  <a href="/img/news/8340192.jpg" class="btn btn-warning" target="_blank"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    <h6 class="card-title">-- More --</h6>
-                  </a>
-                </div>
-              </div>
-            </div>
 
           </div>
           <a href="/pages/news.php" class="btn btn-warning"
@@ -267,9 +272,9 @@ include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 
 
   <?php
-  include ($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/script/blink.php');
-  include ($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/components/footer.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/script/blink.php');
+  include($_SERVER['DOCUMENT_ROOT'] . '/script/script.php');
   ?>
 
 </body>
