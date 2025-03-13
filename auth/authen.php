@@ -166,17 +166,17 @@ if (isset($_POST['login'])) {
           header("refresh: 1; url=/auth/backend/thaiphysic.php");
         }
       } else {
+        header("refresh: 1; url=login.php");
         echo '<script language="javascript">';
         echo 'alert("Password Invalid")';
-        echo '</script>';
-        header("refresh: 1; url=login.php");
+        echo '</script>';        
       }
     }
   } else {
+    header("refresh: 1; url=login.php");
     echo '<script language="javascript">';
     echo 'alert("Username Invalid")';
-    echo '</script>';
-    header("refresh: 1; url=login.php");
+    echo '</script>';    
   }
 }
 
@@ -192,15 +192,15 @@ if (isset($_POST['updatedetail'])) {
   $updatedata = $conn->query($sqlupdate);
 
   if ($updatedata) {
+    header("refresh: 1; url=profile.php");
     echo '<script language="javascript">';
     echo 'alert("Successfully Update")';
     echo '</script>';
-    header("refresh: 1; url=profile.php");
-  } else {
-    echo '<script language="javascript">';
+      } else {
+        header("refresh: 1; url=updatedetail.php");
+        echo '<script language="javascript">';
     echo 'alert("Somthing Wrong!")';
-    echo '</script>';
-    header("refresh: 1; url=updatedetail.php");
+    echo '</script>';    
   }
 }
 
