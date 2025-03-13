@@ -1,5 +1,5 @@
 <?php
-include ($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/connectdb.php');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -17,7 +17,7 @@ if (isset($_POST['forgot'])) {
         $password = password_hash($numrand, PASSWORD_DEFAULT);
 
         $mail = new PHPMailer(true);
-
+        // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
         try {
             //Server settings
             $mail->SMTPDebug = 0; //อาร์ม : "SET = 0 to redirect , SET = SMTP::DEBUG_SERVER to Defaul
@@ -25,8 +25,8 @@ if (isset($_POST['forgot'])) {
             $mail->Host = 'smtp.gmail.com';                   //Set the SMTP server to send through
             $mail->SMTPAuth = true;                           //Enable SMTP authentication
             $mail->Username = 'suradech.ku@kmitl.ac.th';      //SMTP username
-            $mail->Password = 'phee mkwb szvm meco';          //SMTP password
-            $mail->SMTPSecure = "SSL";                        //Enable implicit TLS encryption
+            $mail->Password = 'hvdh xhqu gsbb qrqz';          //SMTP password
+            $mail->SMTPSecure = "TLS";                        //Enable implicit TLS encryption
             $mail->Port = 587;                                //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
@@ -42,11 +42,17 @@ if (isset($_POST['forgot'])) {
 
             $sql = $conn->query("UPDATE tb_user SET password='$password' WHERE email='" . $inputemail . "' ");
             if ($sql) {
-                $mail->send();
-                echo '<script language="javascript">';
-                echo 'alert("Message has been sent")';
-                echo '</script>';
-                header("refresh: 1; url=login.php");
+                if ($mail->send()) {
+                    header("refresh: 1; url=login.php");
+                    echo '<script language="javascript">';
+                    echo 'alert("Message has been sent")';
+                    echo '</script>';
+                    exit();
+                } else {
+                    echo '<script language="javascript">';
+                    echo 'alert("Message could not be sent.")';
+                    echo '</script>';
+                }
             } else {
                 echo '<script language="javascript">';
                 echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

@@ -1,8 +1,8 @@
 <?php
-//ข้างนอกใช้ username และชื่อ db เหมือนกัน bbabodyc_spc2024
+//สร้างตัวแปรเพื่อใช้เชื่อม db
 $servername = "localhost";
-$username = "suradechdb";
-$password = "#Science@suradech1234+";
+$username = "db_spc2024";
+$password = "#Science@suradech";
 $dbname = "db_spc2024";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
